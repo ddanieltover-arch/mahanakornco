@@ -1,10 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { Header } from "@/components/layout/Header";
-import { Footer } from "@/components/layout/Footer";
-import { BackToTopButton } from "@/components/layout/BackToTopButton";
-import { WhatsAppButton } from "@/components/layout/WhatsAppButton";
 import { brandAssets } from "@/config/brand";
 import { siteConfig } from "@/config/site";
 
@@ -42,13 +38,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} h-full`}>
-      <body className="min-h-full flex flex-col antialiased">
-        <Header />
-        <main className="flex-1">{children}</main>
-        <Footer />
-        <BackToTopButton />
-        <WhatsAppButton />
-      </body>
+      <body className="min-h-full flex flex-col antialiased">{children}</body>
     </html>
   );
 }

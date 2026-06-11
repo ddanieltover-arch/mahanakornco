@@ -9,7 +9,55 @@ import {
   isSmtpConfigured,
   sendMail,
 } from "@/lib/email/smtp";
-import { apiFormSchema } from "@/lib/validations/contact";
+import {
+  storeContactSubmission,
+  storeQuoteSubmission,
+} from "@/lib/submission-store";
+import { apiFormSchema, type ApiFormData } from "@/lib/validations/contact";
+
+function getRequestMeta(req: NextRequest) {
+  return {
+    ipAddress:
+      req.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ??
+      req.headers.get("x-real-ip") ??
+      undefined,
+    userAgent: req.headers.get("user-agent") ?? undefined,
+  };
+}
+
+function buildEnquiryText(data: ApiFormData): string {
+  const parts = [data.message.trim()];
+  if (data.company?.trim()) parts.push(`Company: ${data.company.trim()}`);
+  if (data.quantity?.trim()) parts.push(`Quantity: ${data.quantity.trim()}`);
+  return parts.join("\n\n");
+}
+
+async function persistSubmission(data: ApiFormData, subject: string, meta: ReturnType<typeof getRequestMeta>) {
+  if (data.product?.trim()) {
+    await storeQuoteSubmission(
+      {
+        name: data.name.trim(),
+        email: data.email.trim(),
+        phone: data.phone.trim(),
+        subject,
+        enquiry: buildEnquiryText(data),
+        product: data.product.trim(),
+      },
+      meta,
+    );
+  } else {
+    await storeContactSubmission(
+      {
+        name: data.name.trim(),
+        email: data.email.trim(),
+        phone: data.phone.trim(),
+        subject,
+        message: data.message.trim(),
+      },
+      meta,
+    );
+  }
+}
 
 export async function POST(req: NextRequest) {
   try {
@@ -19,7 +67,7 @@ export async function POST(req: NextRequest) {
     if (!parsed.success) {
       return NextResponse.json(
         { error: "Please check the form and try again.", fields: parsed.error.flatten().fieldErrors },
-        { status: 400 }
+        { status: 400 },
       );
     }
 
@@ -41,9 +89,14 @@ export async function POST(req: NextRequest) {
       quantity: data.quantity?.trim(),
     };
 
+    const meta = getRequestMeta(req);
+
     if (!isSmtpConfigured()) {
       if (process.env.NODE_ENV === "development") {
         console.log("[contact] SMTP not configured — submission logged:", payload);
+        await persistSubmission(data, subject, meta).catch((err) => {
+          console.error("[contact] Failed to store submission:", err);
+        });
         return NextResponse.json({
           success: true,
           message: "Logged in development (SMTP not configured).",
@@ -52,7 +105,7 @@ export async function POST(req: NextRequest) {
 
       return NextResponse.json(
         { error: "Email service is not configured. Please contact us by phone or email." },
-        { status: 503 }
+        { status: 503 },
       );
     }
 
@@ -76,6 +129,10 @@ export async function POST(req: NextRequest) {
       });
     }
 
+    await persistSubmission(data, subject, meta).catch((err) => {
+      console.error("[contact] Failed to store submission:", err);
+    });
+
     return NextResponse.json({
       success: true,
       message: "Your message has been sent successfully.",
@@ -84,7 +141,7 @@ export async function POST(req: NextRequest) {
     console.error("[contact] Failed to send email:", error);
     return NextResponse.json(
       { error: "We could not send your message right now. Please try again or call us directly." },
-      { status: 500 }
+      { status: 500 },
     );
   }
 }

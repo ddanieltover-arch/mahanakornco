@@ -57,10 +57,18 @@ To refresh after database updates:
 npm run extract-content
 ```
 
+## Admin dashboard
+
+See `docs/ADMIN.md` for Supabase Auth + Postgres setup. After deploy:
+
+- Sign in at `/sign-in`
+- Manage leads at `/admin/dashboard`
+
 ## Post-Launch Checklist
 
 - [ ] Verify all 70 product pages load
 - [ ] Test contact form (configure SMTP in `.env.local`)
+- [ ] Test product quote form appears in admin dashboard
 - [ ] Test WhatsApp button
 - [ ] Submit sitemap to Google Search Console
 - [ ] Verify redirects from old WordPress URLs
