@@ -1,0 +1,55 @@
+
+---Downloaded files---
+The import files for: Seodo Demo Import were successfully downloaded!
+Initial max execution time = 300
+Files info:
+Site URL = https://mahanakornco.com
+Data file = /home/u196234866/domains/mahanakornco.com/public_html/wp-content/uploads/2025/09/demo-content-import-file_2025-09-25__01-51-03.xml
+Widget file = /home/u196234866/domains/mahanakornco.com/public_html/wp-content/uploads/2025/09/demo-widgets-import-file_2025-09-25__01-51-03.json
+Customizer file = not defined!
+Redux files:
+not defined!
+
+------
+New AJAX call!
+[WARNING] Failed to import "": Invalid post type mc4wp-form
+
+
+---Importing widgets---
+Aside Bar : 
+
+Custom HTML - No Title - Imported
+
+Sidebar : 
+
+Search - No Title - Imported
+Recent Posts - No Title - Imported
+Recent Comments - No Title - Imported
+Archives - No Title - Imported
+Categories - No Title - Imported
+Meta - No Title - Imported
+
+Footer 1 : 
+
+Custom HTML - No Title - Imported
+
+Footer 2 : 
+
+mc4wp_form_widget - OUR NEWSLETTER! - Site does not support widget
+
+Footer 3 : 
+
+Custom HTML - WILD PLANTS - Imported
+
+Footer 4 : 
+
+Custom HTML - NATURE REZERVES - Imported
+
+Footer 5 : 
+
+Custom HTML - CONTACT INFO - Imported
+
+
+
+---ocdi/after_import---
+
