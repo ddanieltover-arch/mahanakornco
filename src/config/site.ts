@@ -6,8 +6,8 @@ export const siteConfig = {
     "MAHANAKORN NAKO NAGARAJ CO., LTD is a trusted wholesale supplier of sugar, rice, fertilizer, and edible cooking oil from Thailand. Established in 2004.",
   url: "https://mahanakornco.com",
   email: "sales@mahanakornco.com",
-  phone: "+66 64 994 9760",
-  whatsapp: "66649949760",
+  phone: "+66 64 882 3073",
+  whatsapp: "66648823073",
   established: 2004,
   addresses: [
     {
