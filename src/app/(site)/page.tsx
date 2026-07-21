@@ -107,7 +107,7 @@ export default function HomePage() {
             </p>
             <h2 className="mt-2 text-3xl font-bold text-primary-dark">More About Our Products</h2>
           </FadeIn>
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="grid grid-cols-2 gap-3 sm:gap-6 lg:grid-cols-4">
             {featuredProducts.map((product, i) => (
               <ProductCard key={product.slug} product={product} index={i} />
             ))}

@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { Logo } from "@/components/brand/Logo";
@@ -11,6 +11,16 @@ import { defaultTransition } from "@/lib/motion";
 export function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [productsOpen, setProductsOpen] = useState(false);
+  const [mobileProductsOpen, setMobileProductsOpen] = useState(true);
+
+  useEffect(() => {
+    if (!mobileOpen) return;
+    const previous = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = previous;
+    };
+  }, [mobileOpen]);
 
   return (
     <motion.header
@@ -19,8 +29,8 @@ export function Header() {
       animate={{ y: 0, opacity: 1 }}
       transition={{ ...defaultTransition, duration: 0.5 }}
     >
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4">
-        <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
+      <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-3 sm:py-4">
+        <motion.div className="min-w-0" whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
           <Logo variant="header" />
         </motion.div>
 
@@ -29,6 +39,7 @@ export function Header() {
             "children" in item ? (
               <div key={item.href} className="relative group">
                 <button
+                  type="button"
                   className="flex items-center gap-1 text-sm font-medium text-gray-700 hover:text-primary transition-colors whitespace-nowrap"
                   onMouseEnter={() => setProductsOpen(true)}
                   onMouseLeave={() => setProductsOpen(false)}
@@ -98,9 +109,11 @@ export function Header() {
         </nav>
 
         <button
-          className="xl:hidden p-2"
-          onClick={() => setMobileOpen(!mobileOpen)}
-          aria-label="Toggle menu"
+          type="button"
+          className="xl:hidden relative z-50 -mr-1 inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-lg text-gray-700 hover:bg-cream"
+          onClick={() => setMobileOpen((open) => !open)}
+          aria-label={mobileOpen ? "Close menu" : "Open menu"}
+          aria-expanded={mobileOpen}
         >
           {mobileOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
         </button>
@@ -108,40 +121,91 @@ export function Header() {
 
       <AnimatePresence>
         {mobileOpen && (
-          <motion.nav
-            className="xl:hidden border-t bg-white px-4 py-4 space-y-2 overflow-hidden"
-            initial={{ height: 0, opacity: 0 }}
-            animate={{ height: "auto", opacity: 1 }}
-            exit={{ height: 0, opacity: 0 }}
-            transition={{ duration: 0.3 }}
+          <motion.div
+            className="xl:hidden border-t bg-white"
+            initial={{ opacity: 0, height: 0 }}
+            animate={{ opacity: 1, height: "auto" }}
+            exit={{ opacity: 0, height: 0 }}
+            transition={{ duration: 0.25 }}
           >
-            {siteConfig.nav.map((item) =>
-              "children" in item ? (
-                <div key={item.href}>
-                  <p className="font-semibold text-primary-dark py-2">{item.label}</p>
-                  {item.children.map((child) => (
+            <nav className="max-h-[min(70vh,calc(100dvh-4.5rem))] overflow-y-auto overscroll-contain px-4 py-3">
+              <div className="space-y-1 pb-2">
+                {siteConfig.nav.map((item) =>
+                  "children" in item ? (
+                    <div key={item.href} className="border-b border-gray-100 pb-2 mb-2">
+                      <div className="flex items-center gap-1">
+                        <Link
+                          href={item.href}
+                          className="flex-1 py-3 font-semibold text-primary-dark"
+                          onClick={() => setMobileOpen(false)}
+                        >
+                          {item.label}
+                        </Link>
+                        <button
+                          type="button"
+                          className="inline-flex h-11 w-11 items-center justify-center rounded-lg text-gray-600 hover:bg-cream"
+                          aria-label={
+                            mobileProductsOpen
+                              ? "Collapse product categories"
+                              : "Expand product categories"
+                          }
+                          aria-expanded={mobileProductsOpen}
+                          onClick={() => setMobileProductsOpen((open) => !open)}
+                        >
+                          <ChevronDown
+                            className={`h-5 w-5 transition-transform ${
+                              mobileProductsOpen ? "rotate-180" : ""
+                            }`}
+                          />
+                        </button>
+                      </div>
+                      <AnimatePresence initial={false}>
+                        {mobileProductsOpen && (
+                          <motion.div
+                            initial={{ height: 0, opacity: 0 }}
+                            animate={{ height: "auto", opacity: 1 }}
+                            exit={{ height: 0, opacity: 0 }}
+                            transition={{ duration: 0.2 }}
+                            className="overflow-hidden"
+                          >
+                            <div className="pb-1 pl-2">
+                              {item.children.map((child) => (
+                                <Link
+                                  key={child.href}
+                                  href={child.href}
+                                  className="block rounded-lg py-2.5 pl-3 text-gray-600 hover:bg-cream hover:text-primary"
+                                  onClick={() => setMobileOpen(false)}
+                                >
+                                  {child.label}
+                                </Link>
+                              ))}
+                            </div>
+                          </motion.div>
+                        )}
+                      </AnimatePresence>
+                    </div>
+                  ) : (
                     <Link
-                      key={child.href}
-                      href={child.href}
-                      className="block py-2 pl-4 text-gray-600"
+                      key={item.href}
+                      href={item.href}
+                      className="block rounded-lg py-3 font-medium text-gray-700 hover:bg-cream hover:text-primary"
                       onClick={() => setMobileOpen(false)}
                     >
-                      {child.label}
+                      {item.label}
                     </Link>
-                  ))}
-                </div>
-              ) : (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  className="block py-2 font-medium text-gray-700"
-                  onClick={() => setMobileOpen(false)}
-                >
-                  {item.label}
-                </Link>
-              )
-            )}
-          </motion.nav>
+                  )
+                )}
+              </div>
+
+              <Link
+                href="/contact"
+                className="mb-2 mt-3 flex w-full items-center justify-center rounded-full bg-primary px-5 py-3 text-sm font-semibold text-white hover:bg-primary-dark"
+                onClick={() => setMobileOpen(false)}
+              >
+                Get a Quote
+              </Link>
+            </nav>
+          </motion.div>
         )}
       </AnimatePresence>
     </motion.header>

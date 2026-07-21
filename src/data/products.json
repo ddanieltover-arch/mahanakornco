@@ -446,5 +446,96 @@
     "slug": "zinc-sulfate-heptahydrate",
     "category": "General",
     "image": "/uploads/2025/07/1732343438718834243020619776-e1752678219850.webp"
+  },
+  {
+    "id": 3001,
+    "title": "Pistachio Nuts",
+    "slug": "pistachio-nuts",
+    "category": "General",
+    "image": "/uploads/2026/07/pistachio-nuts.png"
+  },
+  {
+    "id": 3002,
+    "title": "Cashew Nuts",
+    "slug": "cashew-nuts",
+    "category": "General",
+    "image": "/uploads/2026/07/cashew-nuts.png"
+  },
+  {
+    "id": 2950,
+    "title": "Chicken Drumstick",
+    "slug": "chicken-drumstick",
+    "category": "General",
+    "image": "/uploads/2026/02/shop-1.jpg"
+  },
+  {
+    "id": 2951,
+    "title": "Chicken Feets",
+    "slug": "chicken-feets",
+    "category": "General",
+    "image": "/uploads/2026/02/chicken-feets.webp"
+  },
+  {
+    "id": 2953,
+    "title": "Chicken Leg Quarter",
+    "slug": "chicken-leg-quarter",
+    "category": "General",
+    "image": "/uploads/2026/02/chicken-leg-quarter.jpg"
+  },
+  {
+    "id": 2954,
+    "title": "Chicken Paws",
+    "slug": "chicken-paws",
+    "category": "General",
+    "image": "/uploads/2026/02/chicken-paws.jpg"
+  },
+  {
+    "id": 2957,
+    "title": "Frozen 3 Joint Wing",
+    "slug": "frozen-3-joint-wing",
+    "category": "General",
+    "image": "/uploads/2026/02/frozen-3-joint-wing.jpg"
+  },
+  {
+    "id": 2959,
+    "title": "Frozen Chicken Breast",
+    "slug": "frozen-chicken-breast",
+    "category": "General",
+    "image": "/uploads/2026/02/shop.jpg"
+  },
+  {
+    "id": 2960,
+    "title": "Frozen 2 Joint Wing",
+    "slug": "frozen-2-joint-wing",
+    "category": "General",
+    "image": "/uploads/2026/02/frozen-2-joint-wing.jpg"
+  },
+  {
+    "id": 2973,
+    "title": "Frozen Chicken Livers",
+    "slug": "frozen-chicken-livers",
+    "category": "General",
+    "image": "/uploads/2026/02/frozen-chicken-livers.jpg"
+  },
+  {
+    "id": 2974,
+    "title": "Frozen Chicken Gizzards",
+    "slug": "frozen-chicken-gizzards",
+    "category": "General",
+    "image": "/uploads/2026/02/frozen-chicken-gizzards.jpg"
+  },
+  {
+    "id": 2975,
+    "title": "Whole Chicken (Griller)",
+    "slug": "whole-chicken-griller",
+    "category": "General",
+    "image": "/uploads/2026/02/whole-chicken-griller.webp"
+  },
+  {
+    "id": 2976,
+    "title": "Frozen Middle Joint Wing",
+    "slug": "frozen-middle-joint-wing",
+    "category": "General",
+    "image": "/uploads/2026/02/frozen-middle-joint-wing.webp"
   }
 ]

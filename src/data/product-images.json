@@ -502,5 +502,23 @@
     "title": "Frozen Middle Joint Wing",
     "slug": "frozen-middle-joint-wing",
     "image": "/uploads/2026/02/frozen-middle-joint-wing.webp"
+  },
+  "pistachio-nuts": {
+    "id": 3001,
+    "title": "Pistachio Nuts",
+    "slug": "pistachio-nuts",
+    "image": "/uploads/2026/07/pistachio-nuts.png",
+    "gallery": [
+      "/uploads/2026/07/pistachio-nuts-gallery-1.png"
+    ]
+  },
+  "cashew-nuts": {
+    "id": 3002,
+    "title": "Cashew Nuts",
+    "slug": "cashew-nuts",
+    "image": "/uploads/2026/07/cashew-nuts.png",
+    "gallery": [
+      "/uploads/2026/07/cashew-nuts-gallery-1.png"
+    ]
   }
 }

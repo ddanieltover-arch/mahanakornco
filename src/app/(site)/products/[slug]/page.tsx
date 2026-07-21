@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { FadeIn } from "@/components/motion/FadeIn";
 import { ProductEnquiryForm } from "@/components/forms/ProductEnquiryForm";
 import { ProductDescriptionSection } from "@/components/products/ProductDescriptionSection";
+import { ProductGallery } from "@/components/products/ProductGallery";
 import { RelatedProducts } from "@/components/products/RelatedProducts";
 import { categories, getProductBySlug, products } from "@/data/products";
 import { PLACEHOLDER_IMAGE } from "@/lib/images";
@@ -77,15 +77,11 @@ export default async function ProductPage({ params }: Props) {
         <div className="mx-auto max-w-7xl px-4">
           <div className="grid gap-12 lg:grid-cols-2">
             <FadeIn direction="left">
-              <div className="relative aspect-square rounded-2xl overflow-hidden bg-cream shadow-md ring-1 ring-gray-100">
-                <Image
-                  src={imageSrc}
-                  alt={product.title}
-                  fill
-                  className="object-cover"
-                  priority
-                />
-              </div>
+              <ProductGallery
+                title={product.title}
+                image={imageSrc}
+                gallery={product.gallery}
+              />
             </FadeIn>
 
             <FadeIn direction="right" delay={0.12}>

@@ -44,6 +44,7 @@ export const siteConfig = {
         { label: "Rice", href: "/rice" },
         { label: "Edible Cooking Oil", href: "/edible-cooking-oil" },
         { label: "Poultry Products", href: "/poultry-products" },
+        { label: "Nuts", href: "/nuts" },
       ],
     },
     { label: "Ordering Procedures", href: "/ordering-procedures" },

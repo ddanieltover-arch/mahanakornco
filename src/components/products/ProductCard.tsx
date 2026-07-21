@@ -18,6 +18,7 @@ export function ProductCard({ product, index = 0 }: ProductCardProps) {
 
   return (
     <motion.div
+      className="h-full"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, margin: "-40px" }}
@@ -27,35 +28,37 @@ export function ProductCard({ product, index = 0 }: ProductCardProps) {
     >
       <Link
         href={`/products/${product.slug}`}
-        className="group flex flex-col overflow-hidden rounded-xl bg-white shadow-sm border border-gray-100 hover:shadow-xl transition-shadow duration-300"
+        className="group flex h-full flex-col overflow-hidden rounded-xl bg-white shadow-sm border border-gray-100 hover:shadow-xl transition-shadow duration-300"
       >
-        <div className="relative aspect-[4/3] overflow-hidden bg-cream">
+        <div className="relative aspect-[4/3] shrink-0 overflow-hidden bg-cream">
           <Image
             src={imageSrc}
             alt={product.title}
             fill
             className="object-cover transition-transform duration-500 group-hover:scale-110"
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            sizes="(max-width: 640px) 50vw, (max-width: 1200px) 50vw, 25vw"
           />
-          <span className="absolute top-3 left-3 rounded-full bg-primary px-3 py-1 text-xs font-medium text-white shadow-sm">
+          <span className="absolute top-2 left-2 sm:top-3 sm:left-3 rounded-full bg-primary px-2 py-0.5 sm:px-3 sm:py-1 text-[10px] sm:text-xs font-medium text-white shadow-sm">
             {product.category}
           </span>
         </div>
-        <div className="flex flex-1 flex-col p-5">
-          <h3 className="font-semibold text-gray-900 group-hover:text-primary transition-colors line-clamp-2">
+        <div className="flex flex-1 flex-col p-3 sm:p-5">
+          <h3 className="min-h-[2.5rem] sm:min-h-[3rem] text-sm sm:text-base font-semibold leading-snug text-gray-900 group-hover:text-primary transition-colors line-clamp-2">
             {product.title}
           </h3>
-          {product.excerpt && (
-            <p className="mt-2 text-sm text-muted line-clamp-2">{product.excerpt}</p>
-          )}
-          <span className="mt-auto pt-4 flex items-center gap-1 text-sm font-medium text-primary">
+          {product.excerpt ? (
+            <p className="mt-1.5 sm:mt-2 text-xs sm:text-sm text-muted hidden sm:line-clamp-3">
+              {product.excerpt}
+            </p>
+          ) : null}
+          <span className="mt-auto pt-3 sm:pt-4 flex items-center gap-1 text-xs sm:text-sm font-medium text-primary">
             Request Quote
             <motion.span
               className="inline-flex"
               initial={{ x: 0 }}
               whileHover={{ x: 4 }}
             >
-              <ArrowRight className="h-4 w-4" />
+              <ArrowRight className="h-3.5 w-3.5 sm:h-4 sm:w-4" />
             </motion.span>
           </span>
         </div>

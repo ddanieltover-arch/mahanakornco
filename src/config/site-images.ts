@@ -39,7 +39,7 @@ export const siteImages = {
     rice: "/uploads/2024/06/1.-Thai-hommali-jasmine-rice-600x450-1.jpg",
     "edible-cooking-oil": "/uploads/2025/09/rbd-soybean-oil.png",
     "poultry-products": "/uploads/2026/02/whole-chicken-griller.webp",
-    "automotive-urea": "/uploads/2025/07/automotive-urea-global-win-co-ltd.png",
+    nuts: "/uploads/2026/07/pistachio-nuts.png",
   },
 
   /** Banner thumbnails for static and listing pages */

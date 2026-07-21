@@ -48,7 +48,7 @@ export default function ProductsPage() {
       <section className="py-16">
         <div className="mx-auto max-w-7xl px-4">
           <p className="text-muted mb-8">{products.length} products available</p>
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          <div className="grid grid-cols-2 gap-3 sm:gap-6 lg:grid-cols-3 xl:grid-cols-4">
             {products.map((product, i) => (
               <ProductCard key={product.slug} product={product} index={i} />
             ))}

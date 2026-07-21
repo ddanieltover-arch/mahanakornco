@@ -4,7 +4,13 @@ import productImagesRaw from "./product-images.json";
 import { normalizeBrandText } from "@/lib/brand";
 import { wpImage } from "@/lib/images";
 
-type ImageEntry = { id: number; title: string; slug: string; image: string };
+type ImageEntry = {
+  id: number;
+  title: string;
+  slug: string;
+  image: string;
+  gallery?: string[];
+};
 const productImages = productImagesRaw as Record<string, ImageEntry>;
 
 type ContentEntry = {
@@ -40,6 +46,15 @@ function resolveImage(slug: string, title: string, fallback = ""): string {
   return image ? wpImage(image) : "";
 }
 
+function resolveGallery(slug: string, title: string): string[] {
+  const key = SLUG_ALIASES[slug] ?? slug;
+  const entry =
+    productImages[key] ??
+    productImages[slug] ??
+    imagesByTitle.get(normalizeTitle(title));
+  return (entry?.gallery ?? []).map((src) => wpImage(src)).filter(Boolean);
+}
+
 const contentByTitle = new Map(
   Object.values(productContent).map((entry) => [normalizeTitle(entry.title), entry])
 );
@@ -60,7 +75,7 @@ export type ProductCategory =
   | "Rice"
   | "Edible Cooking Oil"
   | "Poultry Products"
-  | "Automotive Urea";
+  | "Nuts";
 
 export interface Product {
   id: number;
@@ -68,6 +83,7 @@ export interface Product {
   slug: string;
   category: ProductCategory;
   image: string;
+  gallery?: string[];
   excerpt?: string;
   content?: string;
 }
@@ -99,9 +115,27 @@ function buildExtraProducts(): Product[] {
 
 function inferCategory(title: string, slug: string): ProductCategory {
   const t = `${title} ${slug}`.toLowerCase();
-  if (t.includes("automotive urea") || slug === "automotive-urea") return "Automotive Urea";
-  if (t.includes("poultry")) return "Poultry Products";
-  if (t.includes("oil") || t.includes("olein")) return "Edible Cooking Oil";
+  if (
+    t.includes("poultry") ||
+    t.includes("chicken") ||
+    t.includes("drumstick") ||
+    t.includes("gizzard") ||
+    /\bwing\b/.test(t) ||
+    t.includes("paws") ||
+    t.includes("feets") ||
+    t.includes("griller")
+  )
+    return "Poultry Products";
+  if (
+    t.includes("cashew") ||
+    t.includes("pistachio") ||
+    /\bnuts?\b/.test(t)
+  )
+    return "Nuts";
+  // Rice before oil — "parboiled" contains the substring "oil"
+  if (t.includes("rice") || t.includes("basmati") || t.includes("jasmine"))
+    return "Rice";
+  if (/\boil\b/.test(t) || t.includes("olein")) return "Edible Cooking Oil";
   if (
     t.includes("sugar") ||
     t.includes("icumsa") ||
@@ -109,8 +143,6 @@ function inferCategory(title: string, slug: string): ProductCategory {
     t.includes("beet")
   )
     return "Sugar";
-  if (t.includes("rice") || t.includes("basmati") || t.includes("jasmine"))
-    return "Rice";
   if (
     t.includes("fertilizer") ||
     t.includes("phosphate") ||
@@ -135,6 +167,7 @@ const imported = (rawProducts as Omit<Product, "category" | "content">[]).map((p
   ...resolveContent(p.slug, p.title),
   category: inferCategory(p.title, p.slug),
   image: resolveImage(p.slug, p.title, p.image),
+  gallery: resolveGallery(p.slug, p.title),
   id: productImages[SLUG_ALIASES[p.slug] ?? p.slug]?.id ?? p.id,
 }));
 
@@ -147,7 +180,8 @@ const merged = [
 export const products: Product[] = merged.map((p) => {
   const contentExtra = p.content ? {} : resolveContent(p.slug, p.title);
   const image = p.image || resolveImage(p.slug, p.title);
-  return { ...p, ...contentExtra, image };
+  const gallery = p.gallery?.length ? p.gallery : resolveGallery(p.slug, p.title);
+  return { ...p, ...contentExtra, image, gallery };
 });
 
 export const categories: {
@@ -181,9 +215,9 @@ export const categories: {
     description: "Quality poultry products for wholesale distribution.",
   },
   {
-    name: "Automotive Urea",
-    slug: "automotive-urea",
-    description: "Automotive grade urea solutions for industrial use.",
+    name: "Nuts",
+    slug: "nuts",
+    description: "Premium natural nuts for wholesale and export markets.",
   },
 ];
 

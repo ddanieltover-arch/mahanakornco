@@ -77,7 +77,7 @@ export default async function CategoryPage({ params }: Props) {
         <div className="mx-auto max-w-7xl px-4">
           <p className="text-muted mb-8">{categoryProducts.length} products in {cat.name}</p>
           {categoryProducts.length > 0 ? (
-            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            <div className="grid grid-cols-2 gap-3 sm:gap-6 lg:grid-cols-3 xl:grid-cols-4">
               {categoryProducts.map((product, i) => (
                 <ProductCard key={product.slug} product={product} index={i} />
               ))}
