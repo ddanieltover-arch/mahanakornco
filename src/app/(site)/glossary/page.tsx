@@ -8,6 +8,9 @@ import { glossaryTerms } from "@/data/glossary";
 import { siteImages } from "@/config/site-images";
 import { buildPageMetadata } from "@/lib/seo/metadata";
 import { breadcrumbSchema } from "@/lib/seo/schema";
+import { RelatedResources } from "@/components/seo/RelatedResources";
+import { HomepageKeywordLink } from "@/components/seo/HomepageKeywordLink";
+import { getRelatedLinks, KEYWORD_ANCHORS } from "@/data/related-links";
 
 export const metadata: Metadata = buildPageMetadata({
   title: "Commodity Trading Glossary",
@@ -18,6 +21,7 @@ export const metadata: Metadata = buildPageMetadata({
 });
 
 export default function GlossaryPage() {
+  const related = getRelatedLinks({ pageType: "glossary", currentPath: "/glossary" });
   const breadcrumbs = [
     { name: "Home", href: "/" },
     { name: "Glossary", href: "/glossary" },
@@ -37,8 +41,8 @@ export default function GlossaryPage() {
         <div className="mx-auto max-w-3xl px-4">
           <LastUpdated />
           <AnswerCapsule>
-            This glossary defines essential terms for B2B buyers sourcing sugar, rice, fertilizer,
-            and edible oil from Thailand — including ICUMSA grades, Incoterms, RBD oil standards, and
+            This glossary defines essential terms for B2B buyers sourcing from an{" "}
+            <HomepageKeywordLink /> — including ICUMSA grades, Incoterms, RBD oil standards, and
             export documentation requirements.
           </AnswerCapsule>
 
@@ -54,15 +58,17 @@ export default function GlossaryPage() {
           <p className="mt-12 text-muted">
             Read our detailed guides:{" "}
             <Link href="/guides/icumsa-sugar-grades" className="text-primary hover:underline">
-              ICUMSA sugar grades
+              {KEYWORD_ANCHORS.icumsaGuide}
             </Link>
             {" · "}
             <Link href="/guides/thai-rice-export" className="text-primary hover:underline">
-              Thai rice export
+              {KEYWORD_ANCHORS.riceGuide}
             </Link>
           </p>
         </div>
       </section>
+
+      <RelatedResources internal={related.internal} outbound={related.outbound} />
     </>
   );
 }

@@ -1,23 +1,54 @@
 From Page,To Page,Anchor Text,Priority
-/,/products,wholesale agricultural products,High
-/,/sugar,ICUMSA sugar wholesale,High
-/,/rice,Thai jasmine rice bulk,High
+/,/sugar,ICUMSA sugar wholesale supplier,High
+/,/rice,Thai jasmine rice bulk supplier,High
+/,/fertilizers,NPK fertilizer wholesale Thailand,High
 /,/ordering-procedures,bulk commodity ordering process,High
-/,/quality-control,export quality control,High
+/,/quality-control,agricultural export quality control,High
 /,/faq,agricultural export FAQ,High
-/,/glossary,commodity trading glossary,Medium
-/products,/sugar,sugar category,High
-/products,/rice,rice category,High
-/products,/fertilizers,fertilizer category,High
-/products,/ordering-procedures,how to order,High
-/sugar,/guides/icumsa-sugar-grades,ICUMSA grades explained,High
-/sugar,/products/icumsa-45-white-refined-sugar,ICUMSA 45 wholesale,High
-/rice,/guides/thai-rice-export,import rice from Thailand,High
-/rice,/products/jasmine-rice-thai-hom-mali,Thai Hom Mali jasmine rice,High
-/ordering-procedures,/contact,request a quote,High
-/ordering-procedures,/faq,export FAQ,Medium
-/quality-control,/contact,quality documentation request,High
-/faq,/ordering-procedures,ordering procedures,High
-/glossary,/guides/icumsa-sugar-grades,ICUMSA guide,Medium
-/guides/icumsa-sugar-grades,/sugar,sugar catalogue,High
-/guides/thai-rice-export,/rice,rice catalogue,High
+/,/products,wholesale agricultural products Thailand,High
+/products,/,agricultural commodities exporter Thailand,High
+/products,/sugar,ICUMSA sugar wholesale supplier,High
+/products,/rice,Thai jasmine rice bulk supplier,High
+/products,/fertilizers,NPK fertilizer wholesale Thailand,High
+/products,/ordering-procedures,bulk commodity ordering process,High
+/products,/faq,agricultural export FAQ,High
+/products,/contact,request a wholesale quote,High
+/sugar,/,agricultural commodities exporter Thailand,High
+/sugar,/products,wholesale agricultural products Thailand,High
+/sugar,/guides/icumsa-sugar-grades,ICUMSA sugar grades explained,High
+/sugar,/glossary,commodity trading glossary,High
+/sugar,/ordering-procedures,bulk commodity ordering process,High
+/sugar,/quality-control,agricultural export quality control,High
+/sugar,/contact,request a wholesale quote,High
+/rice,/,agricultural commodities exporter Thailand,High
+/rice,/products,wholesale agricultural products Thailand,High
+/rice,/guides/thai-rice-export,how to import rice from Thailand,High
+/rice,/glossary,commodity trading glossary,High
+/rice,/ordering-procedures,bulk commodity ordering process,High
+/rice,/quality-control,agricultural export quality control,High
+/rice,/contact,request a wholesale quote,High
+/fertilizers,/,agricultural commodities exporter Thailand,High
+/fertilizers,/glossary,water-soluble fertilizer wholesale,Medium
+/edible-cooking-oil,/,agricultural commodities exporter Thailand,High
+/poultry-products,/,agricultural commodities exporter Thailand,High
+/nuts,/,agricultural commodities exporter Thailand,High
+/products/[slug],/,agricultural commodities exporter Thailand,High
+/products/[slug],/[category],category keyword hub,High
+/about,/,MAHANAKORN agricultural supplier,High
+/contact,/,agricultural commodities exporter Thailand,High
+/ordering-procedures,/,agricultural commodities exporter Thailand,High
+/quality-control,/,agricultural commodities exporter Thailand,High
+/sustainability,/,agricultural commodities exporter Thailand,High
+/faq,/,agricultural commodities exporter Thailand,High
+/faq,/sugar,ICUMSA sugar wholesale supplier,High
+/faq,/rice,Thai jasmine rice bulk supplier,High
+/glossary,/,agricultural commodities exporter Thailand,High
+/glossary,/guides/icumsa-sugar-grades,ICUMSA sugar grades explained,High
+/glossary,/guides/thai-rice-export,how to import rice from Thailand,High
+/guides/icumsa-sugar-grades,/,agricultural commodities exporter Thailand,High
+/guides/icumsa-sugar-grades,/sugar,ICUMSA sugar wholesale supplier,High
+/guides/thai-rice-export,/,agricultural commodities exporter Thailand,High
+/guides/thai-rice-export,/rice,Thai jasmine rice bulk supplier,High
+/guides/thai-rice-export,/rice,Hom Mali jasmine rice export,Medium
+/privacy-policy,/about,MAHANAKORN agricultural supplier,Low
+/privacy-policy,/contact,request a wholesale quote,Low

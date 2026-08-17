@@ -8,6 +8,9 @@ import { siteConfig } from "@/config/site";
 import { siteImages } from "@/config/site-images";
 import { buildPageMetadata } from "@/lib/seo/metadata";
 import { breadcrumbSchema } from "@/lib/seo/schema";
+import { RelatedResources } from "@/components/seo/RelatedResources";
+import { HomepageKeywordLink } from "@/components/seo/HomepageKeywordLink";
+import { getRelatedLinks } from "@/data/related-links";
 
 export const metadata: Metadata = buildPageMetadata({
   title: "Contact Us — Request a Wholesale Quote",
@@ -17,6 +20,7 @@ export const metadata: Metadata = buildPageMetadata({
 });
 
 export default function ContactPage() {
+  const related = getRelatedLinks({ pageType: "contact", currentPath: "/contact" });
   const breadcrumbs = [
     { name: "Home", href: "/" },
     { name: "Contact", href: "/contact" },
@@ -35,9 +39,9 @@ export default function ContactPage() {
       <section className="py-8 bg-cream border-b">
         <div className="mx-auto max-w-7xl px-4">
           <AnswerCapsule>
-            Request a wholesale quote by email at {siteConfig.email}, phone at {siteConfig.phone},
-            or the contact form below. Include product specifications, quantity, packaging, and
-            destination port for a formal quotation within 1–2 business days.
+            Request a wholesale quote from an <HomepageKeywordLink /> by email at {siteConfig.email},
+            phone at {siteConfig.phone}, or the contact form below. Include product specifications,
+            quantity, packaging, and destination port for a formal quotation within 1–2 business days.
           </AnswerCapsule>
         </div>
       </section>
@@ -99,6 +103,8 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
+
+      <RelatedResources internal={related.internal} outbound={related.outbound} />
     </>
   );
 }

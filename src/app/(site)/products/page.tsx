@@ -9,6 +9,9 @@ import { products, categories } from "@/data/products";
 import { siteImages } from "@/config/site-images";
 import { buildPageMetadata } from "@/lib/seo/metadata";
 import { breadcrumbSchema } from "@/lib/seo/schema";
+import { RelatedResources } from "@/components/seo/RelatedResources";
+import { HomepageKeywordLink } from "@/components/seo/HomepageKeywordLink";
+import { getRelatedLinks, KEYWORD_ANCHORS } from "@/data/related-links";
 
 export const metadata: Metadata = buildPageMetadata({
   title: "Wholesale Agricultural Products",
@@ -19,6 +22,7 @@ export const metadata: Metadata = buildPageMetadata({
 });
 
 export default function ProductsPage() {
+  const related = getRelatedLinks({ pageType: "products", currentPath: "/products" });
   const breadcrumbs = [
     { name: "Home", href: "/" },
     { name: "Products", href: "/products" },
@@ -36,7 +40,10 @@ export default function ProductsPage() {
 
       <section className="py-8 border-b bg-cream">
         <div className="mx-auto max-w-7xl px-4">
-          <AnswerCapsule>{productsHubAnswer}</AnswerCapsule>
+          <AnswerCapsule>
+            {productsHubAnswer} We are an <HomepageKeywordLink /> serving distributors and
+            manufacturers worldwide.
+          </AnswerCapsule>
         </div>
       </section>
 
@@ -79,11 +86,13 @@ export default function ProductsPage() {
               Export FAQ
             </Link>
             <Link href="/contact" className="text-primary hover:underline font-medium">
-              Request a quote
+              {KEYWORD_ANCHORS.contact}
             </Link>
           </div>
         </div>
       </section>
+
+      <RelatedResources internal={related.internal} outbound={related.outbound} />
     </>
   );
 }

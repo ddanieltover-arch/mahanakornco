@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Package, Ship, FileCheck, Globe } from "lucide-react";
 import { ProductBody } from "@/components/products/ProductBody";
+import { HomepageKeywordLink } from "@/components/seo/HomepageKeywordLink";
 import type { Product } from "@/data/products";
 
 interface ProductDescriptionSectionProps {
@@ -62,8 +63,8 @@ export function ProductDescriptionSection({
 
             {!hasBody && hasExcerpt && (
               <p className="text-muted text-sm leading-relaxed">
-                Contact us for full specifications, packaging options, and wholesale pricing for
-                this product.
+                Contact an <HomepageKeywordLink /> for full specifications, packaging options, and
+                wholesale pricing for this product.
               </p>
             )}
           </div>

@@ -13,6 +13,9 @@ import { categories, getProductBySlug, products } from "@/data/products";
 import { PLACEHOLDER_IMAGE } from "@/lib/images";
 import { buildPageMetadata } from "@/lib/seo/metadata";
 import { breadcrumbSchema, productSchema } from "@/lib/seo/schema";
+import { RelatedResources } from "@/components/seo/RelatedResources";
+import { HomepageKeywordLink } from "@/components/seo/HomepageKeywordLink";
+import { getRelatedLinks } from "@/data/related-links";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -54,6 +57,11 @@ export default async function ProductPage({ params }: Props) {
   const plainDescription =
     product.excerpt ||
     (product.content ? stripHtml(product.content).slice(0, 300) : `Wholesale ${product.title} from MAHANAKORN.`);
+  const related = getRelatedLinks({
+    pageType: "product",
+    currentPath: `/products/${slug}`,
+    categorySlug,
+  });
   const breadcrumbs = [
     { name: "Home", href: "/" },
     { name: "Products", href: "/products" },
@@ -107,9 +115,9 @@ export default async function ProductPage({ params }: Props) {
       <section className="py-8 border-b">
         <div className="mx-auto max-w-7xl px-4">
           <AnswerCapsule>
-            {product.title} is available for wholesale and bulk export from MAHANAKORN NAKO NAGARAJ
-            CO., LTD in Thailand. Request a formal quotation with specifications, packaging options,
-            Incoterms, and destination port details.
+            {product.title} is available for wholesale and bulk export from{" "}
+            <HomepageKeywordLink />. Request a formal quotation with specifications, packaging
+            options, Incoterms, and destination port details.
           </AnswerCapsule>
         </div>
       </section>
@@ -140,9 +148,9 @@ export default async function ProductPage({ params }: Props) {
                 )}
                 {!product.content && (
                   <p className="mt-4 text-muted leading-relaxed text-sm">
-                    MAHANAKORN supplies {product.title} for global B2B buyers with export
-                    documentation, quality verification, and flexible Incoterms. Contact our sales
-                    team for MOQ, packaging, and lead time for your destination market.
+                    MAHANAKORN supplies {product.title} for global B2B buyers as an{" "}
+                    <HomepageKeywordLink /> with export documentation, quality verification, and
+                    flexible Incoterms. Contact our sales team for MOQ, packaging, and lead time.
                   </p>
                 )}
                 <div className="mt-8 pt-8 border-t border-gray-100">
@@ -164,6 +172,8 @@ export default async function ProductPage({ params }: Props) {
         category={product.category}
         categorySlug={categorySlug}
       />
+
+      <RelatedResources internal={related.internal} outbound={related.outbound} />
     </>
   );
 }

@@ -15,6 +15,9 @@ import { getCategorySeo } from "@/data/category-seo";
 import { getCategoryImage } from "@/config/site-images";
 import { buildPageMetadata } from "@/lib/seo/metadata";
 import { breadcrumbSchema, collectionPageSchema } from "@/lib/seo/schema";
+import { RelatedResources } from "@/components/seo/RelatedResources";
+import { HomepageKeywordLink } from "@/components/seo/HomepageKeywordLink";
+import { getRelatedLinks, KEYWORD_ANCHORS } from "@/data/related-links";
 
 interface Props {
   params: Promise<{ category: string }>;
@@ -44,6 +47,11 @@ export default async function CategoryPage({ params }: Props) {
 
   const seo = getCategorySeo(slug);
   const categoryProducts = getProductsByCategory(cat.name as ProductCategory);
+  const related = getRelatedLinks({
+    pageType: "category",
+    currentPath: `/${slug}`,
+    categorySlug: slug,
+  });
   const breadcrumbs = [
     { name: "Home", href: "/" },
     { name: "Products", href: "/products" },
@@ -74,28 +82,36 @@ export default async function CategoryPage({ params }: Props) {
         <div className="mx-auto max-w-7xl px-4">
           {seo && (
             <>
-              <AnswerCapsule>{seo.answerCapsule}</AnswerCapsule>
+              <AnswerCapsule>
+                {seo.answerCapsule} Sourced by an{" "}
+                <HomepageKeywordLink />.
+              </AnswerCapsule>
               <p className="text-muted leading-relaxed max-w-3xl">{seo.intro}</p>
               <p className="mt-4 text-sm">
                 Learn more in our{" "}
                 {slug === "sugar" && (
                   <Link href="/guides/icumsa-sugar-grades" className="text-primary hover:underline">
-                    ICUMSA sugar guide
+                    {KEYWORD_ANCHORS.icumsaGuide}
                   </Link>
                 )}
                 {slug === "rice" && (
                   <Link href="/guides/thai-rice-export" className="text-primary hover:underline">
-                    Thai rice export guide
+                    {KEYWORD_ANCHORS.riceGuide}
                   </Link>
                 )}
-                {slug !== "sugar" && slug !== "rice" && (
-                  <Link href="/guides/thai-rice-export" className="text-primary hover:underline">
-                    export guides
+                {slug === "fertilizers" && (
+                  <Link href="/glossary" className="text-primary hover:underline">
+                    {KEYWORD_ANCHORS.waterSoluble}
+                  </Link>
+                )}
+                {slug !== "sugar" && slug !== "rice" && slug !== "fertilizers" && (
+                  <Link href="/ordering-procedures" className="text-primary hover:underline">
+                    {KEYWORD_ANCHORS.ordering}
                   </Link>
                 )}
                 {" "}and{" "}
                 <Link href="/glossary" className="text-primary hover:underline">
-                  trade glossary
+                  {KEYWORD_ANCHORS.glossary}
                 </Link>
                 .
               </p>
@@ -161,11 +177,13 @@ export default async function CategoryPage({ params }: Props) {
               Our quality control process →
             </Link>
             <Link href="/contact" className="text-primary hover:underline font-medium">
-              Request a wholesale quote →
+              {KEYWORD_ANCHORS.contact} →
             </Link>
           </div>
         </div>
       </section>
+
+      <RelatedResources internal={related.internal} outbound={related.outbound} />
     </>
   );
 }

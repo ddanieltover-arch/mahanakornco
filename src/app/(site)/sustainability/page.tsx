@@ -13,6 +13,9 @@ import { siteConfig } from "@/config/site";
 import { siteImages } from "@/config/site-images";
 import { buildPageMetadata } from "@/lib/seo/metadata";
 import { breadcrumbSchema } from "@/lib/seo/schema";
+import { RelatedResources } from "@/components/seo/RelatedResources";
+import { HomepageKeywordLink } from "@/components/seo/HomepageKeywordLink";
+import { getRelatedLinks } from "@/data/related-links";
 import { Leaf, Recycle, Zap, Sprout, Users, HeartHandshake } from "lucide-react";
 
 export const metadata: Metadata = buildPageMetadata({
@@ -65,6 +68,7 @@ const social = [
 ];
 
 export default function SustainabilityPage() {
+  const related = getRelatedLinks({ pageType: "sustainability", currentPath: "/sustainability" });
   const breadcrumbs = [
     { name: "Home", href: "/" },
     { name: "Sustainability", href: "/sustainability" },
@@ -84,6 +88,10 @@ export default function SustainabilityPage() {
       <section className="py-6 bg-cream border-b">
         <div className="mx-auto max-w-7xl px-4">
           <LastUpdated />
+          <p className="mt-4 text-muted">
+            As an <HomepageKeywordLink />, we source commodities with responsible agricultural
+            practices across our Thai supply chain.
+          </p>
         </div>
       </section>
 
@@ -154,6 +162,8 @@ export default function SustainabilityPage() {
           </Stagger>
         </div>
       </section>
+
+      <RelatedResources internal={related.internal} outbound={related.outbound} />
 
       <InfoCta
         title="Partner With a Responsible Supplier"

@@ -15,6 +15,9 @@ import { siteConfig } from "@/config/site";
 import { siteImages } from "@/config/site-images";
 import { buildPageMetadata } from "@/lib/seo/metadata";
 import { breadcrumbSchema } from "@/lib/seo/schema";
+import { RelatedResources } from "@/components/seo/RelatedResources";
+import { HomepageKeywordLink } from "@/components/seo/HomepageKeywordLink";
+import { getRelatedLinks } from "@/data/related-links";
 import {
   FlaskConical,
   Microscope,
@@ -66,6 +69,7 @@ const standards = [
 ];
 
 export default function QualityControlPage() {
+  const related = getRelatedLinks({ pageType: "quality", currentPath: "/quality-control" });
   const breadcrumbs = [
     { name: "Home", href: "/" },
     { name: "Quality Control", href: "/quality-control" },
@@ -86,9 +90,10 @@ export default function QualityControlPage() {
         <div className="mx-auto max-w-7xl px-4">
           <LastUpdated />
           <AnswerCapsule>
-            Every MAHANAKORN shipment undergoes raw material selection, pre-shipment inspection,
-            packaging verification, and optional third-party lab testing — ensuring ICUMSA sugar
-            grades, rice varieties, and edible oils meet international export standards.
+            Every shipment from an <HomepageKeywordLink /> undergoes raw material selection,
+            pre-shipment inspection, packaging verification, and optional third-party lab testing —
+            ensuring ICUMSA sugar grades, rice varieties, and edible oils meet international export
+            standards.
           </AnswerCapsule>
         </div>
       </section>
@@ -154,6 +159,8 @@ export default function QualityControlPage() {
           </div>
         </div>
       </section>
+
+      <RelatedResources internal={related.internal} outbound={related.outbound} />
 
       <InfoCta
         title="Request Quality Documentation"

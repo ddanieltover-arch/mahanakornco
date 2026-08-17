@@ -11,6 +11,9 @@ import { siteConfig } from "@/config/site";
 import { siteImages } from "@/config/site-images";
 import { buildPageMetadata } from "@/lib/seo/metadata";
 import { breadcrumbSchema } from "@/lib/seo/schema";
+import { RelatedResources } from "@/components/seo/RelatedResources";
+import { HomepageKeywordLink } from "@/components/seo/HomepageKeywordLink";
+import { getRelatedLinks } from "@/data/related-links";
 
 export const metadata: Metadata = buildPageMetadata({
   title: "About MAHANAKORN — Agricultural Exporter Since 2004",
@@ -53,6 +56,7 @@ const values = [
 ];
 
 export default function AboutPage() {
+  const related = getRelatedLinks({ pageType: "about", currentPath: "/about" });
   const breadcrumbs = [
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
@@ -72,9 +76,10 @@ export default function AboutPage() {
         <div className="mx-auto max-w-7xl px-4">
           <LastUpdated />
           <AnswerCapsule>
-            MAHANAKORN NAKO NAGARAJ CO., LTD has exported wholesale sugar, rice, fertilizer, and
-            edible cooking oil from Thailand since {siteConfig.established}, serving {siteConfig.stats.clients}+
-            clients with rigorous quality control and global shipping coordination.
+            <HomepageKeywordLink variant="brand" /> has exported wholesale sugar, rice, fertilizer,
+            and edible cooking oil from Thailand since {siteConfig.established}, serving{" "}
+            {siteConfig.stats.clients}+ clients with rigorous quality control and global shipping
+            coordination.
           </AnswerCapsule>
         </div>
       </section>
@@ -143,6 +148,8 @@ export default function AboutPage() {
           </Link>
         </FadeIn>
       </section>
+
+      <RelatedResources internal={related.internal} outbound={related.outbound} />
     </>
   );
 }

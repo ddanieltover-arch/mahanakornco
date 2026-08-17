@@ -7,6 +7,9 @@ import { LastUpdated } from "@/components/seo/LastUpdated";
 import { siteImages } from "@/config/site-images";
 import { buildPageMetadata } from "@/lib/seo/metadata";
 import { articleSchema, breadcrumbSchema } from "@/lib/seo/schema";
+import { RelatedResources } from "@/components/seo/RelatedResources";
+import { HomepageKeywordLink } from "@/components/seo/HomepageKeywordLink";
+import { getRelatedLinks, KEYWORD_ANCHORS } from "@/data/related-links";
 
 const PUBLISHED = "2026-08-17";
 const TITLE = "ICUMSA Sugar Grades Explained";
@@ -23,6 +26,7 @@ export const metadata: Metadata = buildPageMetadata({
 
 export default function IcumsaSugarGuidePage() {
   const path = "/guides/icumsa-sugar-grades";
+  const related = getRelatedLinks({ pageType: "guide-sugar", currentPath: path });
   const breadcrumbs = [
     { name: "Home", href: "/" },
     { name: "Guides", href: "/products" },
@@ -117,16 +121,18 @@ export default function IcumsaSugarGuidePage() {
           <p className="text-muted leading-relaxed mt-4">
             Browse our{" "}
             <Link href="/sugar" className="text-primary hover:underline">
-              sugar product catalogue
+              {KEYWORD_ANCHORS.sugar}
             </Link>{" "}
-            or{" "}
+            catalogue from an <HomepageKeywordLink /> or{" "}
             <Link href="/contact" className="text-primary hover:underline">
-              request a wholesale quote
+              {KEYWORD_ANCHORS.contact}
             </Link>{" "}
             with your required ICUMSA grade, quantity, and destination port.
           </p>
         </div>
       </article>
+
+      <RelatedResources internal={related.internal} outbound={related.outbound} />
     </>
   );
 }

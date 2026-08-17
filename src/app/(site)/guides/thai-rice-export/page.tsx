@@ -7,6 +7,9 @@ import { LastUpdated } from "@/components/seo/LastUpdated";
 import { siteImages } from "@/config/site-images";
 import { buildPageMetadata } from "@/lib/seo/metadata";
 import { articleSchema, breadcrumbSchema } from "@/lib/seo/schema";
+import { RelatedResources } from "@/components/seo/RelatedResources";
+import { HomepageKeywordLink } from "@/components/seo/HomepageKeywordLink";
+import { getRelatedLinks, KEYWORD_ANCHORS } from "@/data/related-links";
 
 const PUBLISHED = "2026-08-17";
 const TITLE = "How to Import Rice from Thailand";
@@ -23,6 +26,7 @@ export const metadata: Metadata = buildPageMetadata({
 
 export default function ThaiRiceExportGuidePage() {
   const path = "/guides/thai-rice-export";
+  const related = getRelatedLinks({ pageType: "guide-rice", currentPath: path });
   const breadcrumbs = [
     { name: "Home", href: "/" },
     { name: "Guides", href: "/products" },
@@ -97,11 +101,12 @@ export default function ThaiRiceExportGuidePage() {
           <p className="text-muted leading-relaxed mt-4">
             Follow our standard{" "}
             <Link href="/ordering-procedures" className="text-primary hover:underline">
-              ordering procedures
+              {KEYWORD_ANCHORS.ordering}
             </Link>
             : submit an inquiry with variety, quantity, and destination port; receive a quotation;
             confirm with proforma invoice; complete payment; production and QC; shipping and
-            delivery. MAHANAKORN handles export coordination from Udon Thani and Lampang, Thailand.
+            delivery. An <HomepageKeywordLink /> handles export coordination from Udon Thani and
+            Lampang, Thailand.
           </p>
 
           <h2 className="text-2xl font-bold text-primary-dark mt-10">
@@ -110,17 +115,23 @@ export default function ThaiRiceExportGuidePage() {
           <p className="text-muted leading-relaxed mt-4">
             Every shipment undergoes{" "}
             <Link href="/quality-control" className="text-primary hover:underline">
-              pre-shipment inspection
+              {KEYWORD_ANCHORS.quality}
             </Link>{" "}
             including physical grading, moisture testing, and packaging verification. Third-party
             lab testing is available on request. Browse our{" "}
             <Link href="/rice" className="text-primary hover:underline">
-              rice catalogue
+              {KEYWORD_ANCHORS.rice}
             </Link>{" "}
-            to view available varieties.
+            catalogue, including{" "}
+            <Link href="/rice" className="text-primary hover:underline">
+              {KEYWORD_ANCHORS.homMali}
+            </Link>
+            .
           </p>
         </div>
       </article>
+
+      <RelatedResources internal={related.internal} outbound={related.outbound} />
     </>
   );
 }

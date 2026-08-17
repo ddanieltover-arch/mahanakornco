@@ -13,6 +13,9 @@ import { FadeIn } from "@/components/motion/FadeIn";
 import { siteImages } from "@/config/site-images";
 import { buildPageMetadata } from "@/lib/seo/metadata";
 import { breadcrumbSchema } from "@/lib/seo/schema";
+import { RelatedResources } from "@/components/seo/RelatedResources";
+import { HomepageKeywordLink } from "@/components/seo/HomepageKeywordLink";
+import { getRelatedLinks } from "@/data/related-links";
 import { ClipboardList, FileCheck, Ship, Headphones } from "lucide-react";
 
 export const metadata: Metadata = buildPageMetadata({
@@ -80,6 +83,7 @@ const highlights = [
 ];
 
 export default function OrderingProceduresPage() {
+  const related = getRelatedLinks({ pageType: "ordering", currentPath: "/ordering-procedures" });
   const breadcrumbs = [
     { name: "Home", href: "/" },
     { name: "Ordering Procedures", href: "/ordering-procedures" },
@@ -100,9 +104,10 @@ export default function OrderingProceduresPage() {
         <div className="mx-auto max-w-7xl px-4">
           <LastUpdated />
           <AnswerCapsule>
-            Ordering bulk commodities from MAHANAKORN follows six steps: product inquiry,
-            quotation with Incoterms, proforma invoice, production and QC, shipping with full
-            documentation, and after-sales support. Typical lead time is 2–6 weeks after payment.
+            Ordering bulk commodities from an <HomepageKeywordLink /> follows six steps: product
+            inquiry, quotation with Incoterms FOB CIF, proforma invoice, production and QC, shipping
+            with full documentation, and after-sales support. Typical lead time is 2–6 weeks after
+            payment.
           </AnswerCapsule>
         </div>
       </section>
@@ -168,6 +173,8 @@ export default function OrderingProceduresPage() {
           </div>
         </div>
       </section>
+
+      <RelatedResources internal={related.internal} outbound={related.outbound} />
 
       <InfoCta
         title="Ready to Place Your Order?"

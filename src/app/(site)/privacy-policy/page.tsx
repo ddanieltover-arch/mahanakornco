@@ -10,6 +10,8 @@ import { siteConfig } from "@/config/site";
 import { siteImages } from "@/config/site-images";
 import { buildPageMetadata } from "@/lib/seo/metadata";
 import { breadcrumbSchema } from "@/lib/seo/schema";
+import { RelatedResources } from "@/components/seo/RelatedResources";
+import { getRelatedLinks } from "@/data/related-links";
 import { Scale, Shield, FileText, Copyright, AlertTriangle } from "lucide-react";
 
 export const metadata: Metadata = buildPageMetadata({
@@ -21,6 +23,7 @@ export const metadata: Metadata = buildPageMetadata({
 });
 
 export default function PrivacyPolicyPage() {
+  const related = getRelatedLinks({ pageType: "privacy", currentPath: "/privacy-policy" });
   const breadcrumbs = [
     { name: "Home", href: "/" },
     { name: "Privacy Policy", href: "/privacy-policy" },
@@ -116,6 +119,8 @@ export default function PrivacyPolicyPage() {
           </Stagger>
         </div>
       </section>
+
+      <RelatedResources internal={related.internal} outbound={related.outbound} />
 
       <InfoCta
         title="Questions About Your Data?"

@@ -12,6 +12,8 @@ import { products } from "@/data/products";
 import { siteConfig } from "@/config/site";
 import { siteImages } from "@/config/site-images";
 import { homeMetadata } from "@/lib/seo/metadata";
+import { RelatedResources } from "@/components/seo/RelatedResources";
+import { getRelatedLinks, KEYWORD_ANCHORS } from "@/data/related-links";
 import { CheckCircle, Truck, Shield, Globe } from "lucide-react";
 
 export const metadata: Metadata = homeMetadata();
@@ -55,6 +57,8 @@ const services = [
 ];
 
 export default function HomePage() {
+  const related = getRelatedLinks({ pageType: "home", currentPath: "/" });
+
   return (
     <>
       <HeroSlider />
@@ -79,10 +83,35 @@ export default function HomePage() {
                 {siteConfig.tagline}
               </h2>
               <p className="mt-6 text-gray-600 leading-relaxed">
-                <strong>{siteConfig.name}</strong> works in collaboration with leading brands and
-                trusted vendors to import and supply premium-quality products from major global
-                suppliers. Our strong partnerships and expertise give us a competitive edge in the
-                market.
+                <strong>{siteConfig.name}</strong> is a{" "}
+                <Link href="/products" className="text-primary font-medium hover:underline">
+                  {KEYWORD_ANCHORS.products}
+                </Link>{" "}
+                working with leading brands and trusted vendors. Our range includes{" "}
+                <Link href="/sugar" className="text-primary font-medium hover:underline">
+                  {KEYWORD_ANCHORS.sugar}
+                </Link>
+                ,{" "}
+                <Link href="/rice" className="text-primary font-medium hover:underline">
+                  {KEYWORD_ANCHORS.rice}
+                </Link>
+                , and{" "}
+                <Link href="/fertilizers" className="text-primary font-medium hover:underline">
+                  {KEYWORD_ANCHORS.fertilizers}
+                </Link>
+                .{" "}
+                <Link href="/quality-control" className="text-primary font-medium hover:underline">
+                  {KEYWORD_ANCHORS.quality}
+                </Link>{" "}
+                and a transparent{" "}
+                <Link href="/ordering-procedures" className="text-primary font-medium hover:underline">
+                  {KEYWORD_ANCHORS.ordering}
+                </Link>{" "}
+                support every shipment. See our{" "}
+                <Link href="/faq" className="text-primary font-medium hover:underline">
+                  {KEYWORD_ANCHORS.faq}
+                </Link>{" "}
+                for buyer questions.
               </p>
               <div className="mt-8 flex gap-4">
                 <Link
@@ -207,6 +236,8 @@ export default function HomePage() {
           <p className="mt-6 font-semibold text-accent">{siteConfig.name}</p>
         </FadeIn>
       </section>
+
+      <RelatedResources internal={related.internal} outbound={related.outbound} />
     </>
   );
 }

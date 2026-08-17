@@ -44,26 +44,6 @@ export function RelatedProducts({
             <ProductCard key={product.slug} product={product} index={i} />
           ))}
         </div>
-
-        <nav aria-label="Related resources" className="mt-12 flex flex-wrap gap-6 text-sm border-t pt-8">
-          {categorySlug && (
-            <Link href={`/${categorySlug}`} className="text-primary hover:underline font-medium">
-              ← {category} category hub
-            </Link>
-          )}
-          <Link href="/products" className="text-primary hover:underline font-medium">
-            All products
-          </Link>
-          <Link href="/ordering-procedures" className="text-primary hover:underline font-medium">
-            Ordering procedures
-          </Link>
-          <Link href="/quality-control" className="text-primary hover:underline font-medium">
-            Quality control
-          </Link>
-          <Link href="/contact" className="text-primary hover:underline font-medium">
-            Request a quote
-          </Link>
-        </nav>
       </div>
     </section>
   );
