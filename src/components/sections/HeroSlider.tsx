@@ -34,6 +34,9 @@ export function HeroSlider() {
 
   return (
     <section className="relative h-[70vh] min-h-[500px] overflow-hidden">
+      <h1 className="sr-only">
+        Wholesale Agricultural Commodities Exporter from Thailand
+      </h1>
       <AnimatePresence mode="wait">
         <motion.div
           key={current}
@@ -55,6 +58,8 @@ export function HeroSlider() {
               fill
               className="object-cover"
               priority={current === 0}
+              fetchPriority={current === 0 ? "high" : "auto"}
+              sizes="100vw"
             />
           </motion.div>
           <div className="absolute inset-0 bg-black/50" />
@@ -72,13 +77,14 @@ export function HeroSlider() {
               >
                 {slide.tagline}
               </motion.p>
-              <motion.h1
+              <motion.p
                 custom={1}
                 variants={textVariants}
                 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white max-w-3xl leading-tight"
+                role="presentation"
               >
                 {slide.title}
-              </motion.h1>
+              </motion.p>
               <motion.p
                 custom={2}
                 variants={textVariants}

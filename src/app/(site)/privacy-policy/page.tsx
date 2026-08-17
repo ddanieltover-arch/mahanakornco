@@ -4,21 +4,31 @@ import { RelatedInfoNav } from "@/components/info-page/RelatedInfoNav";
 import { InfoIntro } from "@/components/info-page/InfoIntro";
 import { PolicySection } from "@/components/info-page/PolicySection";
 import { InfoCta } from "@/components/info-page/InfoCta";
+import { JsonLd } from "@/components/seo/JsonLd";
 import { Stagger, StaggerItem } from "@/components/motion/Stagger";
 import { siteConfig } from "@/config/site";
 import { siteImages } from "@/config/site-images";
-import { pageImageMeta } from "@/lib/metadata";
+import { buildPageMetadata } from "@/lib/seo/metadata";
+import { breadcrumbSchema } from "@/lib/seo/schema";
 import { Scale, Shield, FileText, Copyright, AlertTriangle } from "lucide-react";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildPageMetadata({
   title: "Privacy Policy",
   description: `Privacy policy for ${siteConfig.name}.`,
-  ...pageImageMeta(siteImages.pages["privacy-policy"]),
-};
+  path: "/privacy-policy",
+  image: siteImages.pages["privacy-policy"],
+  noindex: false,
+});
 
 export default function PrivacyPolicyPage() {
+  const breadcrumbs = [
+    { name: "Home", href: "/" },
+    { name: "Privacy Policy", href: "/privacy-policy" },
+  ];
+
   return (
     <>
+      <JsonLd data={breadcrumbSchema(breadcrumbs)} />
       <PageHeader
         title="Privacy Policy"
         tagline="Legal Information"

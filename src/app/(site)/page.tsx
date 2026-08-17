@@ -1,15 +1,20 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { HeroSlider } from "@/components/sections/HeroSlider";
 import { CategoryGrid } from "@/components/sections/CategoryGrid";
 import { StatsSection } from "@/components/sections/StatsSection";
 import { ProductCard } from "@/components/products/ProductCard";
+import { AnswerCapsule } from "@/components/seo/AnswerCapsule";
 import { FadeIn } from "@/components/motion/FadeIn";
 import { Stagger, StaggerItem } from "@/components/motion/Stagger";
 import { products } from "@/data/products";
 import { siteConfig } from "@/config/site";
 import { siteImages } from "@/config/site-images";
+import { homeMetadata } from "@/lib/seo/metadata";
 import { CheckCircle, Truck, Shield, Globe } from "lucide-react";
+
+export const metadata: Metadata = homeMetadata();
 
 const featuredSlugs = [
   "icumsa-45-white-refined-sugar",
@@ -53,6 +58,17 @@ export default function HomePage() {
   return (
     <>
       <HeroSlider />
+
+      <section className="py-12 bg-cream border-b">
+        <div className="mx-auto max-w-7xl px-4">
+          <AnswerCapsule>
+            MAHANAKORN NAKO NAGARAJ CO., LTD is a Thailand-based wholesale exporter of sugar, rice,
+            fertilizer, and edible cooking oil, established in {siteConfig.established}. We supply
+            B2B buyers worldwide with bulk agricultural commodities, export documentation, and
+            rigorous quality control.
+          </AnswerCapsule>
+        </div>
+      </section>
 
       <section className="py-20">
         <div className="mx-auto max-w-7xl px-4">

@@ -26,7 +26,7 @@ export function RelatedProducts({
               More in {category}
             </p>
             <h2 className="mt-2 text-2xl md:text-3xl font-bold text-primary-dark">
-              Related Products
+              Related {category} Products
             </h2>
           </div>
           {categorySlug && (
@@ -34,7 +34,7 @@ export function RelatedProducts({
               href={`/${categorySlug}`}
               className="btn-animate inline-flex rounded-full border-2 border-primary px-6 py-2.5 text-sm font-semibold text-primary hover:bg-cream transition-colors"
             >
-              Browse {category}
+              Browse all {category}
             </Link>
           )}
         </div>
@@ -44,6 +44,26 @@ export function RelatedProducts({
             <ProductCard key={product.slug} product={product} index={i} />
           ))}
         </div>
+
+        <nav aria-label="Related resources" className="mt-12 flex flex-wrap gap-6 text-sm border-t pt-8">
+          {categorySlug && (
+            <Link href={`/${categorySlug}`} className="text-primary hover:underline font-medium">
+              ← {category} category hub
+            </Link>
+          )}
+          <Link href="/products" className="text-primary hover:underline font-medium">
+            All products
+          </Link>
+          <Link href="/ordering-procedures" className="text-primary hover:underline font-medium">
+            Ordering procedures
+          </Link>
+          <Link href="/quality-control" className="text-primary hover:underline font-medium">
+            Quality control
+          </Link>
+          <Link href="/contact" className="text-primary hover:underline font-medium">
+            Request a quote
+          </Link>
+        </nav>
       </div>
     </section>
   );

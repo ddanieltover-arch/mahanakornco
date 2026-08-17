@@ -2,17 +2,22 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { PageHeader } from "@/components/layout/PageHeader";
+import { AnswerCapsule } from "@/components/seo/AnswerCapsule";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { LastUpdated } from "@/components/seo/LastUpdated";
 import { FadeIn } from "@/components/motion/FadeIn";
 import { Stagger, StaggerItem } from "@/components/motion/Stagger";
 import { siteConfig } from "@/config/site";
 import { siteImages } from "@/config/site-images";
-import { pageImageMeta } from "@/lib/metadata";
+import { buildPageMetadata } from "@/lib/seo/metadata";
+import { breadcrumbSchema } from "@/lib/seo/schema";
 
-export const metadata: Metadata = {
-  title: "About Us",
+export const metadata: Metadata = buildPageMetadata({
+  title: "About MAHANAKORN — Agricultural Exporter Since 2004",
   description: `Learn about ${siteConfig.name} — a trusted wholesale supplier of agricultural commodities from Thailand since ${siteConfig.established}.`,
-  ...pageImageMeta(siteImages.pages.about),
-};
+  path: "/about",
+  image: siteImages.pages.about,
+});
 
 const values = [
   {
@@ -48,14 +53,31 @@ const values = [
 ];
 
 export default function AboutPage() {
+  const breadcrumbs = [
+    { name: "Home", href: "/" },
+    { name: "About", href: "/about" },
+  ];
+
   return (
     <>
+      <JsonLd data={breadcrumbSchema(breadcrumbs)} />
       <PageHeader
         title="About Us"
         tagline="Who We Are"
         subtitle={`Trusted wholesale supplier of agricultural commodities since ${siteConfig.established}`}
         image={siteImages.pages.about}
       />
+
+      <section className="py-8 bg-cream border-b">
+        <div className="mx-auto max-w-7xl px-4">
+          <LastUpdated />
+          <AnswerCapsule>
+            MAHANAKORN NAKO NAGARAJ CO., LTD has exported wholesale sugar, rice, fertilizer, and
+            edible cooking oil from Thailand since {siteConfig.established}, serving {siteConfig.stats.clients}+
+            clients with rigorous quality control and global shipping coordination.
+          </AnswerCapsule>
+        </div>
+      </section>
 
       <section className="py-20">
         <div className="mx-auto max-w-7xl px-4">

@@ -1,0 +1,32 @@
+{
+  "generatedAt": "2026-08-17T09:18:54.788Z",
+  "note": "Structural validation of schema templates. Run Google Rich Results Test on live URLs post-deploy.",
+  "results": [
+    {
+      "schema": "Organization",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "schema": "Product",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "schema": "FAQPage",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "schema": "BreadcrumbList",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "schema": "Article",
+      "valid": true,
+      "errors": []
+    }
+  ],
+  "allValid": true
+}

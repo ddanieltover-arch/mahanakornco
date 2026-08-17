@@ -2,25 +2,45 @@ import type { Metadata } from "next";
 import { Mail, MapPin, Phone } from "lucide-react";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { ContactForm } from "@/components/forms/ContactForm";
+import { AnswerCapsule } from "@/components/seo/AnswerCapsule";
+import { JsonLd } from "@/components/seo/JsonLd";
 import { siteConfig } from "@/config/site";
 import { siteImages } from "@/config/site-images";
-import { pageImageMeta } from "@/lib/metadata";
+import { buildPageMetadata } from "@/lib/seo/metadata";
+import { breadcrumbSchema } from "@/lib/seo/schema";
 
-export const metadata: Metadata = {
-  title: "Contact Us",
-  description: `Get in touch with ${siteConfig.name} for wholesale quotes and product inquiries.`,
-  ...pageImageMeta(siteImages.pages.contact),
-};
+export const metadata: Metadata = buildPageMetadata({
+  title: "Contact Us — Request a Wholesale Quote",
+  description: `Get in touch with ${siteConfig.name} for wholesale quotes and bulk export inquiries.`,
+  path: "/contact",
+  image: siteImages.pages.contact,
+});
 
 export default function ContactPage() {
+  const breadcrumbs = [
+    { name: "Home", href: "/" },
+    { name: "Contact", href: "/contact" },
+  ];
+
   return (
     <>
+      <JsonLd data={breadcrumbSchema(breadcrumbs)} />
       <PageHeader
         title="Get a Quote"
         tagline="Here's how you can get in touch"
         subtitle="Contact us for wholesale pricing, product specifications, and export inquiries."
         image={siteImages.pages.contact}
       />
+
+      <section className="py-8 bg-cream border-b">
+        <div className="mx-auto max-w-7xl px-4">
+          <AnswerCapsule>
+            Request a wholesale quote by email at {siteConfig.email}, phone at {siteConfig.phone},
+            or the contact form below. Include product specifications, quantity, packaging, and
+            destination port for a formal quotation within 1–2 business days.
+          </AnswerCapsule>
+        </div>
+      </section>
 
       <section className="py-20">
         <div className="mx-auto max-w-7xl px-4">
@@ -37,6 +57,7 @@ export default function ContactPage() {
                     <a
                       href={`tel:${siteConfig.phone}`}
                       className="text-accent hover:text-white transition-colors"
+                      data-analytics="click_phone"
                     >
                       {siteConfig.phone}
                     </a>
@@ -51,6 +72,7 @@ export default function ContactPage() {
                     <a
                       href={`mailto:${siteConfig.email}`}
                       className="text-accent hover:text-white transition-colors break-all"
+                      data-analytics="click_email"
                     >
                       {siteConfig.email}
                     </a>

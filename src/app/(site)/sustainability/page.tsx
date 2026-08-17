@@ -5,18 +5,22 @@ import { RelatedInfoNav } from "@/components/info-page/RelatedInfoNav";
 import { InfoIntro } from "@/components/info-page/InfoIntro";
 import { FeatureCard } from "@/components/info-page/FeatureCard";
 import { InfoCta } from "@/components/info-page/InfoCta";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { LastUpdated } from "@/components/seo/LastUpdated";
 import { FadeIn } from "@/components/motion/FadeIn";
 import { Stagger, StaggerItem } from "@/components/motion/Stagger";
 import { siteConfig } from "@/config/site";
 import { siteImages } from "@/config/site-images";
-import { pageImageMeta } from "@/lib/metadata";
+import { buildPageMetadata } from "@/lib/seo/metadata";
+import { breadcrumbSchema } from "@/lib/seo/schema";
 import { Leaf, Recycle, Zap, Sprout, Users, HeartHandshake } from "lucide-react";
 
-export const metadata: Metadata = {
-  title: "Sustainability",
-  description: `Environmental and social responsibility at ${siteConfig.name}.`,
-  ...pageImageMeta(siteImages.pages.sustainability),
-};
+export const metadata: Metadata = buildPageMetadata({
+  title: "Sustainable Agriculture & Export",
+  description: `Environmental and social responsibility in agricultural commodity sourcing at ${siteConfig.name}.`,
+  path: "/sustainability",
+  image: siteImages.pages.sustainability,
+});
 
 const environmental = [
   {
@@ -61,8 +65,14 @@ const social = [
 ];
 
 export default function SustainabilityPage() {
+  const breadcrumbs = [
+    { name: "Home", href: "/" },
+    { name: "Sustainability", href: "/sustainability" },
+  ];
+
   return (
     <>
+      <JsonLd data={breadcrumbSchema(breadcrumbs)} />
       <PageHeader
         title="Sustainability"
         tagline="Our Responsibility"
@@ -70,6 +80,12 @@ export default function SustainabilityPage() {
         image={siteImages.pages.sustainability}
       />
       <RelatedInfoNav />
+
+      <section className="py-6 bg-cream border-b">
+        <div className="mx-auto max-w-7xl px-4">
+          <LastUpdated />
+        </div>
+      </section>
 
       <InfoIntro
         tagline="Core Values"

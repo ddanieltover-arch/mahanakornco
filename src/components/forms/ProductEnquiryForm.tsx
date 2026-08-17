@@ -13,6 +13,7 @@ import {
   FormTextarea,
 } from "@/components/forms/FormPrimitives";
 import { enquirySchema, type EnquiryFormData } from "@/lib/validations/contact";
+import { trackEvent } from "@/components/analytics/GoogleTagManager";
 
 interface ProductEnquiryFormProps {
   productName: string;
@@ -52,6 +53,7 @@ export function ProductEnquiryForm({ productName }: ProductEnquiryFormProps) {
       }
 
       setStatus("success");
+      trackEvent("generate_lead", { form_name: "product_enquiry", lead_type: "product", product: productName });
       reset({ product: productName });
     } catch {
       setErrorMessage("Network error. Please check your connection and try again.");

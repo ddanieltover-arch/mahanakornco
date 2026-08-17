@@ -1,0 +1,3685 @@
+{
+  "generatedAt": "2026-08-17T09:11:03.179Z",
+  "baseUrl": "https://mahanakornco.com",
+  "totalUrls": 97,
+  "summary": {
+    "ok": 97,
+    "errors": 0,
+    "missingTitle": 0,
+    "missingDescription": 0,
+    "missingH1": 0,
+    "missingCanonical": 97,
+    "thinContent": 3,
+    "multipleH1": 9
+  },
+  "flaggedPages": [
+    {
+      "url": "https://mahanakornco.com",
+      "path": "/",
+      "status": 200,
+      "title": "MAHANAKORN NAKO NAGARAJ CO., LTD | Your #1 Rice, Sugar, Edible Cooking Oil and Fertilizer Supplier",
+      "metaDescription": "MAHANAKORN NAKO NAGARAJ CO., LTD is a trusted wholesale supplier of sugar, rice, fertilizer, and edible cooking oil from Thailand. Established in 2004.",
+      "h1": "Your Trusted Agricultural Commodities Partner",
+      "wordCount": 651,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Homepage",
+      "titleLength": 98,
+      "descriptionLength": 151,
+      "flags": [
+        "title_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/about",
+      "path": "/about",
+      "status": 200,
+      "title": "About Us | MAHANAKORN",
+      "metaDescription": "Learn about MAHANAKORN NAKO NAGARAJ CO., LTD — a trusted wholesale supplier of agricultural commodities from Thailand since 2004.",
+      "h1": "About Us",
+      "wordCount": 395,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Info",
+      "titleLength": 21,
+      "descriptionLength": 129,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products",
+      "path": "/products",
+      "status": 200,
+      "title": "Products | MAHANAKORN",
+      "metaDescription": "Browse our full range of sugar, rice, fertilizers, edible cooking oil, and poultry products for wholesale export.",
+      "h1": "Our Products",
+      "wordCount": 3473,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product Hub",
+      "titleLength": 21,
+      "descriptionLength": 113,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/contact",
+      "path": "/contact",
+      "status": 200,
+      "title": "Contact Us | MAHANAKORN",
+      "metaDescription": "Get in touch with MAHANAKORN NAKO NAGARAJ CO., LTD for wholesale quotes and product inquiries.",
+      "h1": "Get a Quote",
+      "wordCount": 226,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Info",
+      "titleLength": 23,
+      "descriptionLength": 94,
+      "flags": [
+        "missing_canonical",
+        "thin_content"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/ordering-procedures",
+      "path": "/ordering-procedures",
+      "status": 200,
+      "title": "Ordering Procedures | MAHANAKORN",
+      "metaDescription": "How to order agricultural commodities from MAHANAKORN NAKO NAGARAJ CO., LTD.",
+      "h1": "Ordering Procedures",
+      "wordCount": 374,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Info",
+      "titleLength": 32,
+      "descriptionLength": 76,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/quality-control",
+      "path": "/quality-control",
+      "status": 200,
+      "title": "Quality Control | MAHANAKORN",
+      "metaDescription": "Quality assurance standards at MAHANAKORN NAKO NAGARAJ CO., LTD.",
+      "h1": "Quality Control",
+      "wordCount": 335,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Info",
+      "titleLength": 28,
+      "descriptionLength": 64,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/sustainability",
+      "path": "/sustainability",
+      "status": 200,
+      "title": "Sustainability | MAHANAKORN",
+      "metaDescription": "Environmental and social responsibility at MAHANAKORN NAKO NAGARAJ CO., LTD.",
+      "h1": "Sustainability",
+      "wordCount": 321,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Info",
+      "titleLength": 27,
+      "descriptionLength": 76,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/privacy-policy",
+      "path": "/privacy-policy",
+      "status": 200,
+      "title": "Privacy Policy | MAHANAKORN",
+      "metaDescription": "Privacy policy for MAHANAKORN NAKO NAGARAJ CO., LTD.",
+      "h1": "Privacy Policy",
+      "wordCount": 525,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Legal",
+      "titleLength": 27,
+      "descriptionLength": 52,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/sugar",
+      "path": "/sugar",
+      "status": 200,
+      "title": "Sugar | MAHANAKORN",
+      "metaDescription": "Premium ICUMSA cane sugar varieties sourced from Thailand.",
+      "h1": "Sugar",
+      "wordCount": 426,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Category",
+      "titleLength": 18,
+      "descriptionLength": 58,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/fertilizers",
+      "path": "/fertilizers",
+      "status": 200,
+      "title": "Fertilizers | MAHANAKORN",
+      "metaDescription": "High-quality agricultural fertilizers and micronutrients.",
+      "h1": "Fertilizers",
+      "wordCount": 1413,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Category",
+      "titleLength": 24,
+      "descriptionLength": 57,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/rice",
+      "path": "/rice",
+      "status": 200,
+      "title": "Rice | MAHANAKORN",
+      "metaDescription": "Premium Thai rice varieties for global wholesale markets.",
+      "h1": "Rice",
+      "wordCount": 919,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Category",
+      "titleLength": 17,
+      "descriptionLength": 57,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/edible-cooking-oil",
+      "path": "/edible-cooking-oil",
+      "status": 200,
+      "title": "Edible Cooking Oil | MAHANAKORN",
+      "metaDescription": "Refined edible oils for food industry and bulk supply.",
+      "h1": "Edible Cooking Oil",
+      "wordCount": 428,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Category",
+      "titleLength": 31,
+      "descriptionLength": 54,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/poultry-products",
+      "path": "/poultry-products",
+      "status": 200,
+      "title": "Poultry Products | MAHANAKORN",
+      "metaDescription": "Quality poultry products for wholesale distribution.",
+      "h1": "Poultry Products",
+      "wordCount": 204,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Category",
+      "titleLength": 29,
+      "descriptionLength": 52,
+      "flags": [
+        "missing_canonical",
+        "thin_content"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/nuts",
+      "path": "/nuts",
+      "status": 200,
+      "title": "Nuts | MAHANAKORN",
+      "metaDescription": "Premium natural nuts for wholesale and export markets.",
+      "h1": "Nuts",
+      "wordCount": 92,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Category",
+      "titleLength": 17,
+      "descriptionLength": 54,
+      "flags": [
+        "missing_canonical",
+        "thin_content"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/1121-sella-basmati-rice",
+      "path": "/products/1121-sella-basmati-rice",
+      "status": 200,
+      "title": "1121 Sella Basmati Rice | MAHANAKORN",
+      "metaDescription": "Benefits and Culinary Prestige: Long-Grain Marvel: The elongated grains make it an ideal choice for a myriad of culinary delights, ranging from aromatic biryanis to flavorful pilafs, imparting an...",
+      "h1": "1121 Sella Basmati Rice",
+      "wordCount": 725,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 36,
+      "descriptionLength": 198,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/agriventure-calcium-nitrate-water-soluble-fertilizer",
+      "path": "/products/agriventure-calcium-nitrate-water-soluble-fertilizer",
+      "status": 200,
+      "title": "Agriventure Calcium Nitrate Water Soluble Fertilizer | MAHANAKORN",
+      "metaDescription": "Buy Agriventure Calcium Nitrate Water Soluble Fertilizer Online To Increase Crop Quality And Yield From AgriBegri With Free Nationwide Delivery Service.",
+      "h1": "Agriventure Calcium Nitrate Water Soluble Fertilizer",
+      "wordCount": 415,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 65,
+      "descriptionLength": 152,
+      "flags": [
+        "title_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/agriventure-magnesium-sulfate-water-soluble-fertilizer",
+      "path": "/products/agriventure-magnesium-sulfate-water-soluble-fertilizer",
+      "status": 200,
+      "title": "Agriventure Magnesium Sulfate Water Soluble Fertilizer | MAHANAKORN",
+      "metaDescription": "Buy Agriventure Magnesium Sulphate Water Soluble Fertilizer Online From AgriBegri With Free Nationwide Delivery Service.",
+      "h1": "Agriventure Magnesium Sulfate Water Soluble Fertilizer",
+      "wordCount": 409,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 67,
+      "descriptionLength": 120,
+      "flags": [
+        "title_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/ammonium-sulfate",
+      "path": "/products/ammonium-sulfate",
+      "status": 200,
+      "title": "Ammonium Sulfate | MAHANAKORN",
+      "metaDescription": "In agriculture, ammonium sulfate is widely used as a nitrogen fertilizer, providing essential nitrogen and sulfur nutrients for plant growth.",
+      "h1": "Ammonium Sulfate",
+      "wordCount": 715,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 29,
+      "descriptionLength": 141,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/arborio-rice",
+      "path": "/products/arborio-rice",
+      "status": 200,
+      "title": "Arborio Rice | MAHANAKORN",
+      "metaDescription": "Chemical Specifications: Moisture Content: Maintained within optimal levels, typically not exceeding 14%, ensuring freshness and quality preservation. Purity: Rigorous quality checks to ensure...",
+      "h1": "Arborio Rice",
+      "wordCount": 626,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 25,
+      "descriptionLength": 195,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/automotive-urea",
+      "path": "/products/automotive-urea",
+      "status": 200,
+      "title": "Automotive Urea | MAHANAKORN",
+      "metaDescription": "Automotive urea has the advantages of low toxicity, low corrosiveness, and non flammability, and is mainly used for exhaust purification of heavy-duty diesel engines, such as large trucks and...",
+      "h1": "Automotive Urea",
+      "wordCount": 718,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 28,
+      "descriptionLength": 194,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/barenbrug-algaturf-fertilizer",
+      "path": "/products/barenbrug-algaturf-fertilizer",
+      "status": 200,
+      "title": "Barenbrug Algaturf Fertilizer | MAHANAKORN",
+      "metaDescription": "The algaturf fertilizer by barenrbug is used to stimulate and maintain with its high potassium content outdoor ornamental plants and lawns throughout the year. Algaturf is a liquid fertilizer. Barfertile algaturf is a fertilizer that can be used in the year in conditions of stress of the plant or soil.",
+      "h1": "Barenbrug Algaturf Fertilizer",
+      "wordCount": 432,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 42,
+      "descriptionLength": 303,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/barenbrug-k-plus-fertilizer-25-kg",
+      "path": "/products/barenbrug-k-plus-fertilizer-25-kg",
+      "status": 200,
+      "title": "Barenbrug K-PLUS fertilizer 2,5 kg | MAHANAKORN",
+      "metaDescription": "The k-plus fertilizer by barenrbug is used to stimulate and maintain with its high potassium content outdoor ornamental plants and lawns in the summer and winter periods. The packaging of this...",
+      "h1": "Barenbrug K-PLUS fertilizer 2,5 kg",
+      "wordCount": 435,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 47,
+      "descriptionLength": 195,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/barfertile-active-barenbrug",
+      "path": "/products/barfertile-active-barenbrug",
+      "status": 200,
+      "title": "Barfertile Active Barenbrug | MAHANAKORN",
+      "metaDescription": "This Barenbrug fertilizer is a granular fertilizer with controlled release ideal for all year round. We recommend using this fertilizer for lawns 25-30g/m2, for garden plants 40-50g/m2, for vegetable plants 60-80g/m2.",
+      "h1": "Barfertile Active Barenbrug",
+      "wordCount": 394,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 40,
+      "descriptionLength": 217,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/barfertile-ecolit",
+      "path": "/products/barfertile-ecolit",
+      "status": 200,
+      "title": "Barfertile Ecolit | MAHANAKORN",
+      "metaDescription": "Liquid fertilizer in 5 kg version by Barenbrug to improve the structure of the soil and avoid dry-spots in the soil. The root system of a lawn or an ornamental outdoor plant benefits from the application of this product for the greater absorption of calcium, phosphorus and calcium. Barfertile Ecolit is a fertilizer fertilizer that can be used all year round in conditions of stress of the plant or soil.",
+      "h1": "Barfertile Ecolit",
+      "wordCount": 467,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 30,
+      "descriptionLength": 405,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/barfertile-planta-fit-biostimulant",
+      "path": "/products/barfertile-planta-fit-biostimulant",
+      "status": 200,
+      "title": "Barfertile Planta-fit Biostimulant | MAHANAKORN",
+      "metaDescription": "Liquid fertilizer in 5 kg version by Barenbrug to improve the structure of the soil and avoid dry-spots in the soil. The root system of a lawn or an ornamental outdoor plant benefits from the application of this product for the greater absorption of calcium, phosphorus and calcium. Barfertile Planti-fit is a fertilizing fertilizer that can be used all year round in conditions of stress of the plant or the soil.",
+      "h1": "Barfertile Planta-fit Biostimulant",
+      "wordCount": 474,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 47,
+      "descriptionLength": 414,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/barfertile-pro-start-5-kg",
+      "path": "/products/barfertile-pro-start-5-kg",
+      "status": 200,
+      "title": "Barfertile Pro-start 5 kg | MAHANAKORN",
+      "metaDescription": "Liquid fertilizer in 5 kg version by Barenbrug to improve the structure of the soil and avoid dry-spots in the soil. The root system of a lawn or an ornamental outdoor plant benefits from the application of this product for the greater absorption of calcium, phosphorus and calcium. Barfertile Planti-fit is a fertilizing fertilizer that can be used all year round in conditions of stress of the plant or the soil.",
+      "h1": "Barfertile Pro-start 5 kg",
+      "wordCount": 479,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 38,
+      "descriptionLength": 414,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/barfertile-radi-fit-radical-biostimulant",
+      "path": "/products/barfertile-radi-fit-radical-biostimulant",
+      "status": 200,
+      "title": "Barfertile Radi-Fit Radical Biostimulant | MAHANAKORN",
+      "metaDescription": "Liquid fertilizer in 5 kg version by Barenbrug to improve the structure of the soil and avoid dry-spots in the soil. The root system of a lawn or an ornamental outdoor plant benefits from the application of this product for the greater absorption of calcium, phosphorus and calcium. Barfertile Radi-fit is a fertilizer fertilizer that can be used all year round in conditions of stress of the plant or soil.",
+      "h1": "Barfertile Radi-Fit Radical Biostimulant",
+      "wordCount": 477,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 53,
+      "descriptionLength": 407,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/barfertile-sport-barenbrug-npk",
+      "path": "/products/barfertile-sport-barenbrug-npk",
+      "status": 200,
+      "title": "Barfertile Sport Barenbrug NPK | MAHANAKORN",
+      "metaDescription": "This Barenbrug fertilizer is a controlled release granular fertilizer rich in nitrogen that has as its prerogative the vegetative push for the spring and late summer. This mineral fertilizer allows you to have a boost in the spring.",
+      "h1": "Barfertile Sport Barenbrug NPK",
+      "wordCount": 413,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 43,
+      "descriptionLength": 232,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/barfertile-spring-autumn-fertilizer",
+      "path": "/products/barfertile-spring-autumn-fertilizer",
+      "status": 200,
+      "title": "Barfertile Spring Autumn fertilizer | MAHANAKORN",
+      "metaDescription": "Barenbrug 20 kg granular fertilizer to improve soil structure and avoid dry spots in the soil. The root system of a lawn or an outdoor ornamental plant benefits from the application of this product for greater absorption of calcium, phosphorus and calcium. Barfertile Spring Autumn is a fertilizer that can be used in spring and autumn in conditions of stress of the plant or soil.",
+      "h1": "Barfertile Spring Autumn fertilizer",
+      "wordCount": 467,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 48,
+      "descriptionLength": 381,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/beet-sugar",
+      "path": "/products/beet-sugar",
+      "status": 200,
+      "title": "BEET SUGAR | MAHANAKORN",
+      "metaDescription": "Beet Sugar from MAHANAKORN NAKO NAGARAJ CO., LTD is a high-quality sugar product derived from sugar beets cultivated under optimal conditions. Known for its natural sweetness and purity, beet...",
+      "h1": "BEET SUGAR",
+      "wordCount": 610,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 23,
+      "descriptionLength": 194,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/cashew-nuts",
+      "path": "/products/cashew-nuts",
+      "status": 200,
+      "title": "Cashew Nuts | MAHANAKORN",
+      "metaDescription": "Premium cashew kernels from the current crop season in Thailand. Moisture 5% max, aflatoxin under 5 PPB. Packed in tin boxes, vacuum bags, or 10 kg tins (22 kg per carton).",
+      "h1": "Cashew Nuts",
+      "wordCount": 409,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 24,
+      "descriptionLength": 172,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/chicken-drumstick",
+      "path": "/products/chicken-drumstick",
+      "status": 200,
+      "title": "Chicken Drumstick | MAHANAKORN",
+      "metaDescription": "100% HALAL 100% Organic Food 100% Fresh Not Chemicals",
+      "h1": "Chicken Drumstick",
+      "wordCount": 327,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 30,
+      "descriptionLength": 53,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/chicken-feets",
+      "path": "/products/chicken-feets",
+      "status": 200,
+      "title": "Chicken Feets | MAHANAKORN",
+      "metaDescription": "100% HALAL 100% Organic Food 100% Fresh Not Chemicals",
+      "h1": "Chicken Feets",
+      "wordCount": 320,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 26,
+      "descriptionLength": 53,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/chicken-leg-quarter",
+      "path": "/products/chicken-leg-quarter",
+      "status": 200,
+      "title": "Chicken Leg Quarter | MAHANAKORN",
+      "metaDescription": "100% HALAL 100% Organic Food 100% Fresh Not Chemicals",
+      "h1": "Chicken Leg Quarter",
+      "wordCount": 331,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 32,
+      "descriptionLength": 53,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/chicken-paws",
+      "path": "/products/chicken-paws",
+      "status": 200,
+      "title": "Chicken Paws | MAHANAKORN",
+      "metaDescription": "100% HALAL 100% Organic Food 100% Fresh Not Chemicals",
+      "h1": "Chicken Paws",
+      "wordCount": 320,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 25,
+      "descriptionLength": 53,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/dap-diammonium-phosphate",
+      "path": "/products/dap-diammonium-phosphate",
+      "status": 200,
+      "title": "DAP Diammonium Phosphate | MAHANAKORN",
+      "metaDescription": "Diammonium hydrogen phosphate is widely used in agriculture. It is used as a nitrogen and phosphorus fertilizer to supply nitrogen and phosphorus nutrients required by crops, promote plant growth,...",
+      "h1": "DAP Diammonium Phosphate",
+      "wordCount": 921,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 37,
+      "descriptionLength": 199,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/earthworm-humus",
+      "path": "/products/earthworm-humus",
+      "status": 200,
+      "title": "Earthworm Humus | MAHANAKORN",
+      "metaDescription": "Earthworm humus is an excellent fertilizer ideal for exhausted soils, for floriculture, for vineyards and orchards. The package on sale is 40 liters. For other formats contact us.",
+      "h1": "Earthworm Humus",
+      "wordCount": 383,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 28,
+      "descriptionLength": 179,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/ebs-amino-acids-80-plant-growth-enhancer",
+      "path": "/products/ebs-amino-acids-80-plant-growth-enhancer",
+      "status": 200,
+      "title": "EBS Amino Acids 80% Plant Growth Enhancer | MAHANAKORN",
+      "metaDescription": "Buy EBS Amino Acids 80% Plant Growth Enhancer improves plant stress resistance, boosts chlorophyll levels, and enhances nutrient absorption. It strengthens growth, improves fruit quality. suitable for all crops, available at the best price in Agribegri",
+      "h1": "EBS Amino Acids 80% Plant Growth Enhancer",
+      "wordCount": 424,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 54,
+      "descriptionLength": 252,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/ebs-boron-20-edta-sodium-borate-chelated-micronutrient",
+      "path": "/products/ebs-boron-20-edta-sodium-borate-chelated-micronutrient",
+      "status": 200,
+      "title": "EBS Boron 20% EDTA Sodium Borate Chelated Micronutrient | MAHANAKORN",
+      "metaDescription": "Buy EBS Boron 20% EDTA Sodium Borate Chelated Micronutrient for foliar and fertigation application. It enhances flowering, fruit formation, and calcium uptake, improving crop yield and quality. Suitable for all fruit, vegetable, and flower crops. available at the best price in Agribegri",
+      "h1": "EBS Boron 20% EDTA Sodium Borate Chelated Micronutrient",
+      "wordCount": 441,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 68,
+      "descriptionLength": 287,
+      "flags": [
+        "title_too_long",
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/ebs-fulvic-acid-fulvic-acid-50-organic-fertilizer",
+      "path": "/products/ebs-fulvic-acid-fulvic-acid-50-organic-fertilizer",
+      "status": 200,
+      "title": "EBS Fulvic Acid Fulvic Acid 50% Organic Fertilizer | MAHANAKORN",
+      "metaDescription": "Buy EBS Fulvic Acid Fulvic Acid 50% Organic Fertilizer improves root growth, increases nutrient absorption, and enhances plant immunity. suitable for soil application and fertigation in all crops. available at the best price in Agribegri",
+      "h1": "EBS Fulvic Acid Fulvic Acid 50% Organic Fertilizer",
+      "wordCount": 427,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 63,
+      "descriptionLength": 237,
+      "flags": [
+        "title_too_long",
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/ebs-seaweed-extract-fertilizer-ascophyllum-nodusum",
+      "path": "/products/ebs-seaweed-extract-fertilizer-ascophyllum-nodusum",
+      "status": 200,
+      "title": "EBS Seaweed Extract Fertilizer Ascophyllum Nodusum | MAHANAKORN",
+      "metaDescription": "Buy Ebs Seaweed Extract Fertilizer Ascophyllum nodusum enhances soil fertility, boosts nutrient uptake, and improves plant health. Suitable for soil, foliar, and fertigation applications. available at the best price in Agribegri",
+      "h1": "EBS Seaweed Extract Fertilizer Ascophyllum Nodusum",
+      "wordCount": 409,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 63,
+      "descriptionLength": 228,
+      "flags": [
+        "title_too_long",
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/ebs-zinc-edta-zn-12-chelated-micronutrient-fertilizer",
+      "path": "/products/ebs-zinc-edta-zn-12-chelated-micronutrient-fertilizer",
+      "status": 200,
+      "title": "EBS Zinc EDTA Zn 12% Chelated Micronutrient Fertilizer | MAHANAKORN",
+      "metaDescription": "Buy EBS Zinc EDTA Zn 12% Chelated Micronutrient Fertilizer It improves chlorophyll production, enhances plant growth, and corrects zinc deficiency in crops, Highly water-soluble and suitable for all soil types. available at the best price in Agribegri",
+      "h1": "EBS Zinc EDTA Zn 12% Chelated Micronutrient Fertilizer",
+      "wordCount": 431,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 67,
+      "descriptionLength": 251,
+      "flags": [
+        "title_too_long",
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/fertilizer-barenbrug-summer-winter",
+      "path": "/products/fertilizer-barenbrug-summer-winter",
+      "status": 200,
+      "title": "Fertilizer Barenbrug Summer Winter | MAHANAKORN",
+      "metaDescription": "This fertilizer from Barenbrug in a 20 kg version guarantees strong resilience to difficult climatic periods for lawns and outdoor ornamental plants. Barfertile Summer Winter is a fertilizing fertilizer that can be used in summer and winter.",
+      "h1": "Fertilizer Barenbrug Summer Winter",
+      "wordCount": 411,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 47,
+      "descriptionLength": 241,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/fine-grain-white-sugar",
+      "path": "/products/fine-grain-white-sugar",
+      "status": 200,
+      "title": "Fine Grain White Sugar | MAHANAKORN",
+      "metaDescription": "Sourced with care and precision, our Fine Grain White Sugar originates from the heart of Thailand, a region renowned for its sugar production. This sugar undergoes a meticulous refining process to achieve a level of purity that meets the highest industry standards. The result is a sugar that not only sweetens but elevates the overall quality of your recipes.",
+      "h1": "Fine Grain White Sugar",
+      "wordCount": 666,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 35,
+      "descriptionLength": 360,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/frozen-2-joint-wing",
+      "path": "/products/frozen-2-joint-wing",
+      "status": 200,
+      "title": "Frozen 2 Joint Wing | MAHANAKORN",
+      "metaDescription": "100% HALAL 100% Organic Food 100% Fresh Not Chemicals",
+      "h1": "Frozen 2 Joint Wing",
+      "wordCount": 350,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 32,
+      "descriptionLength": 53,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/frozen-3-joint-wing",
+      "path": "/products/frozen-3-joint-wing",
+      "status": 200,
+      "title": "Frozen 3 Joint Wing | MAHANAKORN",
+      "metaDescription": "100% HALAL 100% Organic Food 100% Fresh Not Chemicals",
+      "h1": "Frozen 3 Joint Wing",
+      "wordCount": 335,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 32,
+      "descriptionLength": 53,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/frozen-chicken-breast",
+      "path": "/products/frozen-chicken-breast",
+      "status": 200,
+      "title": "Frozen Chicken Breast | MAHANAKORN",
+      "metaDescription": "100% HALAL 100% Organic Food 100% Fresh Not Chemicals",
+      "h1": "Frozen Chicken Breast",
+      "wordCount": 324,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 34,
+      "descriptionLength": 53,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/frozen-chicken-gizzards",
+      "path": "/products/frozen-chicken-gizzards",
+      "status": 200,
+      "title": "Frozen Chicken Gizzards | MAHANAKORN",
+      "metaDescription": "100% HALAL 100% Organic Food 100% Fresh Not Chemicals",
+      "h1": "Frozen Chicken Gizzards",
+      "wordCount": 328,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 36,
+      "descriptionLength": 53,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/frozen-chicken-livers",
+      "path": "/products/frozen-chicken-livers",
+      "status": 200,
+      "title": "Frozen Chicken Livers | MAHANAKORN",
+      "metaDescription": "100% HALAL 100% Organic Food 100% Fresh Not Chemicals",
+      "h1": "Frozen Chicken Livers",
+      "wordCount": 336,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 34,
+      "descriptionLength": 53,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/frozen-middle-joint-wing",
+      "path": "/products/frozen-middle-joint-wing",
+      "status": 200,
+      "title": "Frozen Middle Joint Wing | MAHANAKORN",
+      "metaDescription": "100% HALAL 100% Organic Food 100% Fresh Not Chemicals",
+      "h1": "Frozen Middle Joint Wing",
+      "wordCount": 345,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 37,
+      "descriptionLength": 53,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/granulated-sugar-white-sugar",
+      "path": "/products/granulated-sugar-white-sugar",
+      "status": 200,
+      "title": "Granulated Sugar (White Sugar) | MAHANAKORN",
+      "metaDescription": "Discover the exceptional quality of our Granulated Sugar, a fundamental ingredient for every kitchen. This meticulously refined White Sugar is prized for its fine crystal structure, ensuring rapid...",
+      "h1": "Granulated Sugar (White Sugar)",
+      "wordCount": 650,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 43,
+      "descriptionLength": 199,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/high-oleic-sunflower-oil",
+      "path": "/products/high-oleic-sunflower-oil",
+      "status": 200,
+      "title": "High Oleic Sunflower Oil | MAHANAKORN",
+      "metaDescription": "High Oleic Sunflower Oil is a specially bred form of sunflower oil that is rich in oleic acid, a monounsaturated fat that provides exceptional stability, high heat resistance, and a long shelf...",
+      "h1": "High Oleic Sunflower Oil",
+      "wordCount": 731,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 37,
+      "descriptionLength": 195,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/humus-fertilizer-earthworm-bucket",
+      "path": "/products/humus-fertilizer-earthworm-bucket",
+      "status": 200,
+      "title": "Humus Fertilizer Earthworm Bucket | MAHANAKORN",
+      "metaDescription": "Refined earthworm humus fertilizer is an excellent fertilizer ideal for exhausted soils, for floriculture, for vineyards and orchards. The package on sale is 4.5 kg and is a valid ally for planting, for exhausted soils, for floriculture, foliar fertilization. For further formats contact us.",
+      "h1": "Humus Fertilizer Earthworm Bucket",
+      "wordCount": 425,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 46,
+      "descriptionLength": 291,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/icumsa-100-cane-sugar",
+      "path": "/products/icumsa-100-cane-sugar",
+      "status": 200,
+      "title": "ICUMSA 100 CANE SUGAR | MAHANAKORN",
+      "metaDescription": "ICUMSA 100 Cane Sugar from MAHANAKORN NAKO NAGARAJ CO., LTD is a high-purity sugar sourced from Thailand. Perfect for beverages, confectionery, and more, it offers exceptional clarity...",
+      "h1": "ICUMSA 100 CANE SUGAR",
+      "wordCount": 932,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 34,
+      "descriptionLength": 186,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/icumsa-150-cane-sugar",
+      "path": "/products/icumsa-150-cane-sugar",
+      "status": 200,
+      "title": "ICUMSA 150 CANE SUGAR | MAHANAKORN",
+      "metaDescription": "ICUMSA 150 Cane Sugar from MAHANAKORN NAKO NAGARAJ CO., LTD is prized for its premium quality and versatility. Sourced from Thailand, it undergoes meticulous processing to ensure optimal...",
+      "h1": "ICUMSA 150 CANE SUGAR",
+      "wordCount": 651,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 34,
+      "descriptionLength": 189,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/icumsa-45-white-refined-sugar",
+      "path": "/products/icumsa-45-white-refined-sugar",
+      "status": 200,
+      "title": "ICUMSA-45 WHITE REFINED SUGAR | MAHANAKORN",
+      "metaDescription": "ICUMSA 45 White Refined Sugar from MAHANAKORN NAKO NAGARAJ CO., LTD is a premium sugar variant characterized by its pure white color and fine granules. Ideal for a wide range of culinary uses,...",
+      "h1": "ICUMSA-45 WHITE REFINED SUGAR",
+      "wordCount": 950,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 42,
+      "descriptionLength": 195,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/irri-6-long-grain-riceirri-6-long-grain-rice",
+      "path": "/products/irri-6-long-grain-riceirri-6-long-grain-rice",
+      "status": 200,
+      "title": "IRRI-6 Long Grain RiceIRRI-6 Long Grain Rice | MAHANAKORN",
+      "metaDescription": "Specifications Variety: IRRI-6 Long Grain Rice Grain Length: 6.0 mm (minimum average length) Moisture Content: 14% max Broken Grains: 5% max Foreign Matter: 0.1% max Chalky Grains: 4% max...",
+      "h1": "IRRI-6 Long Grain RiceIRRI-6 Long Grain Rice",
+      "wordCount": 881,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 57,
+      "descriptionLength": 190,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/japonica-rice",
+      "path": "/products/japonica-rice",
+      "status": 200,
+      "title": "Japonica Rice | MAHANAKORN",
+      "metaDescription": "Technical Specifications: Variety: Japonica Rice (Oryza sativa japonica) Grain Type: Short to medium-grain with a slightly plump appearance Processing: Milled and polished to maintain inherent...",
+      "h1": "Japonica Rice",
+      "wordCount": 622,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 26,
+      "descriptionLength": 195,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/jasmine-rice-thai-hom-mali",
+      "path": "/products/jasmine-rice-thai-hom-mali",
+      "status": 200,
+      "title": "Jasmine Rice (Thai Hom Mali) | MAHANAKORN",
+      "metaDescription": "Specifications of Thai Hom Mali Rice\r\n\r\n&amp;nbsp;\r\n\r\nPurity : 92%\r\n\r\nWhole Kernels: 60% Max\r\n\r\nVariety: Long Grain Rice\r\n\r\nBroken (5.2 mm.): 4.5% Max\r\n\r\nMoisture: 14% Max\r\n\r\nAdmixture: 2% Max\r\n\r\nRed kernels : 0%\r\n\r\nYellow kernels: 0.2% Max\r\n\r\nChalky kernels: 6% Max\r\n\r\nCrop Year : 2012-2013\r\n\r\nWhite Glutinous Rice : 1.5% Max\r\n\r\nPaddy (grain per 1 kg.): 7 Grains\r\n\r\nCountry of Origin : Thailand",
+      "h1": "Jasmine Rice (Thai Hom Mali)",
+      "wordCount": 852,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 41,
+      "descriptionLength": 395,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/long-life-frying-oil",
+      "path": "/products/long-life-frying-oil",
+      "status": 200,
+      "title": "Long Life Frying Oil | MAHANAKORN",
+      "metaDescription": "Long Life Frying Oil Home Long Life Frying Oil Long Life Frying Oil 0 out of 5 based on 0 customer ratings (0 customer reviews) Product Meta Category: Cooking Oil Description Reviews (0) Product...",
+      "h1": "Long Life Frying Oil | Long Life Frying Oil",
+      "wordCount": 648,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 33,
+      "descriptionLength": 197,
+      "flags": [
+        "description_too_long",
+        "multiple_h1",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/mapmonoammonium-phosphate",
+      "path": "/products/mapmonoammonium-phosphate",
+      "status": 200,
+      "title": "Mapmonoammonium Phosphate | MAHANAKORN",
+      "metaDescription": "MAP is an efficient source of phosphorus. It facilitates plant uptake of the phosphorus naturally present in the soil. This is due to the ammonium (NH4+) in MAP, which lowers the pH in the root...",
+      "h1": "Mapmonoammonium Phosphate",
+      "wordCount": 854,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 38,
+      "descriptionLength": 196,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/monopotassium-phosphate",
+      "path": "/products/monopotassium-phosphate",
+      "status": 200,
+      "title": "Monopotassium Phosphate | MAHANAKORN",
+      "metaDescription": "Monopotassium phosphate (KH2PO4) is a water-soluble salt used as a fertilizer, providing plants with phosphorus and potassium. It aids root development and disease resistance, enhancing overall...",
+      "h1": "Monopotassium Phosphate",
+      "wordCount": 650,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 36,
+      "descriptionLength": 196,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/nitrogen-fertilizer",
+      "path": "/products/nitrogen-fertilizer",
+      "status": 200,
+      "title": "NITROGEN FERTILIZER | MAHANAKORN",
+      "metaDescription": "It promotes lush green foliage, enhances photosynthesis, and boosts crop yields. Common forms include ammonium sulfate, urea, and ammonium nitrate. While effective, excessive use can lead to...",
+      "h1": "NITROGEN FERTILIZER",
+      "wordCount": 917,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 32,
+      "descriptionLength": 193,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/npk",
+      "path": "/products/npk",
+      "status": 200,
+      "title": "NPK | MAHANAKORN",
+      "metaDescription": "Also can add other nutrition element according to your request. Product name:Zinc Sulphate Monohydrate feed grade/fertilizer grade Chemical formula:ZnSO4·H2O CAS:7446-19-7 Product performance:...",
+      "h1": "NPK",
+      "wordCount": 743,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 16,
+      "descriptionLength": 195,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/organic-white-cane-sugar-1-45",
+      "path": "/products/organic-white-cane-sugar-1-45",
+      "status": 200,
+      "title": "ORGANIC WHITE CANE SUGAR 1-45 | MAHANAKORN",
+      "metaDescription": "Highly refined white crystal sugar, free from any harmful substances, suitable for human consumption and compliant with international food standards . ICUMSA 1 45 indicates the highest quality and...",
+      "h1": "ORGANIC WHITE CANE SUGAR 1-45",
+      "wordCount": 456,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 42,
+      "descriptionLength": 199,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/parboiled-rice-5-broken",
+      "path": "/products/parboiled-rice-5-broken",
+      "status": 200,
+      "title": "Parboiled Rice 5% Broken | MAHANAKORN",
+      "metaDescription": "Specifications of Parboiled Rice 5% Broken PARBOILED RICE IR- 36/64 Broken (Basis 2/3 of Average Grain Rice Length): 5% Max Moisture: 14% max Foreign Matter /Damaged / Discolored Grains / Dead...",
+      "h1": "Parboiled Rice 5% Broken",
+      "wordCount": 512,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 37,
+      "descriptionLength": 195,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/pistachio-nuts",
+      "path": "/products/pistachio-nuts",
+      "status": 200,
+      "title": "Pistachio Nuts | MAHANAKORN",
+      "metaDescription": "100% natural organic pistachio nuts from Chon Buri, Thailand. Nutrient-dense, cholesterol-free, and rich in potassium and iron. Wholesale supply with MOQ from 5 tons.",
+      "h1": "Pistachio Nuts",
+      "wordCount": 475,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 27,
+      "descriptionLength": 166,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/privi-000050-17-5-s-water-soluble-fertilizer",
+      "path": "/products/privi-000050-17-5-s-water-soluble-fertilizer",
+      "status": 200,
+      "title": "PRIVI 100% Water Soluble Fertilizer | MAHANAKORN",
+      "metaDescription": "Privi 00:00:50 + 17.5 S is a fully water-soluble NPK fertilizer enriched with sulphur, designed to provide balanced potassium and sulphur nutrition during critical growth stages of crops.",
+      "h1": "PRIVI 100% Water Soluble Fertilizer",
+      "wordCount": 398,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 48,
+      "descriptionLength": 187,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/quality-brown-rice",
+      "path": "/products/quality-brown-rice",
+      "status": 200,
+      "title": "Quality Brown Rice | MAHANAKORN",
+      "metaDescription": "Chemical Specifications: Moisture Content: Not exceeding 14% Total Ash: Max 2.0% Broken Grains: Max 5% Foreign Matter: Max 0.5% Chalky Grains: Max 3% Average Grain Length: 6.00 to 6.50 mm Mill...",
+      "h1": "Quality Brown Rice",
+      "wordCount": 798,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 31,
+      "descriptionLength": 195,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/icumsa-600-1200-brown-cane-sugar",
+      "path": "/products/icumsa-600-1200-brown-cane-sugar",
+      "status": 200,
+      "title": "Raw Brown Cane Sugar Grade E ICUMSA 600-1200 | MAHANAKORN",
+      "metaDescription": "Rich Brown Color and Distinctive Flavor : ICUMSA 600-1200 Brown Cane Sugar is characterized by its rich brown color and robust flavor profile, derived from Thailand&#x27;s sun-drenched cane fields....",
+      "h1": "Raw Brown Cane Sugar Grade E ICUMSA 600-1200",
+      "wordCount": 799,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 57,
+      "descriptionLength": 200,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/rbd-corn-oil",
+      "path": "/products/rbd-corn-oil",
+      "status": 200,
+      "title": "RBD Corn Oil | MAHANAKORN",
+      "metaDescription": "RBD Corn Oil Home RBD Corn Oil RBD Corn Oil 0 out of 5 based on 0 customer ratings (0 customer reviews) Product Meta Category: Cooking Oil Description Reviews (0) Product Description Our company...",
+      "h1": "RBD Corn Oil | RBD Corn Oil",
+      "wordCount": 637,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 25,
+      "descriptionLength": 197,
+      "flags": [
+        "description_too_long",
+        "multiple_h1",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/rbd-groundnut-peanut-oil",
+      "path": "/products/rbd-groundnut-peanut-oil",
+      "status": 200,
+      "title": "RBD Groundnut / Peanut Oil | MAHANAKORN",
+      "metaDescription": "RBD Groundnut / Peanut Oil Home RBD Groundnut / Peanut Oil RBD Groundnut / Peanut Oil 0 out of 5 based on 0 customer ratings (0 customer reviews) Product Meta Category: Cooking Oil Description...",
+      "h1": "RBD Groundnut / Peanut Oil | RBD Groundnut / Peanut Oil",
+      "wordCount": 654,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 39,
+      "descriptionLength": 195,
+      "flags": [
+        "description_too_long",
+        "multiple_h1",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/rbd-palm-oil-36-39",
+      "path": "/products/rbd-palm-oil-36-39",
+      "status": 200,
+      "title": "RBD Palm Oil ( 36 – 39 ) | MAHANAKORN",
+      "metaDescription": "RBD Palm Oil ( 36 – 39 ) Home RBD Palm Oil ( 36 – 39 ) RBD Palm Oil ( 36 – 39 ) 0 out of 5 based on 0 customer ratings (0 customer reviews) Product Meta Category: Cooking Oil Description Reviews...",
+      "h1": "RBD Palm Oil ( 36 – 39 ) | RBD Palm Oil ( 36 – 39 )",
+      "wordCount": 678,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 37,
+      "descriptionLength": 197,
+      "flags": [
+        "description_too_long",
+        "multiple_h1",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/rbd-palm-olein",
+      "path": "/products/rbd-palm-olein",
+      "status": 200,
+      "title": "RBD Palm Olein | MAHANAKORN",
+      "metaDescription": "RBD Palm Olein Home RBD Palm Olein RBD Palm Olein 0 out of 5 based on 0 customer ratings (0 customer reviews) Product Meta Category: Cooking Oil Description Reviews (0) Product Description Our...",
+      "h1": "RBD Palm Olein | RBD Palm Olein",
+      "wordCount": 626,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 27,
+      "descriptionLength": 195,
+      "flags": [
+        "description_too_long",
+        "multiple_h1",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/rbd-rapeseed-canola-oil",
+      "path": "/products/rbd-rapeseed-canola-oil",
+      "status": 200,
+      "title": "RBD Rapeseed / Canola Oil | MAHANAKORN",
+      "metaDescription": "RBD Rapeseed / Canola Oil Home RBD Rapeseed / Canola Oil RBD Rapeseed / Canola Oil 0 out of 5 based on 0 customer ratings (0 customer reviews) Product Meta Category: Cooking Oil Description...",
+      "h1": "RBD Rapeseed / Canola Oil | RBD Rapeseed / Canola Oil",
+      "wordCount": 643,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 38,
+      "descriptionLength": 192,
+      "flags": [
+        "description_too_long",
+        "multiple_h1",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/rbd-soybean-oil",
+      "path": "/products/rbd-soybean-oil",
+      "status": 200,
+      "title": "RBD Soybean Oil | MAHANAKORN",
+      "metaDescription": "RBD Soybean Oil Home RBD Soybean Oil RBD Soybean Oil 0 out of 5 based on 0 customer ratings (0 customer reviews) Product Meta Category: Cooking Oil Description Reviews (0) Product Description Our...",
+      "h1": "RBD Soybean Oil | RBD Soybean Oil",
+      "wordCount": 625,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 28,
+      "descriptionLength": 198,
+      "flags": [
+        "description_too_long",
+        "multiple_h1",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/rbdw-sunflower-oil",
+      "path": "/products/rbdw-sunflower-oil",
+      "status": 200,
+      "title": "RBDW Sunflower Oil | MAHANAKORN",
+      "metaDescription": "Our company is a major global supplier of refined and unrefined sunflower oil for both bulk and bottles. We regularly provide only premium, pure sunflower oil free of the addition of any other...",
+      "h1": "RBDW Sunflower Oil",
+      "wordCount": 478,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 31,
+      "descriptionLength": 195,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/refined-brown-sugar-icumsa-600-1200",
+      "path": "/products/refined-brown-sugar-icumsa-600-1200",
+      "status": 200,
+      "title": "Refined Brown Sugar Icumsa 600 - 1200 | MAHANAKORN",
+      "metaDescription": "Refined Brown Sugar with an ICUMSA rating of 600-1200 is a type of raw brown sugar that retains a significant amount of molasses, giving it a rich flavor and darker color compared to white sugar....",
+      "h1": "Refined Brown Sugar Icumsa 600 - 1200",
+      "wordCount": 786,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 50,
+      "descriptionLength": 198,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/rri-9-long-grain-ricerri-9-long-grain-rice",
+      "path": "/products/rri-9-long-grain-ricerri-9-long-grain-rice",
+      "status": 200,
+      "title": "RRI 9 Long Grain RiceRRI 9 Long Grain Rice | MAHANAKORN",
+      "metaDescription": "Specifications Variety: IRRI 9 Long Grain Rice Grain Length: 6.8 mm (minimum average length) Moisture Content: 14% max Broken Grains: 5% max Foreign Matter: 0.5% max Chalky Grains: 5% max...",
+      "h1": "RRI 9 Long Grain RiceRRI 9 Long Grain Rice",
+      "wordCount": 716,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 55,
+      "descriptionLength": 190,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/superphosphate",
+      "path": "/products/superphosphate",
+      "status": 200,
+      "title": "Superphosphate | MAHANAKORN",
+      "metaDescription": "Supply plant phosphorus, calcium, sulfur and other elements, with improved alkaline soil effect. Used as a base fertilizer, foliar application, foliar spray. Mixed with nitrogen fertilizer use,...",
+      "h1": "Superphosphate",
+      "wordCount": 706,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 27,
+      "descriptionLength": 196,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/thai-brown-jasmine-rice",
+      "path": "/products/thai-brown-jasmine-rice",
+      "status": 200,
+      "title": "Thai Brown Jasmine Rice | MAHANAKORN",
+      "metaDescription": "Variety: Long Grain Rice\r\nShape : Long\r\nColour : Brown\r\nBrand: jasmine\r\nCultivation Type: Organic\r\nKind: Aromatic Rice\r\nStyle: Fresh\r\nPart: Bran\r\nCrop Year : Current",
+      "h1": "Thai Brown Jasmine Rice | Brown Jasmine Rice",
+      "wordCount": 527,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 36,
+      "descriptionLength": 165,
+      "flags": [
+        "description_too_long",
+        "multiple_h1",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/thai-glutinous-rice",
+      "path": "/products/thai-glutinous-rice",
+      "status": 200,
+      "title": "Thai Glutinous Rice | MAHANAKORN",
+      "metaDescription": "Characteristics: Variety: Glutinous Rice (Oryza sativa var. glutinosa) Texture: The hallmark of glutinous rice is its sticky, chewy texture when cooked, making it perfect for dishes where a...",
+      "h1": "Thai Glutinous Rice",
+      "wordCount": 799,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 32,
+      "descriptionLength": 192,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/thai-glutinous-rice-25-broken",
+      "path": "/products/thai-glutinous-rice-25-broken",
+      "status": 200,
+      "title": "Thai Glutinous Rice 25% Broken | MAHANAKORN",
+      "metaDescription": "Chemical Specifications: Moisture Content: Typically maintained at levels not exceeding 14% to ensure optimal storage and quality retention. Purity: Rigorous quality checks to ensure absence of...",
+      "h1": "Thai Glutinous Rice 25% Broken",
+      "wordCount": 490,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 43,
+      "descriptionLength": 196,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/thai-hom-patum-rice",
+      "path": "/products/thai-hom-patum-rice",
+      "status": 200,
+      "title": "Thai Hom Patum Rice | MAHANAKORN",
+      "metaDescription": "Thai Hom Patum Rice RD31(Pathum Thani 80) has been certified since 6 March 2007. Harvesting period is 110 days. A short period after cooking, the rice has fragrance and soft texture. Since the grains have amylose around 27.3 – 29.8 % so, once the rice temperature becomes low, the texture becomes harder.",
+      "h1": "Thai Hom Patum Rice",
+      "wordCount": 541,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 32,
+      "descriptionLength": 304,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/thai-jasmine-black-cargo-rice",
+      "path": "/products/thai-jasmine-black-cargo-rice",
+      "status": 200,
+      "title": "Thai Jasmine Black Cargo Rice | MAHANAKORN",
+      "metaDescription": "Thai Jasmine Black Cargo Rice is black color, comes with good taste and its unique fragrance . Only its husk has been removed to retain its nutrients, vitamins and mineral. Jasmine Black Cargo...",
+      "h1": "Thai Jasmine Black Cargo Rice",
+      "wordCount": 440,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 42,
+      "descriptionLength": 195,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/thai-jasmine-red-cargo-rice",
+      "path": "/products/thai-jasmine-red-cargo-rice",
+      "status": 200,
+      "title": "Thai Jasmine Red Cargo Rice | MAHANAKORN",
+      "metaDescription": "Thai Red Cargo Rice is a variety of non-glutinous long-grain rice, related to brown rice, in that it is simple rice, merely the color of the fiber is purple, maroon or red. Only the shells of the rice grains are detached through the milling procedure, recalling all the vitamins, nutrients and minerals entire in the bran cover and in the kernel.",
+      "h1": "Thai Jasmine Red Cargo Rice",
+      "wordCount": 562,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 40,
+      "descriptionLength": 346,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/thai-long-grain-rice",
+      "path": "/products/thai-long-grain-rice",
+      "status": 200,
+      "title": "Thai Long Grain Rice | MAHANAKORN",
+      "metaDescription": "Specifications: Type: Rice Texture: Soft Kind: White Rice Variety: Long-Grain Rice Style: Dried Cultivation Type: Common Color: White Broken Ratio (%): 25 % Max. Moisture (%): 14 % Admixture (%):...",
+      "h1": "Thai Long Grain Rice",
+      "wordCount": 619,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 33,
+      "descriptionLength": 198,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/thai-parboiled-rice",
+      "path": "/products/thai-parboiled-rice",
+      "status": 200,
+      "title": "Thai Parboiled Rice | MAHANAKORN",
+      "metaDescription": "Technical Data: Variety: Thai Parboiled Rice (Oryza sativa) Grain Type: Medium to long grains Processing: Parboiled to retain nutrients and enhance grain firmness Color: Translucent golden grains...",
+      "h1": "Thai Parboiled Rice",
+      "wordCount": 667,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 32,
+      "descriptionLength": 198,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/thai-riceberry-rice",
+      "path": "/products/thai-riceberry-rice",
+      "status": 200,
+      "title": "Thai Riceberry Rice | MAHANAKORN",
+      "metaDescription": "Thai Riceberry Rice Vitamin A equiv.beta-Carotene: 1%63 μg Vitamin E: 5% 0.68 mg Iron: 10% 1.8 mg Minerals: Quantity %DV † Zinc: 29% 3.2 mg Origin : Thailand",
+      "h1": "Thai Riceberry Rice",
+      "wordCount": 408,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 32,
+      "descriptionLength": 157,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/thai-white-rice-100-broken",
+      "path": "/products/thai-white-rice-100-broken",
+      "status": 200,
+      "title": "Thai White rice 100% broken | MAHANAKORN",
+      "metaDescription": "We (MAHANAKORN NAKO NAGARAJ CO., LTD) are the prominent Parboiled Broken Rice A1 Exporter and Supplier in Thailand. We are contributory in delivering to our valued customer’s superior quality Broken Parboiled Rice A1 which is obtainable with following specification at the lowest price",
+      "h1": "Thai White rice 100% broken",
+      "wordCount": 711,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 40,
+      "descriptionLength": 285,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/thai-white-rice-100-sortexed",
+      "path": "/products/thai-white-rice-100-sortexed",
+      "status": 200,
+      "title": "Thai White Rice 100% Sortexed | MAHANAKORN",
+      "metaDescription": "Thai White rice 100% sortexed is a premium variety of rice that has undergone a meticulous sorting process to ensure exceptional quality. Sourced from the fertile fields of Thailand, this rice is renowned for its pure white grains that are long, slender, and fluffy in texture. The sortexing technique employed in its production involves the use of cutting-edge technology to meticulously sort and remove any impurities such as broken grains, stones, or husks. This ensures that only the finest, most uniform grains make it to your plate.",
+      "h1": "Thai White Rice 100% Sortexed",
+      "wordCount": 785,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 42,
+      "descriptionLength": 538,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/urea",
+      "path": "/products/urea",
+      "status": 200,
+      "title": "UREA | MAHANAKORN",
+      "metaDescription": "Urea is a neutral quick-acting fertilizer with a chemical formula of CO(NH2)2 and a nitrogen content of up to 46%. ‌‌Urea is a white crystal that is tasteless and odorless, easily soluble in...",
+      "h1": "UREA",
+      "wordCount": 971,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 17,
+      "descriptionLength": 193,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/vanproz-growth-enhancer-organic-fertilizer-agribegri",
+      "path": "/products/vanproz-growth-enhancer-organic-fertilizer-agribegri",
+      "status": 200,
+      "title": "Vanproz Growth Enhancer Organic Fertilizer | AgriBegri | MAHANAKORN",
+      "metaDescription": "Shop For Vanproz Super Potassium Humate (98%) Organic Fertilizer Online From AgriBegri With Free Nationwide Delivery Service.",
+      "h1": "Vanproz Growth Enhancer Organic Fertilizer | AgriBegri",
+      "wordCount": 386,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 67,
+      "descriptionLength": 125,
+      "flags": [
+        "title_too_long",
+        "multiple_h1",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/vhp-sugar",
+      "path": "/products/vhp-sugar",
+      "status": 200,
+      "title": "VHP SUGAR | MAHANAKORN",
+      "metaDescription": "VHP (Very High Polarization) Sugar from MAHANAKORN NAKO NAGARAJ CO., LTD is a premium sugar known for its high purity and exceptional sweetness. Derived from Thailand&#x27;s fertile sugarcane...",
+      "h1": "VHP SUGAR",
+      "wordCount": 588,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 22,
+      "descriptionLength": 194,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/white-rice-5-broken",
+      "path": "/products/white-rice-5-broken",
+      "status": 200,
+      "title": "White Rice 5% Broken | MAHANAKORN",
+      "metaDescription": "We (MAHANAKORN NAKO NAGARAJ CO., LTD) are the prominent Thai White Rice 5% Broken Exporter and Supplier in Thailand. We are contributory in delivering to our valued customer’s superior quality 5 Percent White Rice which is obtainable with following specification at the lowest price.",
+      "h1": "White Rice 5% Broken",
+      "wordCount": 471,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 33,
+      "descriptionLength": 283,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/whole-chicken-griller",
+      "path": "/products/whole-chicken-griller",
+      "status": 200,
+      "title": "Whole Chicken (Griller) | MAHANAKORN",
+      "metaDescription": "100% HALAL 100% Organic Food 100% Fresh Not Chemicals",
+      "h1": "Whole Chicken (Griller)",
+      "wordCount": 335,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 36,
+      "descriptionLength": 53,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/zinc-sulfate-heptahydrate",
+      "path": "/products/zinc-sulfate-heptahydrate",
+      "status": 200,
+      "title": "Zinc Sulfate Heptahydrate | MAHANAKORN",
+      "metaDescription": "Zinc is the forming element of many enzymes and hormone, and participates in\r\nmetabolism of protein, carbohydrate as well as lipid. When lack of zinc, animals\r\nexhibit inappetence, slow growth, thick and disorderly clothing hair, depilation, dry\r\nand chappy skin and unease-cure wound. Adding high dosage zinc in initial feed for\r\nsucking can reduce diarrhea and increase weight.",
+      "h1": "Zinc Sulfate Heptahydrate",
+      "wordCount": 753,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 38,
+      "descriptionLength": 379,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://mahanakornco.com",
+      "path": "/",
+      "status": 200,
+      "title": "MAHANAKORN NAKO NAGARAJ CO., LTD | Your #1 Rice, Sugar, Edible Cooking Oil and Fertilizer Supplier",
+      "metaDescription": "MAHANAKORN NAKO NAGARAJ CO., LTD is a trusted wholesale supplier of sugar, rice, fertilizer, and edible cooking oil from Thailand. Established in 2004.",
+      "h1": "Your Trusted Agricultural Commodities Partner",
+      "wordCount": 651,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Homepage",
+      "titleLength": 98,
+      "descriptionLength": 151,
+      "flags": [
+        "title_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/about",
+      "path": "/about",
+      "status": 200,
+      "title": "About Us | MAHANAKORN",
+      "metaDescription": "Learn about MAHANAKORN NAKO NAGARAJ CO., LTD — a trusted wholesale supplier of agricultural commodities from Thailand since 2004.",
+      "h1": "About Us",
+      "wordCount": 395,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Info",
+      "titleLength": 21,
+      "descriptionLength": 129,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products",
+      "path": "/products",
+      "status": 200,
+      "title": "Products | MAHANAKORN",
+      "metaDescription": "Browse our full range of sugar, rice, fertilizers, edible cooking oil, and poultry products for wholesale export.",
+      "h1": "Our Products",
+      "wordCount": 3473,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product Hub",
+      "titleLength": 21,
+      "descriptionLength": 113,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/contact",
+      "path": "/contact",
+      "status": 200,
+      "title": "Contact Us | MAHANAKORN",
+      "metaDescription": "Get in touch with MAHANAKORN NAKO NAGARAJ CO., LTD for wholesale quotes and product inquiries.",
+      "h1": "Get a Quote",
+      "wordCount": 226,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Info",
+      "titleLength": 23,
+      "descriptionLength": 94,
+      "flags": [
+        "missing_canonical",
+        "thin_content"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/ordering-procedures",
+      "path": "/ordering-procedures",
+      "status": 200,
+      "title": "Ordering Procedures | MAHANAKORN",
+      "metaDescription": "How to order agricultural commodities from MAHANAKORN NAKO NAGARAJ CO., LTD.",
+      "h1": "Ordering Procedures",
+      "wordCount": 374,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Info",
+      "titleLength": 32,
+      "descriptionLength": 76,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/quality-control",
+      "path": "/quality-control",
+      "status": 200,
+      "title": "Quality Control | MAHANAKORN",
+      "metaDescription": "Quality assurance standards at MAHANAKORN NAKO NAGARAJ CO., LTD.",
+      "h1": "Quality Control",
+      "wordCount": 335,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Info",
+      "titleLength": 28,
+      "descriptionLength": 64,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/sustainability",
+      "path": "/sustainability",
+      "status": 200,
+      "title": "Sustainability | MAHANAKORN",
+      "metaDescription": "Environmental and social responsibility at MAHANAKORN NAKO NAGARAJ CO., LTD.",
+      "h1": "Sustainability",
+      "wordCount": 321,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Info",
+      "titleLength": 27,
+      "descriptionLength": 76,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/privacy-policy",
+      "path": "/privacy-policy",
+      "status": 200,
+      "title": "Privacy Policy | MAHANAKORN",
+      "metaDescription": "Privacy policy for MAHANAKORN NAKO NAGARAJ CO., LTD.",
+      "h1": "Privacy Policy",
+      "wordCount": 525,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Legal",
+      "titleLength": 27,
+      "descriptionLength": 52,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/sugar",
+      "path": "/sugar",
+      "status": 200,
+      "title": "Sugar | MAHANAKORN",
+      "metaDescription": "Premium ICUMSA cane sugar varieties sourced from Thailand.",
+      "h1": "Sugar",
+      "wordCount": 426,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Category",
+      "titleLength": 18,
+      "descriptionLength": 58,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/fertilizers",
+      "path": "/fertilizers",
+      "status": 200,
+      "title": "Fertilizers | MAHANAKORN",
+      "metaDescription": "High-quality agricultural fertilizers and micronutrients.",
+      "h1": "Fertilizers",
+      "wordCount": 1413,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Category",
+      "titleLength": 24,
+      "descriptionLength": 57,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/rice",
+      "path": "/rice",
+      "status": 200,
+      "title": "Rice | MAHANAKORN",
+      "metaDescription": "Premium Thai rice varieties for global wholesale markets.",
+      "h1": "Rice",
+      "wordCount": 919,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Category",
+      "titleLength": 17,
+      "descriptionLength": 57,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/edible-cooking-oil",
+      "path": "/edible-cooking-oil",
+      "status": 200,
+      "title": "Edible Cooking Oil | MAHANAKORN",
+      "metaDescription": "Refined edible oils for food industry and bulk supply.",
+      "h1": "Edible Cooking Oil",
+      "wordCount": 428,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Category",
+      "titleLength": 31,
+      "descriptionLength": 54,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/poultry-products",
+      "path": "/poultry-products",
+      "status": 200,
+      "title": "Poultry Products | MAHANAKORN",
+      "metaDescription": "Quality poultry products for wholesale distribution.",
+      "h1": "Poultry Products",
+      "wordCount": 204,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Category",
+      "titleLength": 29,
+      "descriptionLength": 52,
+      "flags": [
+        "missing_canonical",
+        "thin_content"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/nuts",
+      "path": "/nuts",
+      "status": 200,
+      "title": "Nuts | MAHANAKORN",
+      "metaDescription": "Premium natural nuts for wholesale and export markets.",
+      "h1": "Nuts",
+      "wordCount": 92,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Category",
+      "titleLength": 17,
+      "descriptionLength": 54,
+      "flags": [
+        "missing_canonical",
+        "thin_content"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/1121-sella-basmati-rice",
+      "path": "/products/1121-sella-basmati-rice",
+      "status": 200,
+      "title": "1121 Sella Basmati Rice | MAHANAKORN",
+      "metaDescription": "Benefits and Culinary Prestige: Long-Grain Marvel: The elongated grains make it an ideal choice for a myriad of culinary delights, ranging from aromatic biryanis to flavorful pilafs, imparting an...",
+      "h1": "1121 Sella Basmati Rice",
+      "wordCount": 725,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 36,
+      "descriptionLength": 198,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/agriventure-calcium-nitrate-water-soluble-fertilizer",
+      "path": "/products/agriventure-calcium-nitrate-water-soluble-fertilizer",
+      "status": 200,
+      "title": "Agriventure Calcium Nitrate Water Soluble Fertilizer | MAHANAKORN",
+      "metaDescription": "Buy Agriventure Calcium Nitrate Water Soluble Fertilizer Online To Increase Crop Quality And Yield From AgriBegri With Free Nationwide Delivery Service.",
+      "h1": "Agriventure Calcium Nitrate Water Soluble Fertilizer",
+      "wordCount": 415,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 65,
+      "descriptionLength": 152,
+      "flags": [
+        "title_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/agriventure-magnesium-sulfate-water-soluble-fertilizer",
+      "path": "/products/agriventure-magnesium-sulfate-water-soluble-fertilizer",
+      "status": 200,
+      "title": "Agriventure Magnesium Sulfate Water Soluble Fertilizer | MAHANAKORN",
+      "metaDescription": "Buy Agriventure Magnesium Sulphate Water Soluble Fertilizer Online From AgriBegri With Free Nationwide Delivery Service.",
+      "h1": "Agriventure Magnesium Sulfate Water Soluble Fertilizer",
+      "wordCount": 409,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 67,
+      "descriptionLength": 120,
+      "flags": [
+        "title_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/ammonium-sulfate",
+      "path": "/products/ammonium-sulfate",
+      "status": 200,
+      "title": "Ammonium Sulfate | MAHANAKORN",
+      "metaDescription": "In agriculture, ammonium sulfate is widely used as a nitrogen fertilizer, providing essential nitrogen and sulfur nutrients for plant growth.",
+      "h1": "Ammonium Sulfate",
+      "wordCount": 715,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 29,
+      "descriptionLength": 141,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/arborio-rice",
+      "path": "/products/arborio-rice",
+      "status": 200,
+      "title": "Arborio Rice | MAHANAKORN",
+      "metaDescription": "Chemical Specifications: Moisture Content: Maintained within optimal levels, typically not exceeding 14%, ensuring freshness and quality preservation. Purity: Rigorous quality checks to ensure...",
+      "h1": "Arborio Rice",
+      "wordCount": 626,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 25,
+      "descriptionLength": 195,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/automotive-urea",
+      "path": "/products/automotive-urea",
+      "status": 200,
+      "title": "Automotive Urea | MAHANAKORN",
+      "metaDescription": "Automotive urea has the advantages of low toxicity, low corrosiveness, and non flammability, and is mainly used for exhaust purification of heavy-duty diesel engines, such as large trucks and...",
+      "h1": "Automotive Urea",
+      "wordCount": 718,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 28,
+      "descriptionLength": 194,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/barenbrug-algaturf-fertilizer",
+      "path": "/products/barenbrug-algaturf-fertilizer",
+      "status": 200,
+      "title": "Barenbrug Algaturf Fertilizer | MAHANAKORN",
+      "metaDescription": "The algaturf fertilizer by barenrbug is used to stimulate and maintain with its high potassium content outdoor ornamental plants and lawns throughout the year. Algaturf is a liquid fertilizer. Barfertile algaturf is a fertilizer that can be used in the year in conditions of stress of the plant or soil.",
+      "h1": "Barenbrug Algaturf Fertilizer",
+      "wordCount": 432,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 42,
+      "descriptionLength": 303,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/barenbrug-k-plus-fertilizer-25-kg",
+      "path": "/products/barenbrug-k-plus-fertilizer-25-kg",
+      "status": 200,
+      "title": "Barenbrug K-PLUS fertilizer 2,5 kg | MAHANAKORN",
+      "metaDescription": "The k-plus fertilizer by barenrbug is used to stimulate and maintain with its high potassium content outdoor ornamental plants and lawns in the summer and winter periods. The packaging of this...",
+      "h1": "Barenbrug K-PLUS fertilizer 2,5 kg",
+      "wordCount": 435,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 47,
+      "descriptionLength": 195,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/barfertile-active-barenbrug",
+      "path": "/products/barfertile-active-barenbrug",
+      "status": 200,
+      "title": "Barfertile Active Barenbrug | MAHANAKORN",
+      "metaDescription": "This Barenbrug fertilizer is a granular fertilizer with controlled release ideal for all year round. We recommend using this fertilizer for lawns 25-30g/m2, for garden plants 40-50g/m2, for vegetable plants 60-80g/m2.",
+      "h1": "Barfertile Active Barenbrug",
+      "wordCount": 394,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 40,
+      "descriptionLength": 217,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/barfertile-ecolit",
+      "path": "/products/barfertile-ecolit",
+      "status": 200,
+      "title": "Barfertile Ecolit | MAHANAKORN",
+      "metaDescription": "Liquid fertilizer in 5 kg version by Barenbrug to improve the structure of the soil and avoid dry-spots in the soil. The root system of a lawn or an ornamental outdoor plant benefits from the application of this product for the greater absorption of calcium, phosphorus and calcium. Barfertile Ecolit is a fertilizer fertilizer that can be used all year round in conditions of stress of the plant or soil.",
+      "h1": "Barfertile Ecolit",
+      "wordCount": 467,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 30,
+      "descriptionLength": 405,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/barfertile-planta-fit-biostimulant",
+      "path": "/products/barfertile-planta-fit-biostimulant",
+      "status": 200,
+      "title": "Barfertile Planta-fit Biostimulant | MAHANAKORN",
+      "metaDescription": "Liquid fertilizer in 5 kg version by Barenbrug to improve the structure of the soil and avoid dry-spots in the soil. The root system of a lawn or an ornamental outdoor plant benefits from the application of this product for the greater absorption of calcium, phosphorus and calcium. Barfertile Planti-fit is a fertilizing fertilizer that can be used all year round in conditions of stress of the plant or the soil.",
+      "h1": "Barfertile Planta-fit Biostimulant",
+      "wordCount": 474,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 47,
+      "descriptionLength": 414,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/barfertile-pro-start-5-kg",
+      "path": "/products/barfertile-pro-start-5-kg",
+      "status": 200,
+      "title": "Barfertile Pro-start 5 kg | MAHANAKORN",
+      "metaDescription": "Liquid fertilizer in 5 kg version by Barenbrug to improve the structure of the soil and avoid dry-spots in the soil. The root system of a lawn or an ornamental outdoor plant benefits from the application of this product for the greater absorption of calcium, phosphorus and calcium. Barfertile Planti-fit is a fertilizing fertilizer that can be used all year round in conditions of stress of the plant or the soil.",
+      "h1": "Barfertile Pro-start 5 kg",
+      "wordCount": 479,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 38,
+      "descriptionLength": 414,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/barfertile-radi-fit-radical-biostimulant",
+      "path": "/products/barfertile-radi-fit-radical-biostimulant",
+      "status": 200,
+      "title": "Barfertile Radi-Fit Radical Biostimulant | MAHANAKORN",
+      "metaDescription": "Liquid fertilizer in 5 kg version by Barenbrug to improve the structure of the soil and avoid dry-spots in the soil. The root system of a lawn or an ornamental outdoor plant benefits from the application of this product for the greater absorption of calcium, phosphorus and calcium. Barfertile Radi-fit is a fertilizer fertilizer that can be used all year round in conditions of stress of the plant or soil.",
+      "h1": "Barfertile Radi-Fit Radical Biostimulant",
+      "wordCount": 477,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 53,
+      "descriptionLength": 407,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/barfertile-sport-barenbrug-npk",
+      "path": "/products/barfertile-sport-barenbrug-npk",
+      "status": 200,
+      "title": "Barfertile Sport Barenbrug NPK | MAHANAKORN",
+      "metaDescription": "This Barenbrug fertilizer is a controlled release granular fertilizer rich in nitrogen that has as its prerogative the vegetative push for the spring and late summer. This mineral fertilizer allows you to have a boost in the spring.",
+      "h1": "Barfertile Sport Barenbrug NPK",
+      "wordCount": 413,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 43,
+      "descriptionLength": 232,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/barfertile-spring-autumn-fertilizer",
+      "path": "/products/barfertile-spring-autumn-fertilizer",
+      "status": 200,
+      "title": "Barfertile Spring Autumn fertilizer | MAHANAKORN",
+      "metaDescription": "Barenbrug 20 kg granular fertilizer to improve soil structure and avoid dry spots in the soil. The root system of a lawn or an outdoor ornamental plant benefits from the application of this product for greater absorption of calcium, phosphorus and calcium. Barfertile Spring Autumn is a fertilizer that can be used in spring and autumn in conditions of stress of the plant or soil.",
+      "h1": "Barfertile Spring Autumn fertilizer",
+      "wordCount": 467,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 48,
+      "descriptionLength": 381,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/beet-sugar",
+      "path": "/products/beet-sugar",
+      "status": 200,
+      "title": "BEET SUGAR | MAHANAKORN",
+      "metaDescription": "Beet Sugar from MAHANAKORN NAKO NAGARAJ CO., LTD is a high-quality sugar product derived from sugar beets cultivated under optimal conditions. Known for its natural sweetness and purity, beet...",
+      "h1": "BEET SUGAR",
+      "wordCount": 610,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 23,
+      "descriptionLength": 194,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/cashew-nuts",
+      "path": "/products/cashew-nuts",
+      "status": 200,
+      "title": "Cashew Nuts | MAHANAKORN",
+      "metaDescription": "Premium cashew kernels from the current crop season in Thailand. Moisture 5% max, aflatoxin under 5 PPB. Packed in tin boxes, vacuum bags, or 10 kg tins (22 kg per carton).",
+      "h1": "Cashew Nuts",
+      "wordCount": 409,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 24,
+      "descriptionLength": 172,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/chicken-drumstick",
+      "path": "/products/chicken-drumstick",
+      "status": 200,
+      "title": "Chicken Drumstick | MAHANAKORN",
+      "metaDescription": "100% HALAL 100% Organic Food 100% Fresh Not Chemicals",
+      "h1": "Chicken Drumstick",
+      "wordCount": 327,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 30,
+      "descriptionLength": 53,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/chicken-feets",
+      "path": "/products/chicken-feets",
+      "status": 200,
+      "title": "Chicken Feets | MAHANAKORN",
+      "metaDescription": "100% HALAL 100% Organic Food 100% Fresh Not Chemicals",
+      "h1": "Chicken Feets",
+      "wordCount": 320,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 26,
+      "descriptionLength": 53,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/chicken-leg-quarter",
+      "path": "/products/chicken-leg-quarter",
+      "status": 200,
+      "title": "Chicken Leg Quarter | MAHANAKORN",
+      "metaDescription": "100% HALAL 100% Organic Food 100% Fresh Not Chemicals",
+      "h1": "Chicken Leg Quarter",
+      "wordCount": 331,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 32,
+      "descriptionLength": 53,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/chicken-paws",
+      "path": "/products/chicken-paws",
+      "status": 200,
+      "title": "Chicken Paws | MAHANAKORN",
+      "metaDescription": "100% HALAL 100% Organic Food 100% Fresh Not Chemicals",
+      "h1": "Chicken Paws",
+      "wordCount": 320,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 25,
+      "descriptionLength": 53,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/dap-diammonium-phosphate",
+      "path": "/products/dap-diammonium-phosphate",
+      "status": 200,
+      "title": "DAP Diammonium Phosphate | MAHANAKORN",
+      "metaDescription": "Diammonium hydrogen phosphate is widely used in agriculture. It is used as a nitrogen and phosphorus fertilizer to supply nitrogen and phosphorus nutrients required by crops, promote plant growth,...",
+      "h1": "DAP Diammonium Phosphate",
+      "wordCount": 921,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 37,
+      "descriptionLength": 199,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/earthworm-humus",
+      "path": "/products/earthworm-humus",
+      "status": 200,
+      "title": "Earthworm Humus | MAHANAKORN",
+      "metaDescription": "Earthworm humus is an excellent fertilizer ideal for exhausted soils, for floriculture, for vineyards and orchards. The package on sale is 40 liters. For other formats contact us.",
+      "h1": "Earthworm Humus",
+      "wordCount": 383,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 28,
+      "descriptionLength": 179,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/ebs-amino-acids-80-plant-growth-enhancer",
+      "path": "/products/ebs-amino-acids-80-plant-growth-enhancer",
+      "status": 200,
+      "title": "EBS Amino Acids 80% Plant Growth Enhancer | MAHANAKORN",
+      "metaDescription": "Buy EBS Amino Acids 80% Plant Growth Enhancer improves plant stress resistance, boosts chlorophyll levels, and enhances nutrient absorption. It strengthens growth, improves fruit quality. suitable for all crops, available at the best price in Agribegri",
+      "h1": "EBS Amino Acids 80% Plant Growth Enhancer",
+      "wordCount": 424,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 54,
+      "descriptionLength": 252,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/ebs-boron-20-edta-sodium-borate-chelated-micronutrient",
+      "path": "/products/ebs-boron-20-edta-sodium-borate-chelated-micronutrient",
+      "status": 200,
+      "title": "EBS Boron 20% EDTA Sodium Borate Chelated Micronutrient | MAHANAKORN",
+      "metaDescription": "Buy EBS Boron 20% EDTA Sodium Borate Chelated Micronutrient for foliar and fertigation application. It enhances flowering, fruit formation, and calcium uptake, improving crop yield and quality. Suitable for all fruit, vegetable, and flower crops. available at the best price in Agribegri",
+      "h1": "EBS Boron 20% EDTA Sodium Borate Chelated Micronutrient",
+      "wordCount": 441,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 68,
+      "descriptionLength": 287,
+      "flags": [
+        "title_too_long",
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/ebs-fulvic-acid-fulvic-acid-50-organic-fertilizer",
+      "path": "/products/ebs-fulvic-acid-fulvic-acid-50-organic-fertilizer",
+      "status": 200,
+      "title": "EBS Fulvic Acid Fulvic Acid 50% Organic Fertilizer | MAHANAKORN",
+      "metaDescription": "Buy EBS Fulvic Acid Fulvic Acid 50% Organic Fertilizer improves root growth, increases nutrient absorption, and enhances plant immunity. suitable for soil application and fertigation in all crops. available at the best price in Agribegri",
+      "h1": "EBS Fulvic Acid Fulvic Acid 50% Organic Fertilizer",
+      "wordCount": 427,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 63,
+      "descriptionLength": 237,
+      "flags": [
+        "title_too_long",
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/ebs-seaweed-extract-fertilizer-ascophyllum-nodusum",
+      "path": "/products/ebs-seaweed-extract-fertilizer-ascophyllum-nodusum",
+      "status": 200,
+      "title": "EBS Seaweed Extract Fertilizer Ascophyllum Nodusum | MAHANAKORN",
+      "metaDescription": "Buy Ebs Seaweed Extract Fertilizer Ascophyllum nodusum enhances soil fertility, boosts nutrient uptake, and improves plant health. Suitable for soil, foliar, and fertigation applications. available at the best price in Agribegri",
+      "h1": "EBS Seaweed Extract Fertilizer Ascophyllum Nodusum",
+      "wordCount": 409,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 63,
+      "descriptionLength": 228,
+      "flags": [
+        "title_too_long",
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/ebs-zinc-edta-zn-12-chelated-micronutrient-fertilizer",
+      "path": "/products/ebs-zinc-edta-zn-12-chelated-micronutrient-fertilizer",
+      "status": 200,
+      "title": "EBS Zinc EDTA Zn 12% Chelated Micronutrient Fertilizer | MAHANAKORN",
+      "metaDescription": "Buy EBS Zinc EDTA Zn 12% Chelated Micronutrient Fertilizer It improves chlorophyll production, enhances plant growth, and corrects zinc deficiency in crops, Highly water-soluble and suitable for all soil types. available at the best price in Agribegri",
+      "h1": "EBS Zinc EDTA Zn 12% Chelated Micronutrient Fertilizer",
+      "wordCount": 431,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 67,
+      "descriptionLength": 251,
+      "flags": [
+        "title_too_long",
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/fertilizer-barenbrug-summer-winter",
+      "path": "/products/fertilizer-barenbrug-summer-winter",
+      "status": 200,
+      "title": "Fertilizer Barenbrug Summer Winter | MAHANAKORN",
+      "metaDescription": "This fertilizer from Barenbrug in a 20 kg version guarantees strong resilience to difficult climatic periods for lawns and outdoor ornamental plants. Barfertile Summer Winter is a fertilizing fertilizer that can be used in summer and winter.",
+      "h1": "Fertilizer Barenbrug Summer Winter",
+      "wordCount": 411,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 47,
+      "descriptionLength": 241,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/fine-grain-white-sugar",
+      "path": "/products/fine-grain-white-sugar",
+      "status": 200,
+      "title": "Fine Grain White Sugar | MAHANAKORN",
+      "metaDescription": "Sourced with care and precision, our Fine Grain White Sugar originates from the heart of Thailand, a region renowned for its sugar production. This sugar undergoes a meticulous refining process to achieve a level of purity that meets the highest industry standards. The result is a sugar that not only sweetens but elevates the overall quality of your recipes.",
+      "h1": "Fine Grain White Sugar",
+      "wordCount": 666,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 35,
+      "descriptionLength": 360,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/frozen-2-joint-wing",
+      "path": "/products/frozen-2-joint-wing",
+      "status": 200,
+      "title": "Frozen 2 Joint Wing | MAHANAKORN",
+      "metaDescription": "100% HALAL 100% Organic Food 100% Fresh Not Chemicals",
+      "h1": "Frozen 2 Joint Wing",
+      "wordCount": 350,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 32,
+      "descriptionLength": 53,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/frozen-3-joint-wing",
+      "path": "/products/frozen-3-joint-wing",
+      "status": 200,
+      "title": "Frozen 3 Joint Wing | MAHANAKORN",
+      "metaDescription": "100% HALAL 100% Organic Food 100% Fresh Not Chemicals",
+      "h1": "Frozen 3 Joint Wing",
+      "wordCount": 335,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 32,
+      "descriptionLength": 53,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/frozen-chicken-breast",
+      "path": "/products/frozen-chicken-breast",
+      "status": 200,
+      "title": "Frozen Chicken Breast | MAHANAKORN",
+      "metaDescription": "100% HALAL 100% Organic Food 100% Fresh Not Chemicals",
+      "h1": "Frozen Chicken Breast",
+      "wordCount": 324,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 34,
+      "descriptionLength": 53,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/frozen-chicken-gizzards",
+      "path": "/products/frozen-chicken-gizzards",
+      "status": 200,
+      "title": "Frozen Chicken Gizzards | MAHANAKORN",
+      "metaDescription": "100% HALAL 100% Organic Food 100% Fresh Not Chemicals",
+      "h1": "Frozen Chicken Gizzards",
+      "wordCount": 328,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 36,
+      "descriptionLength": 53,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/frozen-chicken-livers",
+      "path": "/products/frozen-chicken-livers",
+      "status": 200,
+      "title": "Frozen Chicken Livers | MAHANAKORN",
+      "metaDescription": "100% HALAL 100% Organic Food 100% Fresh Not Chemicals",
+      "h1": "Frozen Chicken Livers",
+      "wordCount": 336,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 34,
+      "descriptionLength": 53,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/frozen-middle-joint-wing",
+      "path": "/products/frozen-middle-joint-wing",
+      "status": 200,
+      "title": "Frozen Middle Joint Wing | MAHANAKORN",
+      "metaDescription": "100% HALAL 100% Organic Food 100% Fresh Not Chemicals",
+      "h1": "Frozen Middle Joint Wing",
+      "wordCount": 345,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 37,
+      "descriptionLength": 53,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/granulated-sugar-white-sugar",
+      "path": "/products/granulated-sugar-white-sugar",
+      "status": 200,
+      "title": "Granulated Sugar (White Sugar) | MAHANAKORN",
+      "metaDescription": "Discover the exceptional quality of our Granulated Sugar, a fundamental ingredient for every kitchen. This meticulously refined White Sugar is prized for its fine crystal structure, ensuring rapid...",
+      "h1": "Granulated Sugar (White Sugar)",
+      "wordCount": 650,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 43,
+      "descriptionLength": 199,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/high-oleic-sunflower-oil",
+      "path": "/products/high-oleic-sunflower-oil",
+      "status": 200,
+      "title": "High Oleic Sunflower Oil | MAHANAKORN",
+      "metaDescription": "High Oleic Sunflower Oil is a specially bred form of sunflower oil that is rich in oleic acid, a monounsaturated fat that provides exceptional stability, high heat resistance, and a long shelf...",
+      "h1": "High Oleic Sunflower Oil",
+      "wordCount": 731,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 37,
+      "descriptionLength": 195,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/humus-fertilizer-earthworm-bucket",
+      "path": "/products/humus-fertilizer-earthworm-bucket",
+      "status": 200,
+      "title": "Humus Fertilizer Earthworm Bucket | MAHANAKORN",
+      "metaDescription": "Refined earthworm humus fertilizer is an excellent fertilizer ideal for exhausted soils, for floriculture, for vineyards and orchards. The package on sale is 4.5 kg and is a valid ally for planting, for exhausted soils, for floriculture, foliar fertilization. For further formats contact us.",
+      "h1": "Humus Fertilizer Earthworm Bucket",
+      "wordCount": 425,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 46,
+      "descriptionLength": 291,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/icumsa-100-cane-sugar",
+      "path": "/products/icumsa-100-cane-sugar",
+      "status": 200,
+      "title": "ICUMSA 100 CANE SUGAR | MAHANAKORN",
+      "metaDescription": "ICUMSA 100 Cane Sugar from MAHANAKORN NAKO NAGARAJ CO., LTD is a high-purity sugar sourced from Thailand. Perfect for beverages, confectionery, and more, it offers exceptional clarity...",
+      "h1": "ICUMSA 100 CANE SUGAR",
+      "wordCount": 932,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 34,
+      "descriptionLength": 186,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/icumsa-150-cane-sugar",
+      "path": "/products/icumsa-150-cane-sugar",
+      "status": 200,
+      "title": "ICUMSA 150 CANE SUGAR | MAHANAKORN",
+      "metaDescription": "ICUMSA 150 Cane Sugar from MAHANAKORN NAKO NAGARAJ CO., LTD is prized for its premium quality and versatility. Sourced from Thailand, it undergoes meticulous processing to ensure optimal...",
+      "h1": "ICUMSA 150 CANE SUGAR",
+      "wordCount": 651,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 34,
+      "descriptionLength": 189,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/icumsa-45-white-refined-sugar",
+      "path": "/products/icumsa-45-white-refined-sugar",
+      "status": 200,
+      "title": "ICUMSA-45 WHITE REFINED SUGAR | MAHANAKORN",
+      "metaDescription": "ICUMSA 45 White Refined Sugar from MAHANAKORN NAKO NAGARAJ CO., LTD is a premium sugar variant characterized by its pure white color and fine granules. Ideal for a wide range of culinary uses,...",
+      "h1": "ICUMSA-45 WHITE REFINED SUGAR",
+      "wordCount": 950,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 42,
+      "descriptionLength": 195,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/irri-6-long-grain-riceirri-6-long-grain-rice",
+      "path": "/products/irri-6-long-grain-riceirri-6-long-grain-rice",
+      "status": 200,
+      "title": "IRRI-6 Long Grain RiceIRRI-6 Long Grain Rice | MAHANAKORN",
+      "metaDescription": "Specifications Variety: IRRI-6 Long Grain Rice Grain Length: 6.0 mm (minimum average length) Moisture Content: 14% max Broken Grains: 5% max Foreign Matter: 0.1% max Chalky Grains: 4% max...",
+      "h1": "IRRI-6 Long Grain RiceIRRI-6 Long Grain Rice",
+      "wordCount": 881,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 57,
+      "descriptionLength": 190,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/japonica-rice",
+      "path": "/products/japonica-rice",
+      "status": 200,
+      "title": "Japonica Rice | MAHANAKORN",
+      "metaDescription": "Technical Specifications: Variety: Japonica Rice (Oryza sativa japonica) Grain Type: Short to medium-grain with a slightly plump appearance Processing: Milled and polished to maintain inherent...",
+      "h1": "Japonica Rice",
+      "wordCount": 622,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 26,
+      "descriptionLength": 195,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/jasmine-rice-thai-hom-mali",
+      "path": "/products/jasmine-rice-thai-hom-mali",
+      "status": 200,
+      "title": "Jasmine Rice (Thai Hom Mali) | MAHANAKORN",
+      "metaDescription": "Specifications of Thai Hom Mali Rice\r\n\r\n&amp;nbsp;\r\n\r\nPurity : 92%\r\n\r\nWhole Kernels: 60% Max\r\n\r\nVariety: Long Grain Rice\r\n\r\nBroken (5.2 mm.): 4.5% Max\r\n\r\nMoisture: 14% Max\r\n\r\nAdmixture: 2% Max\r\n\r\nRed kernels : 0%\r\n\r\nYellow kernels: 0.2% Max\r\n\r\nChalky kernels: 6% Max\r\n\r\nCrop Year : 2012-2013\r\n\r\nWhite Glutinous Rice : 1.5% Max\r\n\r\nPaddy (grain per 1 kg.): 7 Grains\r\n\r\nCountry of Origin : Thailand",
+      "h1": "Jasmine Rice (Thai Hom Mali)",
+      "wordCount": 852,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 41,
+      "descriptionLength": 395,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/long-life-frying-oil",
+      "path": "/products/long-life-frying-oil",
+      "status": 200,
+      "title": "Long Life Frying Oil | MAHANAKORN",
+      "metaDescription": "Long Life Frying Oil Home Long Life Frying Oil Long Life Frying Oil 0 out of 5 based on 0 customer ratings (0 customer reviews) Product Meta Category: Cooking Oil Description Reviews (0) Product...",
+      "h1": "Long Life Frying Oil | Long Life Frying Oil",
+      "wordCount": 648,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 33,
+      "descriptionLength": 197,
+      "flags": [
+        "description_too_long",
+        "multiple_h1",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/mapmonoammonium-phosphate",
+      "path": "/products/mapmonoammonium-phosphate",
+      "status": 200,
+      "title": "Mapmonoammonium Phosphate | MAHANAKORN",
+      "metaDescription": "MAP is an efficient source of phosphorus. It facilitates plant uptake of the phosphorus naturally present in the soil. This is due to the ammonium (NH4+) in MAP, which lowers the pH in the root...",
+      "h1": "Mapmonoammonium Phosphate",
+      "wordCount": 854,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 38,
+      "descriptionLength": 196,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/monopotassium-phosphate",
+      "path": "/products/monopotassium-phosphate",
+      "status": 200,
+      "title": "Monopotassium Phosphate | MAHANAKORN",
+      "metaDescription": "Monopotassium phosphate (KH2PO4) is a water-soluble salt used as a fertilizer, providing plants with phosphorus and potassium. It aids root development and disease resistance, enhancing overall...",
+      "h1": "Monopotassium Phosphate",
+      "wordCount": 650,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 36,
+      "descriptionLength": 196,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/nitrogen-fertilizer",
+      "path": "/products/nitrogen-fertilizer",
+      "status": 200,
+      "title": "NITROGEN FERTILIZER | MAHANAKORN",
+      "metaDescription": "It promotes lush green foliage, enhances photosynthesis, and boosts crop yields. Common forms include ammonium sulfate, urea, and ammonium nitrate. While effective, excessive use can lead to...",
+      "h1": "NITROGEN FERTILIZER",
+      "wordCount": 917,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 32,
+      "descriptionLength": 193,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/npk",
+      "path": "/products/npk",
+      "status": 200,
+      "title": "NPK | MAHANAKORN",
+      "metaDescription": "Also can add other nutrition element according to your request. Product name:Zinc Sulphate Monohydrate feed grade/fertilizer grade Chemical formula:ZnSO4·H2O CAS:7446-19-7 Product performance:...",
+      "h1": "NPK",
+      "wordCount": 743,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 16,
+      "descriptionLength": 195,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/organic-white-cane-sugar-1-45",
+      "path": "/products/organic-white-cane-sugar-1-45",
+      "status": 200,
+      "title": "ORGANIC WHITE CANE SUGAR 1-45 | MAHANAKORN",
+      "metaDescription": "Highly refined white crystal sugar, free from any harmful substances, suitable for human consumption and compliant with international food standards . ICUMSA 1 45 indicates the highest quality and...",
+      "h1": "ORGANIC WHITE CANE SUGAR 1-45",
+      "wordCount": 456,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 42,
+      "descriptionLength": 199,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/parboiled-rice-5-broken",
+      "path": "/products/parboiled-rice-5-broken",
+      "status": 200,
+      "title": "Parboiled Rice 5% Broken | MAHANAKORN",
+      "metaDescription": "Specifications of Parboiled Rice 5% Broken PARBOILED RICE IR- 36/64 Broken (Basis 2/3 of Average Grain Rice Length): 5% Max Moisture: 14% max Foreign Matter /Damaged / Discolored Grains / Dead...",
+      "h1": "Parboiled Rice 5% Broken",
+      "wordCount": 512,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 37,
+      "descriptionLength": 195,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/pistachio-nuts",
+      "path": "/products/pistachio-nuts",
+      "status": 200,
+      "title": "Pistachio Nuts | MAHANAKORN",
+      "metaDescription": "100% natural organic pistachio nuts from Chon Buri, Thailand. Nutrient-dense, cholesterol-free, and rich in potassium and iron. Wholesale supply with MOQ from 5 tons.",
+      "h1": "Pistachio Nuts",
+      "wordCount": 475,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 27,
+      "descriptionLength": 166,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/privi-000050-17-5-s-water-soluble-fertilizer",
+      "path": "/products/privi-000050-17-5-s-water-soluble-fertilizer",
+      "status": 200,
+      "title": "PRIVI 100% Water Soluble Fertilizer | MAHANAKORN",
+      "metaDescription": "Privi 00:00:50 + 17.5 S is a fully water-soluble NPK fertilizer enriched with sulphur, designed to provide balanced potassium and sulphur nutrition during critical growth stages of crops.",
+      "h1": "PRIVI 100% Water Soluble Fertilizer",
+      "wordCount": 398,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 48,
+      "descriptionLength": 187,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/quality-brown-rice",
+      "path": "/products/quality-brown-rice",
+      "status": 200,
+      "title": "Quality Brown Rice | MAHANAKORN",
+      "metaDescription": "Chemical Specifications: Moisture Content: Not exceeding 14% Total Ash: Max 2.0% Broken Grains: Max 5% Foreign Matter: Max 0.5% Chalky Grains: Max 3% Average Grain Length: 6.00 to 6.50 mm Mill...",
+      "h1": "Quality Brown Rice",
+      "wordCount": 798,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 31,
+      "descriptionLength": 195,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/icumsa-600-1200-brown-cane-sugar",
+      "path": "/products/icumsa-600-1200-brown-cane-sugar",
+      "status": 200,
+      "title": "Raw Brown Cane Sugar Grade E ICUMSA 600-1200 | MAHANAKORN",
+      "metaDescription": "Rich Brown Color and Distinctive Flavor : ICUMSA 600-1200 Brown Cane Sugar is characterized by its rich brown color and robust flavor profile, derived from Thailand&#x27;s sun-drenched cane fields....",
+      "h1": "Raw Brown Cane Sugar Grade E ICUMSA 600-1200",
+      "wordCount": 799,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 57,
+      "descriptionLength": 200,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/rbd-corn-oil",
+      "path": "/products/rbd-corn-oil",
+      "status": 200,
+      "title": "RBD Corn Oil | MAHANAKORN",
+      "metaDescription": "RBD Corn Oil Home RBD Corn Oil RBD Corn Oil 0 out of 5 based on 0 customer ratings (0 customer reviews) Product Meta Category: Cooking Oil Description Reviews (0) Product Description Our company...",
+      "h1": "RBD Corn Oil | RBD Corn Oil",
+      "wordCount": 637,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 25,
+      "descriptionLength": 197,
+      "flags": [
+        "description_too_long",
+        "multiple_h1",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/rbd-groundnut-peanut-oil",
+      "path": "/products/rbd-groundnut-peanut-oil",
+      "status": 200,
+      "title": "RBD Groundnut / Peanut Oil | MAHANAKORN",
+      "metaDescription": "RBD Groundnut / Peanut Oil Home RBD Groundnut / Peanut Oil RBD Groundnut / Peanut Oil 0 out of 5 based on 0 customer ratings (0 customer reviews) Product Meta Category: Cooking Oil Description...",
+      "h1": "RBD Groundnut / Peanut Oil | RBD Groundnut / Peanut Oil",
+      "wordCount": 654,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 39,
+      "descriptionLength": 195,
+      "flags": [
+        "description_too_long",
+        "multiple_h1",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/rbd-palm-oil-36-39",
+      "path": "/products/rbd-palm-oil-36-39",
+      "status": 200,
+      "title": "RBD Palm Oil ( 36 – 39 ) | MAHANAKORN",
+      "metaDescription": "RBD Palm Oil ( 36 – 39 ) Home RBD Palm Oil ( 36 – 39 ) RBD Palm Oil ( 36 – 39 ) 0 out of 5 based on 0 customer ratings (0 customer reviews) Product Meta Category: Cooking Oil Description Reviews...",
+      "h1": "RBD Palm Oil ( 36 – 39 ) | RBD Palm Oil ( 36 – 39 )",
+      "wordCount": 678,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 37,
+      "descriptionLength": 197,
+      "flags": [
+        "description_too_long",
+        "multiple_h1",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/rbd-palm-olein",
+      "path": "/products/rbd-palm-olein",
+      "status": 200,
+      "title": "RBD Palm Olein | MAHANAKORN",
+      "metaDescription": "RBD Palm Olein Home RBD Palm Olein RBD Palm Olein 0 out of 5 based on 0 customer ratings (0 customer reviews) Product Meta Category: Cooking Oil Description Reviews (0) Product Description Our...",
+      "h1": "RBD Palm Olein | RBD Palm Olein",
+      "wordCount": 626,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 27,
+      "descriptionLength": 195,
+      "flags": [
+        "description_too_long",
+        "multiple_h1",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/rbd-rapeseed-canola-oil",
+      "path": "/products/rbd-rapeseed-canola-oil",
+      "status": 200,
+      "title": "RBD Rapeseed / Canola Oil | MAHANAKORN",
+      "metaDescription": "RBD Rapeseed / Canola Oil Home RBD Rapeseed / Canola Oil RBD Rapeseed / Canola Oil 0 out of 5 based on 0 customer ratings (0 customer reviews) Product Meta Category: Cooking Oil Description...",
+      "h1": "RBD Rapeseed / Canola Oil | RBD Rapeseed / Canola Oil",
+      "wordCount": 643,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 38,
+      "descriptionLength": 192,
+      "flags": [
+        "description_too_long",
+        "multiple_h1",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/rbd-soybean-oil",
+      "path": "/products/rbd-soybean-oil",
+      "status": 200,
+      "title": "RBD Soybean Oil | MAHANAKORN",
+      "metaDescription": "RBD Soybean Oil Home RBD Soybean Oil RBD Soybean Oil 0 out of 5 based on 0 customer ratings (0 customer reviews) Product Meta Category: Cooking Oil Description Reviews (0) Product Description Our...",
+      "h1": "RBD Soybean Oil | RBD Soybean Oil",
+      "wordCount": 625,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 28,
+      "descriptionLength": 198,
+      "flags": [
+        "description_too_long",
+        "multiple_h1",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/rbdw-sunflower-oil",
+      "path": "/products/rbdw-sunflower-oil",
+      "status": 200,
+      "title": "RBDW Sunflower Oil | MAHANAKORN",
+      "metaDescription": "Our company is a major global supplier of refined and unrefined sunflower oil for both bulk and bottles. We regularly provide only premium, pure sunflower oil free of the addition of any other...",
+      "h1": "RBDW Sunflower Oil",
+      "wordCount": 478,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 31,
+      "descriptionLength": 195,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/refined-brown-sugar-icumsa-600-1200",
+      "path": "/products/refined-brown-sugar-icumsa-600-1200",
+      "status": 200,
+      "title": "Refined Brown Sugar Icumsa 600 - 1200 | MAHANAKORN",
+      "metaDescription": "Refined Brown Sugar with an ICUMSA rating of 600-1200 is a type of raw brown sugar that retains a significant amount of molasses, giving it a rich flavor and darker color compared to white sugar....",
+      "h1": "Refined Brown Sugar Icumsa 600 - 1200",
+      "wordCount": 786,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 50,
+      "descriptionLength": 198,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/rri-9-long-grain-ricerri-9-long-grain-rice",
+      "path": "/products/rri-9-long-grain-ricerri-9-long-grain-rice",
+      "status": 200,
+      "title": "RRI 9 Long Grain RiceRRI 9 Long Grain Rice | MAHANAKORN",
+      "metaDescription": "Specifications Variety: IRRI 9 Long Grain Rice Grain Length: 6.8 mm (minimum average length) Moisture Content: 14% max Broken Grains: 5% max Foreign Matter: 0.5% max Chalky Grains: 5% max...",
+      "h1": "RRI 9 Long Grain RiceRRI 9 Long Grain Rice",
+      "wordCount": 716,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 55,
+      "descriptionLength": 190,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/superphosphate",
+      "path": "/products/superphosphate",
+      "status": 200,
+      "title": "Superphosphate | MAHANAKORN",
+      "metaDescription": "Supply plant phosphorus, calcium, sulfur and other elements, with improved alkaline soil effect. Used as a base fertilizer, foliar application, foliar spray. Mixed with nitrogen fertilizer use,...",
+      "h1": "Superphosphate",
+      "wordCount": 706,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 27,
+      "descriptionLength": 196,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/thai-brown-jasmine-rice",
+      "path": "/products/thai-brown-jasmine-rice",
+      "status": 200,
+      "title": "Thai Brown Jasmine Rice | MAHANAKORN",
+      "metaDescription": "Variety: Long Grain Rice\r\nShape : Long\r\nColour : Brown\r\nBrand: jasmine\r\nCultivation Type: Organic\r\nKind: Aromatic Rice\r\nStyle: Fresh\r\nPart: Bran\r\nCrop Year : Current",
+      "h1": "Thai Brown Jasmine Rice | Brown Jasmine Rice",
+      "wordCount": 527,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 36,
+      "descriptionLength": 165,
+      "flags": [
+        "description_too_long",
+        "multiple_h1",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/thai-glutinous-rice",
+      "path": "/products/thai-glutinous-rice",
+      "status": 200,
+      "title": "Thai Glutinous Rice | MAHANAKORN",
+      "metaDescription": "Characteristics: Variety: Glutinous Rice (Oryza sativa var. glutinosa) Texture: The hallmark of glutinous rice is its sticky, chewy texture when cooked, making it perfect for dishes where a...",
+      "h1": "Thai Glutinous Rice",
+      "wordCount": 799,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 32,
+      "descriptionLength": 192,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/thai-glutinous-rice-25-broken",
+      "path": "/products/thai-glutinous-rice-25-broken",
+      "status": 200,
+      "title": "Thai Glutinous Rice 25% Broken | MAHANAKORN",
+      "metaDescription": "Chemical Specifications: Moisture Content: Typically maintained at levels not exceeding 14% to ensure optimal storage and quality retention. Purity: Rigorous quality checks to ensure absence of...",
+      "h1": "Thai Glutinous Rice 25% Broken",
+      "wordCount": 490,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 43,
+      "descriptionLength": 196,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/thai-hom-patum-rice",
+      "path": "/products/thai-hom-patum-rice",
+      "status": 200,
+      "title": "Thai Hom Patum Rice | MAHANAKORN",
+      "metaDescription": "Thai Hom Patum Rice RD31(Pathum Thani 80) has been certified since 6 March 2007. Harvesting period is 110 days. A short period after cooking, the rice has fragrance and soft texture. Since the grains have amylose around 27.3 – 29.8 % so, once the rice temperature becomes low, the texture becomes harder.",
+      "h1": "Thai Hom Patum Rice",
+      "wordCount": 541,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 32,
+      "descriptionLength": 304,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/thai-jasmine-black-cargo-rice",
+      "path": "/products/thai-jasmine-black-cargo-rice",
+      "status": 200,
+      "title": "Thai Jasmine Black Cargo Rice | MAHANAKORN",
+      "metaDescription": "Thai Jasmine Black Cargo Rice is black color, comes with good taste and its unique fragrance . Only its husk has been removed to retain its nutrients, vitamins and mineral. Jasmine Black Cargo...",
+      "h1": "Thai Jasmine Black Cargo Rice",
+      "wordCount": 440,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 42,
+      "descriptionLength": 195,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/thai-jasmine-red-cargo-rice",
+      "path": "/products/thai-jasmine-red-cargo-rice",
+      "status": 200,
+      "title": "Thai Jasmine Red Cargo Rice | MAHANAKORN",
+      "metaDescription": "Thai Red Cargo Rice is a variety of non-glutinous long-grain rice, related to brown rice, in that it is simple rice, merely the color of the fiber is purple, maroon or red. Only the shells of the rice grains are detached through the milling procedure, recalling all the vitamins, nutrients and minerals entire in the bran cover and in the kernel.",
+      "h1": "Thai Jasmine Red Cargo Rice",
+      "wordCount": 562,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 40,
+      "descriptionLength": 346,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/thai-long-grain-rice",
+      "path": "/products/thai-long-grain-rice",
+      "status": 200,
+      "title": "Thai Long Grain Rice | MAHANAKORN",
+      "metaDescription": "Specifications: Type: Rice Texture: Soft Kind: White Rice Variety: Long-Grain Rice Style: Dried Cultivation Type: Common Color: White Broken Ratio (%): 25 % Max. Moisture (%): 14 % Admixture (%):...",
+      "h1": "Thai Long Grain Rice",
+      "wordCount": 619,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 33,
+      "descriptionLength": 198,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/thai-parboiled-rice",
+      "path": "/products/thai-parboiled-rice",
+      "status": 200,
+      "title": "Thai Parboiled Rice | MAHANAKORN",
+      "metaDescription": "Technical Data: Variety: Thai Parboiled Rice (Oryza sativa) Grain Type: Medium to long grains Processing: Parboiled to retain nutrients and enhance grain firmness Color: Translucent golden grains...",
+      "h1": "Thai Parboiled Rice",
+      "wordCount": 667,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 32,
+      "descriptionLength": 198,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/thai-riceberry-rice",
+      "path": "/products/thai-riceberry-rice",
+      "status": 200,
+      "title": "Thai Riceberry Rice | MAHANAKORN",
+      "metaDescription": "Thai Riceberry Rice Vitamin A equiv.beta-Carotene: 1%63 μg Vitamin E: 5% 0.68 mg Iron: 10% 1.8 mg Minerals: Quantity %DV † Zinc: 29% 3.2 mg Origin : Thailand",
+      "h1": "Thai Riceberry Rice",
+      "wordCount": 408,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 32,
+      "descriptionLength": 157,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/thai-white-rice-100-broken",
+      "path": "/products/thai-white-rice-100-broken",
+      "status": 200,
+      "title": "Thai White rice 100% broken | MAHANAKORN",
+      "metaDescription": "We (MAHANAKORN NAKO NAGARAJ CO., LTD) are the prominent Parboiled Broken Rice A1 Exporter and Supplier in Thailand. We are contributory in delivering to our valued customer’s superior quality Broken Parboiled Rice A1 which is obtainable with following specification at the lowest price",
+      "h1": "Thai White rice 100% broken",
+      "wordCount": 711,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 40,
+      "descriptionLength": 285,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/thai-white-rice-100-sortexed",
+      "path": "/products/thai-white-rice-100-sortexed",
+      "status": 200,
+      "title": "Thai White Rice 100% Sortexed | MAHANAKORN",
+      "metaDescription": "Thai White rice 100% sortexed is a premium variety of rice that has undergone a meticulous sorting process to ensure exceptional quality. Sourced from the fertile fields of Thailand, this rice is renowned for its pure white grains that are long, slender, and fluffy in texture. The sortexing technique employed in its production involves the use of cutting-edge technology to meticulously sort and remove any impurities such as broken grains, stones, or husks. This ensures that only the finest, most uniform grains make it to your plate.",
+      "h1": "Thai White Rice 100% Sortexed",
+      "wordCount": 785,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 42,
+      "descriptionLength": 538,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/urea",
+      "path": "/products/urea",
+      "status": 200,
+      "title": "UREA | MAHANAKORN",
+      "metaDescription": "Urea is a neutral quick-acting fertilizer with a chemical formula of CO(NH2)2 and a nitrogen content of up to 46%. ‌‌Urea is a white crystal that is tasteless and odorless, easily soluble in...",
+      "h1": "UREA",
+      "wordCount": 971,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 17,
+      "descriptionLength": 193,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/vanproz-growth-enhancer-organic-fertilizer-agribegri",
+      "path": "/products/vanproz-growth-enhancer-organic-fertilizer-agribegri",
+      "status": 200,
+      "title": "Vanproz Growth Enhancer Organic Fertilizer | AgriBegri | MAHANAKORN",
+      "metaDescription": "Shop For Vanproz Super Potassium Humate (98%) Organic Fertilizer Online From AgriBegri With Free Nationwide Delivery Service.",
+      "h1": "Vanproz Growth Enhancer Organic Fertilizer | AgriBegri",
+      "wordCount": 386,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 67,
+      "descriptionLength": 125,
+      "flags": [
+        "title_too_long",
+        "multiple_h1",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/vhp-sugar",
+      "path": "/products/vhp-sugar",
+      "status": 200,
+      "title": "VHP SUGAR | MAHANAKORN",
+      "metaDescription": "VHP (Very High Polarization) Sugar from MAHANAKORN NAKO NAGARAJ CO., LTD is a premium sugar known for its high purity and exceptional sweetness. Derived from Thailand&#x27;s fertile sugarcane...",
+      "h1": "VHP SUGAR",
+      "wordCount": 588,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 22,
+      "descriptionLength": 194,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/white-rice-5-broken",
+      "path": "/products/white-rice-5-broken",
+      "status": 200,
+      "title": "White Rice 5% Broken | MAHANAKORN",
+      "metaDescription": "We (MAHANAKORN NAKO NAGARAJ CO., LTD) are the prominent Thai White Rice 5% Broken Exporter and Supplier in Thailand. We are contributory in delivering to our valued customer’s superior quality 5 Percent White Rice which is obtainable with following specification at the lowest price.",
+      "h1": "White Rice 5% Broken",
+      "wordCount": 471,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 33,
+      "descriptionLength": 283,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/whole-chicken-griller",
+      "path": "/products/whole-chicken-griller",
+      "status": 200,
+      "title": "Whole Chicken (Griller) | MAHANAKORN",
+      "metaDescription": "100% HALAL 100% Organic Food 100% Fresh Not Chemicals",
+      "h1": "Whole Chicken (Griller)",
+      "wordCount": 335,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 36,
+      "descriptionLength": 53,
+      "flags": [
+        "missing_canonical"
+      ]
+    },
+    {
+      "url": "https://mahanakornco.com/products/zinc-sulfate-heptahydrate",
+      "path": "/products/zinc-sulfate-heptahydrate",
+      "status": 200,
+      "title": "Zinc Sulfate Heptahydrate | MAHANAKORN",
+      "metaDescription": "Zinc is the forming element of many enzymes and hormone, and participates in\r\nmetabolism of protein, carbohydrate as well as lipid. When lack of zinc, animals\r\nexhibit inappetence, slow growth, thick and disorderly clothing hair, depilation, dry\r\nand chappy skin and unease-cure wound. Adding high dosage zinc in initial feed for\r\nsucking can reduce diarrhea and increase weight.",
+      "h1": "Zinc Sulfate Heptahydrate",
+      "wordCount": 753,
+      "canonical": "",
+      "robots": "index, follow",
+      "indexable": true,
+      "pageType": "Product",
+      "titleLength": 38,
+      "descriptionLength": 379,
+      "flags": [
+        "description_too_long",
+        "missing_canonical"
+      ]
+    }
+  ]
+}

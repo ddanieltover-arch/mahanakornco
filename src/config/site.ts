@@ -55,6 +55,8 @@ export const siteConfig = {
   footerLinks: [
     { label: "About Us", href: "/about" },
     { label: "Products", href: "/products" },
+    { label: "FAQ", href: "/faq" },
+    { label: "Glossary", href: "/glossary" },
     { label: "Ordering Procedures", href: "/ordering-procedures" },
     { label: "Quality Control", href: "/quality-control" },
     { label: "Sustainability", href: "/sustainability" },

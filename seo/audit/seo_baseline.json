@@ -1,0 +1,44 @@
+{
+  "generatedAt": "2026-08-17T00:00:00.000Z",
+  "site": "https://mahanakornco.com",
+  "brand": "MAHANAKORN NAKO NAGARAJ CO., LTD",
+  "niche": "Global B2B agricultural commodities export (sugar, rice, fertilizer, edible oil, poultry, nuts)",
+  "targetGeography": "Global B2B export buyers",
+  "stack": "Next.js 16 App Router, Vercel/hosted production",
+  "googleSearchConsole": {
+    "status": "pending_verification",
+    "notes": "Add DNS TXT record or HTML tag via GSC. Submit sitemap at https://mahanakornco.com/sitemap.xml after deploy."
+  },
+  "googleAnalytics4": {
+    "status": "not_installed",
+    "notes": "GTM container ID to be set via NEXT_PUBLIC_GTM_ID environment variable after Phase 7."
+  },
+  "sitemap": {
+    "url": "https://mahanakornco.com/sitemap.xml",
+    "submissionStatus": "pending",
+    "urlCount": 97
+  },
+  "robotsTxt": {
+    "url": "https://mahanakornco.com/robots.txt",
+    "status": "present",
+    "aiCrawlerRules": "to_be_added"
+  },
+  "preOptimizationFindings": {
+    "indexedPagesEstimate": "unknown_pending_gsc",
+    "canonicalTagsOnAllPages": false,
+    "structuredData": false,
+    "llmsTxt": false,
+    "analyticsTracking": false,
+    "missingCanonicalCount": 97,
+    "thinContentPages": 3,
+    "rotatingHomepageH1": true
+  },
+  "domainAuthorityEstimate": "not_available_without_ahrefs",
+  "organicKeywordCount": "not_available_without_gsc",
+  "nextSteps": [
+    "Verify domain in Google Search Console",
+    "Install GA4 via GTM",
+    "Implement canonical tags and JSON-LD schema",
+    "Submit updated sitemap after SEO deploy"
+  ]
+}

@@ -1,0 +1,6 @@
+# Disavow file — review before submitting to Google Search Console
+# Only submit if toxic backlinks are confirmed via Ahrefs/Majestic audit
+# Generated: 2026-08-17 — No toxic links identified in initial manual review
+
+# Example format (uncomment and populate after backlink audit):
+# domain:spammy-directory.example.com

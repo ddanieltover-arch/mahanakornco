@@ -1,16 +1,20 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import Link from "next/link";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { ProductCard } from "@/components/products/ProductCard";
+import { AnswerCapsule } from "@/components/seo/AnswerCapsule";
+import { JsonLd } from "@/components/seo/JsonLd";
 import {
   categories,
   getCategoryBySlug,
   getProductsByCategory,
   type ProductCategory,
 } from "@/data/products";
+import { getCategorySeo } from "@/data/category-seo";
 import { getCategoryImage } from "@/config/site-images";
-import { pageImageMeta } from "@/lib/metadata";
-import Link from "next/link";
+import { buildPageMetadata } from "@/lib/seo/metadata";
+import { breadcrumbSchema, collectionPageSchema } from "@/lib/seo/schema";
 
 interface Props {
   params: Promise<{ category: string }>;
@@ -24,11 +28,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { category: slug } = await params;
   const cat = getCategoryBySlug(slug);
   if (!cat) return {};
-  return {
-    title: cat.name,
-    description: cat.description,
-    ...pageImageMeta(getCategoryImage(slug)),
-  };
+  const seo = getCategorySeo(slug);
+  return buildPageMetadata({
+    title: seo?.title ?? cat.name,
+    description: seo?.description ?? cat.description,
+    path: `/${slug}`,
+    image: getCategoryImage(slug),
+  });
 }
 
 export default async function CategoryPage({ params }: Props) {
@@ -36,16 +42,67 @@ export default async function CategoryPage({ params }: Props) {
   const cat = getCategoryBySlug(slug);
   if (!cat) notFound();
 
+  const seo = getCategorySeo(slug);
   const categoryProducts = getProductsByCategory(cat.name as ProductCategory);
+  const breadcrumbs = [
+    { name: "Home", href: "/" },
+    { name: "Products", href: "/products" },
+    { name: cat.name, href: `/${slug}` },
+  ];
 
   return (
     <>
+      <JsonLd
+        data={[
+          breadcrumbSchema(breadcrumbs),
+          collectionPageSchema({
+            name: cat.name,
+            description: seo?.description ?? cat.description,
+            slug,
+            productUrls: categoryProducts.map((p) => p.slug),
+          }),
+        ]}
+      />
       <PageHeader
         title={cat.name}
         subtitle={cat.description}
         image={getCategoryImage(slug)}
         imageAlt={cat.name}
       />
+
+      <section className="py-8 border-b bg-cream">
+        <div className="mx-auto max-w-7xl px-4">
+          {seo && (
+            <>
+              <AnswerCapsule>{seo.answerCapsule}</AnswerCapsule>
+              <p className="text-muted leading-relaxed max-w-3xl">{seo.intro}</p>
+              <p className="mt-4 text-sm">
+                Learn more in our{" "}
+                {slug === "sugar" && (
+                  <Link href="/guides/icumsa-sugar-grades" className="text-primary hover:underline">
+                    ICUMSA sugar guide
+                  </Link>
+                )}
+                {slug === "rice" && (
+                  <Link href="/guides/thai-rice-export" className="text-primary hover:underline">
+                    Thai rice export guide
+                  </Link>
+                )}
+                {slug !== "sugar" && slug !== "rice" && (
+                  <Link href="/guides/thai-rice-export" className="text-primary hover:underline">
+                    export guides
+                  </Link>
+                )}
+                {" "}and{" "}
+                <Link href="/glossary" className="text-primary hover:underline">
+                  trade glossary
+                </Link>
+                .
+              </p>
+            </>
+          )}
+        </div>
+      </section>
 
       <section className="py-12 border-b">
         <div className="mx-auto max-w-7xl px-4">
@@ -75,6 +132,9 @@ export default async function CategoryPage({ params }: Props) {
 
       <section className="py-16">
         <div className="mx-auto max-w-7xl px-4">
+          <h2 className="text-2xl font-bold text-primary-dark mb-2">
+            What {cat.name} products do we export?
+          </h2>
           <p className="text-muted mb-8">{categoryProducts.length} products in {cat.name}</p>
           {categoryProducts.length > 0 ? (
             <div className="grid grid-cols-2 gap-3 sm:gap-6 lg:grid-cols-3 xl:grid-cols-4">
@@ -93,6 +153,17 @@ export default async function CategoryPage({ params }: Props) {
               </Link>
             </div>
           )}
+          <div className="mt-12 flex flex-wrap gap-4 text-sm">
+            <Link href="/ordering-procedures" className="text-primary hover:underline font-medium">
+              How to order bulk commodities →
+            </Link>
+            <Link href="/quality-control" className="text-primary hover:underline font-medium">
+              Our quality control process →
+            </Link>
+            <Link href="/contact" className="text-primary hover:underline font-medium">
+              Request a wholesale quote →
+            </Link>
+          </div>
         </div>
       </section>
     </>

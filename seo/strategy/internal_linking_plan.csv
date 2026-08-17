@@ -1,0 +1,23 @@
+From Page,To Page,Anchor Text,Priority
+/,/products,wholesale agricultural products,High
+/,/sugar,ICUMSA sugar wholesale,High
+/,/rice,Thai jasmine rice bulk,High
+/,/ordering-procedures,bulk commodity ordering process,High
+/,/quality-control,export quality control,High
+/,/faq,agricultural export FAQ,High
+/,/glossary,commodity trading glossary,Medium
+/products,/sugar,sugar category,High
+/products,/rice,rice category,High
+/products,/fertilizers,fertilizer category,High
+/products,/ordering-procedures,how to order,High
+/sugar,/guides/icumsa-sugar-grades,ICUMSA grades explained,High
+/sugar,/products/icumsa-45-white-refined-sugar,ICUMSA 45 wholesale,High
+/rice,/guides/thai-rice-export,import rice from Thailand,High
+/rice,/products/jasmine-rice-thai-hom-mali,Thai Hom Mali jasmine rice,High
+/ordering-procedures,/contact,request a quote,High
+/ordering-procedures,/faq,export FAQ,Medium
+/quality-control,/contact,quality documentation request,High
+/faq,/ordering-procedures,ordering procedures,High
+/glossary,/guides/icumsa-sugar-grades,ICUMSA guide,Medium
+/guides/icumsa-sugar-grades,/sugar,sugar catalogue,High
+/guides/thai-rice-export,/rice,rice catalogue,High

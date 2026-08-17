@@ -1,15 +1,20 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { RelatedInfoNav } from "@/components/info-page/RelatedInfoNav";
 import { InfoIntro } from "@/components/info-page/InfoIntro";
 import { FeatureCard } from "@/components/info-page/FeatureCard";
 import { InfoCta } from "@/components/info-page/InfoCta";
+import { AnswerCapsule } from "@/components/seo/AnswerCapsule";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { LastUpdated } from "@/components/seo/LastUpdated";
 import { FadeIn } from "@/components/motion/FadeIn";
 import { Stagger, StaggerItem } from "@/components/motion/Stagger";
 import { siteConfig } from "@/config/site";
 import { siteImages } from "@/config/site-images";
-import { pageImageMeta } from "@/lib/metadata";
+import { buildPageMetadata } from "@/lib/seo/metadata";
+import { breadcrumbSchema } from "@/lib/seo/schema";
 import {
   FlaskConical,
   Microscope,
@@ -19,11 +24,12 @@ import {
   Globe,
 } from "lucide-react";
 
-export const metadata: Metadata = {
-  title: "Quality Control",
-  description: `Quality assurance standards at ${siteConfig.name}.`,
-  ...pageImageMeta(siteImages.pages["quality-control"]),
-};
+export const metadata: Metadata = buildPageMetadata({
+  title: "Agricultural Export Quality Control",
+  description: `Quality assurance and pre-shipment inspection standards at ${siteConfig.name} for sugar, rice, fertilizer, and edible oil exports.`,
+  path: "/quality-control",
+  image: siteImages.pages["quality-control"],
+});
 
 const measures = [
   {
@@ -60,8 +66,14 @@ const standards = [
 ];
 
 export default function QualityControlPage() {
+  const breadcrumbs = [
+    { name: "Home", href: "/" },
+    { name: "Quality Control", href: "/quality-control" },
+  ];
+
   return (
     <>
+      <JsonLd data={breadcrumbSchema(breadcrumbs)} />
       <PageHeader
         title="Quality Control"
         tagline="Our Commitment"
@@ -69,6 +81,17 @@ export default function QualityControlPage() {
         image={siteImages.pages["quality-control"]}
       />
       <RelatedInfoNav />
+
+      <section className="py-8 bg-cream border-b">
+        <div className="mx-auto max-w-7xl px-4">
+          <LastUpdated />
+          <AnswerCapsule>
+            Every MAHANAKORN shipment undergoes raw material selection, pre-shipment inspection,
+            packaging verification, and optional third-party lab testing — ensuring ICUMSA sugar
+            grades, rice varieties, and edible oils meet international export standards.
+          </AnswerCapsule>
+        </div>
+      </section>
 
       <InfoIntro
         tagline="Excellence at Every Stage"

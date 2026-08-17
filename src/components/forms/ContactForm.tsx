@@ -13,6 +13,7 @@ import {
   FormTextarea,
 } from "@/components/forms/FormPrimitives";
 import { contactSchema, type ContactFormData } from "@/lib/validations/contact";
+import { trackEvent } from "@/components/analytics/GoogleTagManager";
 
 export function ContactForm() {
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
@@ -47,6 +48,7 @@ export function ContactForm() {
       }
 
       setStatus("success");
+      trackEvent("generate_lead", { form_name: "contact", lead_type: "contact" });
       reset();
     } catch {
       setErrorMessage("Network error. Please check your connection and try again.");

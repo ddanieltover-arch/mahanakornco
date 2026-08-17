@@ -1,6 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  images: {
+    formats: ["image/avif", "image/webp"],
+  },
   // Images served locally from public/uploads/
   async redirects() {
     return [

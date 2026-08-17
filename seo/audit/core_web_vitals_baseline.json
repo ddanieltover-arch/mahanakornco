@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-08-17T09:11:24.603Z",
+  "note": "PageSpeed Insights API returned 429 (rate limit). Baseline flags from crawl + planned optimizations documented below.",
+  "plannedOptimizations": [
+    "Preload first hero slide image with fetchPriority high",
+    "Convert large PNG hero assets to WebP/AVIF",
+    "Reserve aspect-ratio on image containers to reduce CLS",
+    "Defer non-critical third-party scripts (GTM lazyOnload)"
+  ],
+  "crawlBasedFlags": {
+    "largeHeroImages": "public/uploads/2025/09/4.png and category headers",
+    "clientSideHeroSlider": "HeroSlider uses framer-motion; stable SSR H1 planned"
+  },
+  "results": [
+    {
+      "url": "https://mahanakornco.com/",
+      "error": "PageSpeed API 429 for https://mahanakornco.com/"
+    },
+    {
+      "url": "https://mahanakornco.com/products",
+      "error": "PageSpeed API 429 for https://mahanakornco.com/products"
+    },
+    {
+      "url": "https://mahanakornco.com/sugar",
+      "error": "PageSpeed API 429 for https://mahanakornco.com/sugar"
+    },
+    {
+      "url": "https://mahanakornco.com/rice",
+      "error": "PageSpeed API 429 for https://mahanakornco.com/rice"
+    },
+    {
+      "url": "https://mahanakornco.com/about",
+      "error": "PageSpeed API 429 for https://mahanakornco.com/about"
+    },
+    {
+      "url": "https://mahanakornco.com/contact",
+      "error": "PageSpeed API 429 for https://mahanakornco.com/contact"
+    }
+  ]
+}

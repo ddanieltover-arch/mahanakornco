@@ -7,9 +7,12 @@ import { ProductEnquiryForm } from "@/components/forms/ProductEnquiryForm";
 import { ProductDescriptionSection } from "@/components/products/ProductDescriptionSection";
 import { ProductGallery } from "@/components/products/ProductGallery";
 import { RelatedProducts } from "@/components/products/RelatedProducts";
+import { AnswerCapsule } from "@/components/seo/AnswerCapsule";
+import { JsonLd } from "@/components/seo/JsonLd";
 import { categories, getProductBySlug, products } from "@/data/products";
 import { PLACEHOLDER_IMAGE } from "@/lib/images";
-import { pageImageMeta } from "@/lib/metadata";
+import { buildPageMetadata } from "@/lib/seo/metadata";
+import { breadcrumbSchema, productSchema } from "@/lib/seo/schema";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -27,13 +30,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     product.excerpt ||
     (product.content
       ? product.content.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim().slice(0, 160)
-      : `Request a quote for ${product.title} from MAHANAKORN NAKO NAGARAJ CO., LTD.`);
+      : `Request a quote for ${product.title} wholesale from MAHANAKORN. Bulk export from Thailand.`);
   const image = product.image || PLACEHOLDER_IMAGE;
-  return {
-    title: product.title,
+  return buildPageMetadata({
+    title: `${product.title} Wholesale`,
     description,
-    ...pageImageMeta(image),
-  };
+    path: `/products/${slug}`,
+    image,
+  });
+}
+
+function stripHtml(html: string): string {
+  return html.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
 }
 
 export default async function ProductPage({ params }: Props) {
@@ -43,19 +51,42 @@ export default async function ProductPage({ params }: Props) {
 
   const imageSrc = product.image || PLACEHOLDER_IMAGE;
   const categorySlug = categories.find((c) => c.name === product.category)?.slug;
+  const plainDescription =
+    product.excerpt ||
+    (product.content ? stripHtml(product.content).slice(0, 300) : `Wholesale ${product.title} from MAHANAKORN.`);
+  const breadcrumbs = [
+    { name: "Home", href: "/" },
+    { name: "Products", href: "/products" },
+    ...(categorySlug
+      ? [{ name: product.category, href: `/${categorySlug}` }]
+      : [{ name: product.category, href: "/products" }]),
+    { name: product.title, href: `/products/${slug}` },
+  ];
 
   return (
     <>
+      <JsonLd
+        data={[
+          breadcrumbSchema(breadcrumbs),
+          productSchema({
+            name: product.title,
+            description: plainDescription,
+            slug: product.slug,
+            image: imageSrc,
+            category: product.category,
+          }),
+        ]}
+      />
       <PageHeader
         title={product.title}
         tagline={product.category}
         image={imageSrc}
-        imageAlt={product.title}
+        imageAlt={`${product.title} — wholesale export from Thailand`}
       />
 
       <section className="bg-cream py-4 border-b">
         <div className="mx-auto max-w-7xl px-4">
-          <nav className="text-sm text-muted">
+          <nav aria-label="Breadcrumb" className="text-sm text-muted">
             <Link href="/" className="hover:text-primary">Home</Link>
             <span className="mx-2">/</span>
             <Link href="/products" className="hover:text-primary">Products</Link>
@@ -73,6 +104,16 @@ export default async function ProductPage({ params }: Props) {
         </div>
       </section>
 
+      <section className="py-8 border-b">
+        <div className="mx-auto max-w-7xl px-4">
+          <AnswerCapsule>
+            {product.title} is available for wholesale and bulk export from MAHANAKORN NAKO NAGARAJ
+            CO., LTD in Thailand. Request a formal quotation with specifications, packaging options,
+            Incoterms, and destination port details.
+          </AnswerCapsule>
+        </div>
+      </section>
+
       <section className="py-16">
         <div className="mx-auto max-w-7xl px-4">
           <div className="grid gap-12 lg:grid-cols-2">
@@ -85,7 +126,7 @@ export default async function ProductPage({ params }: Props) {
             </FadeIn>
 
             <FadeIn direction="right" delay={0.12}>
-              <div className="rounded-2xl border bg-white p-6 md:p-8 shadow-sm h-fit">
+              <article className="rounded-2xl border bg-white p-6 md:p-8 shadow-sm h-fit">
                 <span className="inline-flex rounded-full bg-primary/10 px-3 py-1 text-xs font-semibold text-primary uppercase tracking-wide">
                   {product.category}
                 </span>
@@ -97,13 +138,20 @@ export default async function ProductPage({ params }: Props) {
                     {product.excerpt}
                   </p>
                 )}
+                {!product.content && (
+                  <p className="mt-4 text-muted leading-relaxed text-sm">
+                    MAHANAKORN supplies {product.title} for global B2B buyers with export
+                    documentation, quality verification, and flexible Incoterms. Contact our sales
+                    team for MOQ, packaging, and lead time for your destination market.
+                  </p>
+                )}
                 <div className="mt-8 pt-8 border-t border-gray-100">
-                  <h2 className="text-lg font-semibold text-primary-dark mb-4">
+                  <h3 className="text-lg font-semibold text-primary-dark mb-4">
                     Request a Quote
-                  </h2>
+                  </h3>
                   <ProductEnquiryForm productName={product.title} />
                 </div>
-              </div>
+              </article>
             </FadeIn>
           </div>
         </div>

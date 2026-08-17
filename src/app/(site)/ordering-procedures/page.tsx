@@ -1,20 +1,27 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Image from "next/image";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { RelatedInfoNav } from "@/components/info-page/RelatedInfoNav";
 import { InfoIntro } from "@/components/info-page/InfoIntro";
 import { ProcessTimeline } from "@/components/info-page/ProcessTimeline";
 import { InfoCta } from "@/components/info-page/InfoCta";
+import { AnswerCapsule } from "@/components/seo/AnswerCapsule";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { LastUpdated } from "@/components/seo/LastUpdated";
 import { FadeIn } from "@/components/motion/FadeIn";
 import { siteImages } from "@/config/site-images";
-import { pageImageMeta } from "@/lib/metadata";
+import { buildPageMetadata } from "@/lib/seo/metadata";
+import { breadcrumbSchema } from "@/lib/seo/schema";
 import { ClipboardList, FileCheck, Ship, Headphones } from "lucide-react";
 
-export const metadata: Metadata = {
-  title: "Ordering Procedures",
-  description: "How to order agricultural commodities from MAHANAKORN NAKO NAGARAJ CO., LTD.",
-  ...pageImageMeta(siteImages.pages["ordering-procedures"]),
-};
+export const metadata: Metadata = buildPageMetadata({
+  title: "Bulk Commodity Ordering Procedures",
+  description:
+    "How to order agricultural commodities from MAHANAKORN — inquiry, quotation, proforma invoice, production, shipping, and delivery.",
+  path: "/ordering-procedures",
+  image: siteImages.pages["ordering-procedures"],
+});
 
 const steps = [
   {
@@ -73,8 +80,14 @@ const highlights = [
 ];
 
 export default function OrderingProceduresPage() {
+  const breadcrumbs = [
+    { name: "Home", href: "/" },
+    { name: "Ordering Procedures", href: "/ordering-procedures" },
+  ];
+
   return (
     <>
+      <JsonLd data={breadcrumbSchema(breadcrumbs)} />
       <PageHeader
         title="Ordering Procedures"
         tagline="How It Works"
@@ -82,6 +95,17 @@ export default function OrderingProceduresPage() {
         image={siteImages.pages["ordering-procedures"]}
       />
       <RelatedInfoNav />
+
+      <section className="py-8 bg-cream border-b">
+        <div className="mx-auto max-w-7xl px-4">
+          <LastUpdated />
+          <AnswerCapsule>
+            Ordering bulk commodities from MAHANAKORN follows six steps: product inquiry,
+            quotation with Incoterms, proforma invoice, production and QC, shipping with full
+            documentation, and after-sales support. Typical lead time is 2–6 weeks after payment.
+          </AnswerCapsule>
+        </div>
+      </section>
 
       <InfoIntro
         tagline="Streamlined Process"
@@ -115,7 +139,7 @@ export default function OrderingProceduresPage() {
             <div className="lg:col-span-3">
               <FadeIn delay={0.1}>
                 <h2 className="text-2xl font-bold text-primary-dark mb-8">
-                  Six Steps to Your Order
+                  What are the six steps to place a bulk order?
                 </h2>
               </FadeIn>
               <ProcessTimeline steps={steps} />
