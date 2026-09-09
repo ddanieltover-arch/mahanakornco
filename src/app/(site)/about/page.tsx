@@ -16,7 +16,7 @@ import { HomepageKeywordLink } from "@/components/seo/HomepageKeywordLink";
 import { getRelatedLinks } from "@/data/related-links";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "About MAHANAKORN — Agricultural Exporter Since 2004",
+  title: "About MAHANAKORN — Agricultural Exporter Since 2020",
   description: `Learn about ${siteConfig.name} — a trusted wholesale supplier of agricultural commodities from Thailand since ${siteConfig.established}.`,
   path: "/about",
   image: siteImages.pages.about,

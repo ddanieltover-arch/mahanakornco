@@ -132,7 +132,7 @@ export default function OrderingProceduresPage() {
                 <div className="absolute inset-0 bg-gradient-to-t from-primary-dark/80 via-transparent to-transparent" />
                 <div className="absolute bottom-0 left-0 right-0 p-8">
                   <p className="text-accent font-semibold text-sm uppercase tracking-wider">
-                    Trusted Since 2004
+                    Trusted Since 2020
                   </p>
                   <p className="mt-2 text-white text-lg font-semibold leading-snug">
                     Wholesale agricultural commodities exported worldwide

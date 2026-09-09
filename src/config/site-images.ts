@@ -16,7 +16,7 @@ export const siteImages = {
       image: "/uploads/2024/06/1.-Thai-hommali-jasmine-rice-600x450-1.jpg",
       tagline: "Global Export",
       title: "Wholesale Supply from Thailand",
-      subtitle: "Serving distributors and industries worldwide since 2004",
+      subtitle: "Serving distributors and industries worldwide since 2020",
     },
     {
       image: "/uploads/2024/07/Sugercane-Farming-.jpg",

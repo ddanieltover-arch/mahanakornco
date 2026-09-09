@@ -8,7 +8,7 @@ Hi [Name],
 
 I noticed you mentioned MAHANAKORN in your article "[Article Title]". Thank you for including us!
 
-Would you consider adding a link to https://mahanakornco.com so your readers can find us directly? We're a Thailand-based wholesale exporter of sugar, rice, fertilizer, and edible oil established in 2004.
+Would you consider adding a link to https://mahanakornco.com so your readers can find us directly? We're a Thailand-based wholesale exporter of sugar, rice, fertilizer, and edible oil established in 2020.
 
 Happy to return the favour if I can help with your content.
 

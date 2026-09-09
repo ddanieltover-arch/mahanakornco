@@ -3,12 +3,12 @@ export const siteConfig = {
   shortName: "MAHANAKORN",
   tagline: "Your #1 Rice, Sugar, Edible Cooking Oil and Fertilizer Supplier",
   description:
-    "MAHANAKORN NAKO NAGARAJ CO., LTD is a trusted wholesale supplier of sugar, rice, fertilizer, and edible cooking oil from Thailand. Established in 2004.",
+    "MAHANAKORN NAKO NAGARAJ CO., LTD is a trusted wholesale supplier of sugar, rice, fertilizer, and edible cooking oil from Thailand. Established in 2020.",
   url: "https://mahanakornco.com",
   email: "sales@mahanakornco.com",
   phone: "+66 64 882 3073",
   whatsapp: "66648823073",
-  established: 2004,
+  established: 2020,
   addresses: [
     {
       label: "Head Office",
