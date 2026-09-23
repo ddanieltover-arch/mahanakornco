@@ -94,6 +94,17 @@ export default function ThaiRiceExportGuidePage() {
             <li>Quality inspection certificate (upon request)</li>
             <li>Fumigation certificate (if required by destination)</li>
           </ol>
+          <p className="text-muted leading-relaxed mt-4">
+            Coordinate{" "}
+            <a
+              href="https://thaisploginc.com/ocean-freight"
+              className="text-primary hover:underline"
+              rel="noopener noreferrer"
+            >
+              ocean export documentation from Thailand
+            </a>{" "}
+            so the bill of lading matches the phytosanitary and origin papers above.
+          </p>
 
           <h2 className="text-2xl font-bold text-primary-dark mt-10">
             What are the steps to place a bulk rice order?
